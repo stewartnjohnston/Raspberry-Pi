@@ -1,0 +1,65 @@
+(gdb) i r
+r0             0x0	0
+r1             0x0	0
+r2             0x0	0
+r3             0x0	0
+r4             0x0	0
+r5             0x0	0
+r6             0x0	0
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0x0	0
+r11            0x0	0
+r12            0x0	0
+sp             0xfffffff8	0xfffffff8
+lr             0x0	0
+pc             0x8010	0x8010 <_start+4>
+cpsr           0x400001d3	1073742291
+
+(gdb) disas 0x800c
+Dump of assembler code for function _start:
+   0x0000800c <+0>:	push	{r12, lr}
+=> 0x00008010 <+4>:	mov	r0, #1
+   0x00008014 <+8>:	mov	r1, #3
+   0x00008018 <+12>:	bl	0x8000 <do_something>
+   0x0000801c <+16>:	ldr	r0, [pc, #168]	; 0x80cc <array_buff_bridge+4>
+   0x00008020 <+20>:	mov	r2, #150	; 0x96
+   0x00008024 <+24>:	mov	r1, #8
+   0x00008028 <+28>:	str	r1, [r0, #8]
+   0x0000802c <+32>:	mov	r1, #2097152	; 0x200000
+   0x00008030 <+36>:	str	r1, [r0, #28]
+   0x00008034 <+40>:	mov	r1, #0
+   0x00008038 <+44>:	str	r1, [r0, #4]
+   0x0000803c <+48>:	mov	r1, #2
+   0x00008040 <+52>:	str	r1, [r0, #148]	; 0x94
+   0x00008044 <+56>:	mov	r10, #0
+End of assembler dump.
+----------------------------------------------------------------------------------------------
+(gdb) i r
+r0             0x1	1
+r1             0x3	3
+r2             0x0	0
+r3             0x0	0
+r4             0x0	0
+r5             0x0	0
+r6             0x0	0
+r7             0x0	0
+r8             0x0	0
+r9             0x0	0
+r10            0x0	0
+r11            0x0	0
+r12            0x0	0
+sp             0xfffffff0	0xfffffff0
+lr             0x801c	32796
+pc             0x8004	0x8004 <do_something+4>
+cpsr           0x400001d3	1073742291
+(gdb) 
+(gdb) disas 0x8000
+Dump of assembler code for function do_something:
+   0x00008000 <+0>:	push	{r4, lr}
+=> 0x00008004 <+4>:	add	r0, r0, r1
+   0x00008008 <+8>:	pop	{r4, pc}
+End of assembler dump.
+(gdb) 
+
