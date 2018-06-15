@@ -84,6 +84,13 @@ array_buff:
 .equ SET_BIT12,  0x001000 	@sets bit 12  @-- flash gpio pin 12
 .equ COUNTER, 0xf0000
 .equ WAIT_CYCLES, 0x0096        @Wait 150 cycles  150=0x0096
+.equ FSEL_PIN_AS_INPUT,             0x00 @
+.equ FSEL_PIN_AS_OUTPUT,            0x01 @
+.equ GPPUD_ENABLE_PULL_UP_CONTROL,  0x02 @
+.equ GPPUD_CLEAR,                   0x00 @
+.equ GPPUDCLK_SET,                  0x01 @
+.equ GPPUDCLK_CLEAR,                0x00 @
+.equ EOR_MASK, 0xffffffff
 
 
 

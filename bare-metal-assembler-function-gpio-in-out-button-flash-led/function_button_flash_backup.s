@@ -58,10 +58,9 @@ array_buff:
  
  
  
- 
- 
 .section .init
 .text
+.global exc_stack
 .global _start
 @------------------
 @SETUP VALUES
@@ -75,7 +74,7 @@ array_buff:
 .equ GPLEV0,  0x34		@GPLEV0 register offset  (used for gpio 12)
 .equ GPSET0,  0x1c		@GPSET0 register offset (used for both gpio 12 and 21)
 .equ GPCLR0,0x28		@GPCLR0 register offset (used for both gpio 12 and 21)
-.equ SET_BIT3,   0x08		@sets bit three b1000	(used for gpio 21)	
+.equ SET_BIT3,   0x08	  	@sets bit three b1000	(used for gpio 21)	
 .equ SET_BIT0,   0x00		@set NO bits    b0000	(used for gpio 12)	
 .equ SET_BIT2,   0x02		@set bit two    b0010	(used for gpio 12 set pull up in GPPUD)	
 .equ SET_BIT21,  0x200000 	@sets bit 21  @-- flash gpio pin 21
@@ -83,11 +82,67 @@ array_buff:
 .equ COUNTER, 0xf0000
 .equ WAIT_CYCLES, 0x0096        @Wait 150 cycles  150=0x0096
 
+non_leaf_function:
+    push   {r11, lr}    /* Start of the prologue. Saving Frame Pointer and LR onto the stack */
+    add    r11, sp, #0  /* Setting up the bottom of the stack frame */
+    sub    sp, sp, #16  /* End of the prologue. Allocating some buffer on the stack */
 
-@------------------
+    @ body of the function
+    
+    add     r0, r0, r1
+    
+    mov     r1, #5
+    bl     leaf_function          /* Calling/branching to function */
+        
+    sub    sp, r11, #0  /* Start of the epilogue. Readjusting the Stack Pointer */
+    pop    {r11, pc}    /* End of the epilogue. Restoring Frame pointer from the stack, jumping to previously saved LR via direct load into PC */
+
+
+leaf_function:
+    push   {r11}        /* Start of the prologue. Saving Frame Pointer onto the stack */
+    add    r11, sp, #0  /* Setting up the bottom of the stack frame */
+    sub    sp, sp, #12  /* End of the prologue. Allocating some buffer on the stack */
+    @ body of the function
+    
+    add     r0, r0, r1
+    
+    add    sp, r11, #0  /* Start of the epilogue. Readjusting the Stack Pointer */
+    pop    {r11}        /* restoring frame pointer */
+    bx     lr           /* End of the epilogue. Jumping back to main via LR register */
+	
+@------------------     
 @Start label
 @------------------
 _start:
+    ldr sp, =exc_stack
+    push   {r11, lr}    /* Start of the prologue. Saving Frame Pointer and LR onto the stack */
+    add    r11, sp, #0  /* Setting up the bottom of the stack frame */
+    sub    sp, sp, #16  /* End of the prologue. Allocating some buffer on the stack */
+    
+    mov     r0, #13
+    mov     r1, #14
+    push   {r0, r1}
+    push   {r0, r1}
+    push   {r0, r1}
+    push   {r0, r1}
+    pop    {r0, r1}
+    pop    {r0, r1}
+    pop    {r0, r1}
+    pop    {r0, r1}
+    
+    
+/*
+    mov     r0, #1
+    mov     r1, #3
+    bl      leaf_function
+    */
+
+    mov     r0, #7
+    mov     r1, #8
+    bl      non_leaf_function
+    
+    
+    
 @------------------
 @load register with BASE
 @------------------
@@ -182,4 +237,7 @@ b Infinite_loop
 
 array_buff_bridge:
  .word array_buff             /* address of array_buff, or in other words - array_buff[0] */
+
+.space 1024
+exc_stack:
 
