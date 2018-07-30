@@ -1,0 +1,15 @@
+
+
+Reading how Linux Drivers and Device tree work in:
+https://github.com/s-matyukevich/raspberry-pi-os/blob/master/docs/lesson03/linux/interrupt_controllers.md
+
+Got this example of Interrupts to work!!! (AARCH64)
+/s-matyukevich-AAR64/raspberry-pi-os/exercises/lesson03/1/rs/src
+
+Change Kernel7.img to kernal8.img.  Copy this file and config.txt to the pi boot sd card.
+
+This example will write a string to the UART every second.  The timer interrupt will trigger writing to the UART.  The interrupt will reset the timer back to zero.
+
+
+
+

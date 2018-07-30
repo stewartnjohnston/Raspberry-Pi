@@ -1,0 +1,27 @@
+break uart03.c:42
+break uart03.c:43
+break uart03.c:44
+break uart03.c:45
+break uart03.c:46
+break uart03.c:47
+break uart03.c:48
+break uart03.c:49
+break uart03.c:50
+break uart03.c:51
+break uart03.c:52
+break uart03.c:53
+break uart03.c:55
+
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:14
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:52
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:72
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:85
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:98
+
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:31
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:45
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:65
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:78
+break /home/stewart/Documents/RaspberryPI/KernelHacking/dwelch67/raspberrypi/boards/pi3/aarch64/uart03/vectors.s:91
+
+
