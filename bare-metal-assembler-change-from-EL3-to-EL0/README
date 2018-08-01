@@ -1,0 +1,12 @@
+In this example we are going to change the EL (exception level) 
+of a process from EL3 to EL0
+
+This example builds off of example:
+bare-metal-assembler-determine-coreID-and-EL
+
+
+Findings
+
+- you can only change from level En to En-1  (example EL3 to El2)
+- MRS CurrentEL does not work in EL0, it throws an exception
+
