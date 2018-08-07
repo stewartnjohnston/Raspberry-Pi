@@ -81,8 +81,8 @@ int notmain ( void )
     uart_send_string("Exception from EL2 to EL1 EL=");
     hexstring(GET32(buff + changingEL + 4));
     hexstring(0x12345678);
-    
-    GETCurrentEL();
+
+    //GETCurrentEL();  //will throw an exception at this call
 
     a = a + 1;
     

@@ -1,0 +1,18 @@
+break uart03.c:78
+break uart03.c:79
+break uart03.c:83
+break uart03.c:85
+break uart03.c:91
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:86
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:89
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:91
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:94
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:96
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:99
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:148
+break /home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/macro-exp/vectors.s:149
+break entry.s:131
+break entry.s:136
+break entry.s:141
+break entry.s:146
+

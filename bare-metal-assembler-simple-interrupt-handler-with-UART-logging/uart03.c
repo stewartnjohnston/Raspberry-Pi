@@ -31,6 +31,8 @@ extern unsigned int timer_tick ( void );
 extern void timer_init ( void );
 extern unsigned int timer_tick ( void );
 
+#include "irq.h"
+
 //------------------------------------------------------------------------
 int notmain ( void )
 {
@@ -41,6 +43,11 @@ int notmain ( void )
     unsigned int changingEL = 0x50;
     
     unsigned int buff = GET32(0x10000);
+    
+  //irq_vector_init();
+  //arm_timer_init();
+  //enable_interrupt_controller();
+  //enable_irq();
     
     a = GET32(buff);
     a = GET32(buff + 4);
@@ -81,15 +88,9 @@ int notmain ( void )
     uart_send_string("Exception from EL2 to EL1 EL=");
     hexstring(GET32(buff + changingEL + 4));
     hexstring(0x12345678);
-    
-    GETCurrentEL();
 
-    a = a + 1;
-    
-    while(1)
-    {
-    a = a + 1;
-    }
+
+    a = a + GETCurrentEL();
     return(0);
 }
 //-------------------------------------------------------------------------

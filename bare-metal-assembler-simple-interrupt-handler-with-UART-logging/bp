@@ -1,0 +1,15 @@
+break vectors.s:19
+break vectors.s:20
+break vectors.s:138
+break vectors.s:92
+break vectors.s:90
+break uart03.c:69
+break irq.c:36
+break irq.c:43
+break irq.c:58
+break vectors.s:17
+break vectors.s:18
+break uart03.c:68
+break vectors.s:139
+break uart03.c:94
+break uart03.c:93

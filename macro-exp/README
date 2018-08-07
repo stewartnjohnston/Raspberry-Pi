@@ -1,0 +1,9 @@
+
+I this example we throw an axception at this line:
+
+break uart03.c:85
+
+GETCurrentEL();
+
+
+
