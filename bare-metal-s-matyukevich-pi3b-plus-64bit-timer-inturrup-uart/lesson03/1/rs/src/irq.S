@@ -12,7 +12,7 @@ enable_irq:
         // set DAIF, Interrupt Mask Bits
         // Purpose:
         //     Allows access to the interrupt mask bits.
-	msr    daifclr, #2 \\ enable the IRQ
+	msr    daifclr, #2 // enable the IRQ
 	ret
 
 .globl disable_irq

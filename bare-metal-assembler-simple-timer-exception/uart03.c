@@ -12,6 +12,10 @@ extern void PUT32 ( unsigned int, unsigned int );
 extern unsigned int GET32 ( unsigned int );
 extern unsigned int GET64 ( unsigned int );
 extern unsigned int GETPC ( void );
+
+extern void enable_interrupt_controller ( void );
+extern void enable_irq ( void );
+
 extern unsigned int GETCurrentEL ( void );
 extern void BRANCHTO ( unsigned int );
 extern void dummy ( unsigned int );
@@ -28,7 +32,7 @@ extern void uart_send_string(char *str);
 extern void timer_init ( void );
 extern unsigned int timer_tick ( void );
 
-extern void timer_init ( void );
+
 extern unsigned int timer_tick ( void );
 
 //------------------------------------------------------------------------
@@ -59,32 +63,21 @@ int notmain ( void )
 
     
     uart_init();
+
     hexstring(0x12345678);
     hexstring(GETPC());
 
-    uart_send_string("Zero process id");
     hexstring(GET32(buff));
-    uart_send_string("Zero exception level");
     hexstring(GET32(buff + 4));
-    uart_send_string("Zero trace byte");
     hexstring(GET32(buff + 8));
-    uart_send_string("One process id");
     hexstring(GET32(buff + one));
-    uart_send_string("One exception level");
     hexstring(GET32(buff + one + 4));
-    uart_send_string("One trace byte");
     hexstring(GET32(buff + one + 8));
-    uart_send_string("Two process id");
     hexstring(GET32(buff + two));
-    uart_send_string("Two exception level");
     hexstring(GET32(buff + two + 4));
-    uart_send_string("Two trace byte");
     hexstring(GET32(buff + two + 8));
-    uart_send_string("Three process id");
     hexstring(GET32(buff + three));
-    uart_send_string("Three exception level");
     hexstring(GET32(buff + three + 4));
-    uart_send_string("Three trace byte");
     hexstring(GET32(buff + three + 8));
     
     hexstring(0x12345678);
@@ -94,16 +87,117 @@ int notmain ( void )
     hexstring(GET32(buff + changingEL + 4));
     hexstring(0x12345678);
     
-    //GETCurrentEL();  This throws an exception becuase EL0 does not have access to CurrentEL
+    int b = 0;
+    a = 0;
 
-    a = a + 1;
-    
     while(1)
     {
-    a = a + 1;
+       a = a + 1;
+       if(a > 100000)
+       {
+            //uart_send_string("loop 1");
+            hexstring(b);
+            uart_flush();
+
+            a = 0;
+            b = b + 1;
+            if(b > 500)
+                break;
+       }
     }
+    
+    hexstring(0x111112);
+    hexstring(0x111113);
+    hexstring(0x111114);
+    hexstring(0x111115);
+    hexstring(0x111116);
+    hexstring(0x111117);
+    uart_flush();
+
+
+    a = 0;
+    b = 0;
+
+    while(1)
+    {
+       a = a + 1;
+       if(a > 100000)
+       {
+            //uart_send_string("loop 1");
+            hexstring(b);
+            uart_flush();
+
+            a = 0;
+            b = b + 1;
+            if(b > 500)
+                break;
+       }
+    }
+
     return(0);
 }
+
+void show_invalid_entry_message(int type, unsigned long esr,
+                                unsigned long address) {
+    uart_send_string("show_invalid_entry_message");
+    uart_send_string("type:");
+    hexstring(type);
+    uart_send_string("esr_el1:");
+    hexstring(esr);
+    uart_send_string("return address elr_el1:");
+    hexstring(address);
+    
+    uart_flush();
+}
+/*  in vector.c
+void enable_interrupt_controller()
+{
+	PUT32(ENABLE_IRQS_1, SYSTEM_TIMER_IRQ_1);
+}
+*/
+#define PBASE 0x3F000000
+#define TIMER_C1        (PBASE+0x00003010)
+#define TIMER_CS        (PBASE+0x00003000)
+#define TIMER_CS_M1	(1 << 1)
+#define IRQ_PENDING_1		(PBASE+0x0000B204)
+#define SYSTEM_TIMER_IRQ_1	(1 << 1)
+
+#define ARM_TIMER_LOAD        (PBASE+0x0000B400)
+#define ARM_TIMER_CTRL        (PBASE+0x0000B408)
+#define ARM_TIMER_CLR         (PBASE+0x0000B40C)
+
+#define CTRL_23BIT (1 << 1)      // 23-bit counter
+#define CTRL_INT_ENABLE (1 << 5) // Timer interrupt enabled
+#define CTRL_ENABLE (1 << 7)     // Timer enabled
+
+
+void handle_timer_irq( void ) 
+{
+	//curVal += interval;
+	PUT32(ARM_TIMER_CLR, 1);
+	uart_send_string("Timer interrupt received Pogo\n\r");
+}
+
+void handle_irq(void)
+{
+	unsigned int irq = GET32(IRQ_PENDING_1);
+	switch (irq) {
+		case (SYSTEM_TIMER_IRQ_1):
+			handle_timer_irq();
+			break;
+		default:
+			uart_send_string("Unknown pending irq:");
+			hexstring(irq);
+	}
+}
+
+void timer_init ( void )
+{
+  PUT32(ARM_TIMER_LOAD, 0x0400000);
+  PUT32(ARM_TIMER_CTRL, CTRL_ENABLE | CTRL_INT_ENABLE | CTRL_23BIT);
+}
+
+
 //-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
 

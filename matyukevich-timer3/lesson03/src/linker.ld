@@ -1,0 +1,16 @@
+MEMORY
+{
+    ram : ORIGIN = 0x0000, LENGTH = 0x4000
+}
+SECTIONS
+{
+	.text.boot : { *(.text.boot) } > ram
+	.text : { *(.text) } > ram
+	.rodata : { *(.rodata) } > ram
+	.data : { *(.data) } > ram
+	. = ALIGN(0x8);
+	bss_begin = .;
+	.bss : { *(.bss*) }  > ram
+	bss_end = .;
+}
+

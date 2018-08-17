@@ -5,7 +5,7 @@
  mrs x1, esr_el1
  mrs x2, elr_el1
  bl show_invalid_entry_message
- kernel_exit
+ b err_hang   
  .endm
  
  .macro ventry label
@@ -136,10 +136,12 @@ err_hang:
    wfe
    b err_hang
 
+/*
 .globl handle_irq
 handle_irq:
    wfe
    b handle_irq
+*/
 
 /* moved to uart03.c 
 .globl show_invalid_entry_message

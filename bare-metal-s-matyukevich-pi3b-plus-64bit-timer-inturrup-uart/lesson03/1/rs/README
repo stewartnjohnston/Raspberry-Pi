@@ -11,5 +11,62 @@ Change Kernel7.img to kernal8.img.  Copy this file and config.txt to the pi boot
 This example will write a string to the UART every second.  The timer interrupt will trigger writing to the UART.  The interrupt will reset the timer back to zero.
 
 
+How the timer is initialized:
 
+void kernel_main(void) {
+  uart_init();
+  init_printf(0, putc);
+  irq_vector_init();
+  arm_timer_init();
+  enable_interrupt_controller();
+  enable_irq();
+
+  while (1) {
+    uart_send(uart_recv());
+  }
+}
+-----------------------------------------------------------------
+irq_vector_init:
+        // Vector Base Address Register, EL1
+        // Purpose:
+        //     Holds the exception base address for any exception that is taken to EL1.
+	adr	x0, vectors  // load VBAR_EL1 with virtual
+	msr	vbar_el1, x0 // vector table address
+	ret
+	
+-----------------------------------------------------------------
+void arm_timer_init(void) {
+  // According to the timer pre-divider register documentation, the default
+  // pre-devider is configured to run at apb_clock/126 which is 1Mhz like the
+  // system timer.
+  put32(ARM_TIMER_LOAD, interval);  (03F00B400, <some count value>)
+  put32(ARM_TIMER_CTRL, CTRL_ENABLE | CTRL_INT_ENABLE | CTRL_23BIT);
+               (0x3F00B408, Bit1, Bit5, Bit8)
+                Timer Control Register
+                bit1 - 23 bit timer
+                bit5 - Timer interrupt enabled
+                bit8 - Timer enabled
+}
+-----------------------------------------------------------------
+void enable_interrupt_controller() {
+  //   put32(ENABLE_IRQS_1, SYSTEM_TIMER_IRQ_1);
+  put32(ENABLE_BASIC_IRQS, ARM_TIMER_IRQ);  
+       (0x3F00B218, 0x01)
+       Enable Basic IRAs Register
+       0x01 = Set to enable ARM Timer IRQ
+}
+-----------------------------------------------------------------
+.globl enable_irq
+enable_irq:
+        // set DAIF, Interrupt Mask Bits
+        // Purpose:
+        //     Allows access to the interrupt mask bits.
+	msr    daifclr, #2 \\ enable the IRQ
+	ret
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+	
 

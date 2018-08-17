@@ -1,0 +1,76 @@
+
+I this example we throw an axception at this line:
+
+break uart03.c:85
+
+GETCurrentEL();
+
+
+C++ exception handler
+void show_invalid_entry_message(int type, unsigned long esr,
+                                unsigned long address) {
+    uart_send_string("show_invalid_entry_message");
+    uart_send_string("type:");
+    hexstring(type);
+    uart_send_string("esr_el1:");
+    hexstring(esr);
+    uart_send_string("return address elr_el1:");
+    hexstring(address);
+    
+    uart_flush();
+        
+    
+}
+
+Assember exception handler:
+
+0000000000000f84 <sync_invalid_el1t>:
+     f84:	d10403ff 	sub	sp, sp, #0x100
+     f88:	a90007e0 	stp	x0, x1, [sp]
+     f8c:	a9010fe2 	stp	x2, x3, [sp, #16]
+     f90:	a90217e4 	stp	x4, x5, [sp, #32]
+     f94:	a9031fe6 	stp	x6, x7, [sp, #48]
+     f98:	a90427e8 	stp	x8, x9, [sp, #64]
+     f9c:	a9052fea 	stp	x10, x11, [sp, #80]
+     fa0:	a90637ec 	stp	x12, x13, [sp, #96]
+     fa4:	a9073fee 	stp	x14, x15, [sp, #112]
+     fa8:	a90847f0 	stp	x16, x17, [sp, #128]
+     fac:	a9094ff2 	stp	x18, x19, [sp, #144]
+     fb0:	a90a57f4 	stp	x20, x21, [sp, #160]
+     fb4:	a90b5ff6 	stp	x22, x23, [sp, #176]
+     fb8:	a90c67f8 	stp	x24, x25, [sp, #192]
+     fbc:	a90d6ffa 	stp	x26, x27, [sp, #208]
+     fc0:	a90e77fc 	stp	x28, x29, [sp, #224]
+     fc4:	f9007bfe 	str	x30, [sp, #240]
+     fc8:	d2800000 	mov	x0, #0x0                   	// #0
+     fcc:	d5385201 	mrs	x1, esr_el1
+     fd0:	d5384022 	mrs	x2, elr_el1
+     fd4:	94000311 	bl	1c18 <show_invalid_entry_message>
+     fd8:	14000159 	b	153c <err_hang>
+     
+UART output:
+
+12345678 
+00001AA0 
+00000000 
+0000000C 
+000000F0 
+00000001 
+0000000C 
+000000F1 
+00000002 
+0000000C 
+000000F2 
+00000003 
+0000000C 
+000000F3 
+12345678 
+Exception from EL3 to EL2 EL=00000008 
+Exception from EL2 to EL1 EL=00000004 
+12345678 
+show_invalid_entry_messagetype:00000008 
+esr_el1:02000000 
+return address elr_el1:00000234
+
+     
+     

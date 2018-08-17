@@ -1,0 +1,20 @@
+
+6A2C5617
+6A2C5697
+
+Unknown pending irq:00000000
+
+
+show_invalid_entry_messagetype:00000009 
+esr_el1:6A2C5617 
+return address elr_el1:00001BA8 
+
+                    2                   1                   0
+0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0
+1 1 0 1 0 1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 0 1 0 0 1 0 1 1 1
+
+
+EC == 011010
+Trapped ERET, ERETAA, or ERETAB instruction execution.
+This value is valid for ESR_EL2.
+See ISS encoding for an exception from ERET, ERETAA or ERETAB instruction.

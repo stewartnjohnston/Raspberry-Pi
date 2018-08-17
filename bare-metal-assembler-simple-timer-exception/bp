@@ -1,9 +1,14 @@
-break uart03.c:78
-break uart03.c:79
-break uart03.c:83
-break uart03.c:85
-break uart03.c:91
-break uart03.c:98
+break uart03.c:65
+break uart03.c:66
+break uart03.c:67
+break uart03.c:70
+break uart03.c:97
+break uart03.c:113
+break uart03.c:129
+break uart03.c:164
+break uart03.c:170
+break uart03.c:183
+break uart03.c:106
 break vectors.s:86
 break vectors.s:89
 break vectors.s:91
@@ -15,6 +20,4 @@ break vectors.s:149
 break entry.s:7
 break entry.s:131
 break entry.s:136
-break entry.s:141
-break entry.s:147
 
