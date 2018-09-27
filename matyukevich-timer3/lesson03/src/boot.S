@@ -89,11 +89,14 @@ el1_entry:
 
 	.equ LOW_MEMORY,  0x400000 // Not sure how this value was calculated
 	mov	sp, #LOW_MEMORY  // 0x400000
+
 	
-        //bl irq_vector_initx
-	//bl timer_initx
-	//bl enable_interrupt_controllerx
-	//bl enable_irqx
+	bl irq_vector_init
+	bl timer_initx
+	bl timer_set_curVal
+	bl enable_interrupt_controllerx
+	bl enable_irq
+
 	
 	bl	kernel_main
 	b 	proc_hang // should never come here

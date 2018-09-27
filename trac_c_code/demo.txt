@@ -1,0 +1,23 @@
+@startuml
+participant "main(0)"
+
+"main(0)" -> "main(0)": "set_signal(int, void (*)(int))"
+"main(0)" -> "main(0)": "set_signal(int, void (*)(int))"
+"main(0)" -> "B(e48530)": "B(int)"
+"B(e48530)" -> "C(e48538)": "C()"
+"main(0)" -> "B(e48530)": "bf1(int)"
+"B(e48530)" -> "C(e48538)": "cf1(int)"
+"main(0)" -> "B(e48530)": "~B()"
+"B(e48530)" -> "C(e48538)": "~C()"
+
+"Main(0)" -> "(0)": "set_signal(int, void (*)(int))"
+"Main(0)" -> "(0)": "set_signal(int, void (*)(int))"
+"Main(0)" -> "B(17d7530)": "B(int)"
+"B(17d7530)" -> "C(17d7538)": "C()"
+"Main(0)" -> "B(17d7530)": "bf1(int)"
+"B(17d7530)" -> "C(17d7538)": "cf1(int)"
+"Main(0)" -> "B(17d7530)": "~B()"
+"B(17d7530)" -> "C(17d7538)": "~C()"
+
+
+@enduml

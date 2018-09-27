@@ -1,0 +1,156 @@
+T0x7f764319c740: 0x401b14 main this=(nil) (1108129840 ...) [from ]
+T0x7f764319c740: 0x401a71 set_signal(int, void (*)(int)) this=(nil) (4201368, 0 ...) [from cpptraced.cpp:217]
+T0x7f764319c740: 0x401a71 set_signal(int, void (*)(int)) this=(nil) => 0
+T0x7f764319c740: 0x401a71 set_signal(int, void (*)(int)) this=(nil) (4201383, 0 ...) [from cpptraced.cpp:219]
+T0x7f764319c740: 0x401a71 set_signal(int, void (*)(int)) this=(nil) => 0
+./cpptraced: main(argc=1)
+T0x7f7641182700: 0x401793 thread2(void*) this=(nil) (1117865658 ...) [from ]
+T0x7f7641983700: 0x4014ec thread1(void*) this=(nil) (1117865658 ...) [from ]
+T0x7f7640981700: 0x401890 thread3(void*) this=(nil) (1117865658 ...) [from ]
+T0x7f7641983700: 0x401f0c D::D(int) this=0x7f76340008c0 (4199757, 0 ...) [from cpptraced.cpp:98]
+T0x7f7640981700: 0x401f0c D::D(int) this=0x7f762c0008c0 (4200689, 0 ...) [from cpptraced.cpp:164]
+T0x7f7641182700: 0x401f0c D::D(int) this=0x7f763c0008c0 (4200406, 0 ...) [from cpptraced.cpp:144]
+T0x7f7640981700: 0x401cbe B::B() this=0x7f762c0008c0 (4202297, 0 ...) [from cpptraced.cpp:73]
+B::B()
+T0x7f7641983700: 0x401cbe B::B() this=0x7f76340008c0 (4202297, 0 ...) [from cpptraced.cpp:73]
+B::B()
+T0x7f7641182700: 0x401cbe B::B() this=0x7f763c0008c0 (4202297, 0 ...) [from cpptraced.cpp:73]
+T0x7f7640981700: 0x401cbe B::B() this=0x7f762c0008c0 => 738199744
+B::B()
+D::D(int=1684631414)
+T0x7f7641983700: 0x401cbe B::B() this=0x7f76340008c0 => 872417472
+T0x7f7640981700: 0x401f0c D::D(int) this=0x7f762c0008c0 => 738199744
+D::D(int=1684631414)
+T0x7f7641182700: 0x401cbe B::B() this=0x7f763c0008c0 => 1006635200
+D::D(int=1684631414)
+Hello World! It's me, thread #3!
+T0x7f7641983700: 0x401f0c D::D(int) this=0x7f76340008c0 => 872417472
+Hello World! It's me, thread #1!
+T0x7f7641182700: 0x401f0c D::D(int) this=0x7f763c0008c0 => 1006635200
+Hello World! It's me, thread #2!
+T#2!
+T#3!
+T#1!
+T0x7f7640981700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) (4200833, 0, 0 ...) [from cpptraced.cpp:176]
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x7f763c0008c0 (4200503, 0, 1092099888 ...) [from cpptraced.cpp:148]
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) (4199910, 0, 0 ...) [from cpptraced.cpp:111]
+T0x7f7640981700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) => 1109622644
+T#3+M3=0 (Success)
+D::m1()
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) => 1109622644
+T#1+M2 (Success)
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x7f763c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641182700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 14
+T0x7f7641182700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 74
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 144
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641182700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641182700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T#2!
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x7f763c0008c0 (4200503, 0, 1092099888 ...) [from cpptraced.cpp:148]
+D::m1()
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x7f763c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641182700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 14
+T0x7f7641182700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 74
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 144
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641182700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641182700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T#2!
+T0x7f7640981700: 0x4020b8 D::m1(int, int) this=0x7f762c0008c0 (4200914, 0, 0 ...) [from cpptraced.cpp:168]
+D::m1()
+T0x7f7640981700: 0x401e96 B::m2(int) this=0x7f762c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7640981700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 16
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) (4200003, 0, 0 ...) [from cpptraced.cpp:117]
+T0x7f7640981700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 76
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) => 1109622644
+T#1+M1 (Success)
+T0x7f7640981700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 146
+T0x7f7640981700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7640981700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7640981700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7640981700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7640981700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x7f763c0008c0 (4200503, 0, 1092099888 ...) [from cpptraced.cpp:148]
+D::m1()
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x7f763c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641182700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 14
+T0x7f7641182700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 74
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 144
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641182700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641182700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T#2!
+T0x7f7641983700: 0x4020b8 D::m1(int, int) this=0x7f76340008c0 (4200078, 0, 0 ...) [from cpptraced.cpp:122]
+D::m1()
+T0x7f7641983700: 0x401e96 B::m2(int) this=0x7f76340008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641983700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 12
+T0x7f7641983700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 72
+T0x7f7641983700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 142
+T0x7f7641983700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641983700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641983700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7641983700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7641983700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T#3!
+T0x7f7640981700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) (4200833, 0, 0 ...) [from cpptraced.cpp:176]
+T0x7f7640981700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) => 1109622942
+T#3+M3=16 (Device or resource busy)
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x7f763c0008c0 (4200503, 0, 1092099888 ...) [from cpptraced.cpp:148]
+D::m1()
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x7f763c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641182700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 14
+T0x7f7641182700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 74
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 144
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641182700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641182700: 0x4013df f1(int) this=(nil) => 60
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x15 => 21
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x1e => 30
+T#2!
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) (4200132, 0, 0 ...) [from cpptraced.cpp:125]
+T0x7f7641983700: 0x401462 wrap_strerror_r(int, char*, int) this=(nil) => 1109622644
+T#1-M1 (Success)
+T0x7f7641182700: 0x4020b8 D::m1(int, int) this=0x7f763c0008c0 (4200503, 0, 1092099888 ...) [from cpptraced.cpp:148]
+D::m1()
+T0x7f7641182700: 0x401e96 B::m2(int) this=0x7f763c0008c0 (4202757, 0 ...) [from cpptraced.cpp:76]
+B::m2()
+T0x7f7641182700: 0x4013df f1(int) this=(nil) (4202187 ...) [from cpptraced.cpp:62]
+f1 14
+T0x7f7641182700: 0x40135c f2(int) this=(nil) (4199458 ...) [from cpptraced.cpp:51]
+f2 74
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) (4199327 ...) [from cpptraced.cpp:43]
+f3 144
+T0x7f7641182700: 0x4012e6 f3(int) this=(nil) => 80
+T0x7f7641182700: 0x40135c f2(int) this=(nil) => 70
+T0x7f7641182700: 0x4013df f1(int) this=(ni

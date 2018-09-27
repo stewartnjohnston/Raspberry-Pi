@@ -1,0 +1,278 @@
+T0x7ffb7ca44740: 0x401b14 ?? ??:0 this=(nil) (2073528368 ...) [from ]
+T0x7ffb7ca44740: 0x401a71 ?? ??:0 this=(nil) (4201368 ...) [from ]
+T0x7ffb7ca44740: 0x401a71 ?? ??:0 this=(nil) => 0
+T0x7ffb7ca44740: 0x401a71 ?? ??:0 this=(nil) (4201383 ...) [from ]
+T0x7ffb7ca44740: 0x401a71 ?? ??:0 this=(nil) => 0
+./cpptraced: main(argc=1)
+T0x7ffb7aa2f700: 0x401793 ?? ??:0 this=(nil) (2083264186 ...) [from ]
+T0x7ffb7a22e700: 0x401890 ?? ??:0 this=(nil) (2083264186 ...) [from ]
+T0x7ffb7a22e700: 0x401f0c ?? ??:0 this=(nil) (4200689 ...) [from ]
+T0x7ffb7a22e700: 0x401cbe ?? ??:0 this=(nil) (4202297 ...) [from ]
+B::B()
+T0x7ffb7a22e700: 0x401cbe ?? ??:0 this=(nil) => 1677723840
+D::D(int=0)
+T0x7ffb7a22e700: 0x401f0c ?? ??:0 this=(nil) => 1677723840
+T0x7ffb7aa2f700: 0x401f0c ?? ??:0 this=(nil) (4200406 ...) [from ]
+Hello World! It's me, thread #3!
+T0x7ffb7aa2f700: 0x401cbe ?? ??:0 this=(nil) (4202297 ...) [from ]
+B::B()
+T0x7ffb7aa2f700: 0x401cbe ?? ??:0 this=(nil) => 1811941568
+D::D(int=0)
+T0x7ffb7aa2f700: 0x401f0c ?? ??:0 this=(nil) => 1811941568
+Hello World! It's me, thread #2!
+T#2!
+T0x7ffb7b230700: 0x4014ec B::m1(int, int) this=(nil) (2083264186, 32763, 0 ...) [from ]
+T0x7ffb7b230700: 0x401f0c ?? ??:0 this=(nil) (4199757 ...) [from cppSimpleTraced.cpp:103]
+T0x7ffb7b230700: 0x401cbe ?? ??:0 this=(nil) (4202297 ...) [from ]
+B::B()
+T0x7ffb7b230700: 0x401cbe ?? ??:0 this=(nil) => 1946160208
+D::D(int=1763716212)
+T0x7ffb7b230700: 0x401f0c ?? ??:0 this=(nil) => 1946160208
+Hello World! It's me, thread #1!
+T#3!
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb640008c0 (4200833, 0 ...) [from ]
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+T#3+M3=0 (Success)
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T#1!
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4199910, 0 ...) [from ??:0]
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1+M2 (Success)
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) (4200914 ...) [from ]
+D::m1()
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x7ffb640008c0 (4202187, 0 ...) [from ]
+f1 16
+T0x7ffb7a22e700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 76
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 146
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7a22e700: 0x40135c main this=(nil) => 70
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4200003, 0 ...) [from ]
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1+M1 (Success)
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T#3!
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb640008c0 (4200833, 0 ...) [from ]
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb7bae509e => 2075021470
+T#3+M3=16 (Device or resource busy)
+T0x7ffb7b230700: 0x4020b8 ?? ??:0 this=(nil) (4200078 ...) [from ]
+D::m1()
+T0x7ffb7b230700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7b230700: 0x4013df B::B(int) this=0x7ffb74000c50 (4202187, 0 ...) [from ]
+f1 12
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7b230700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 72
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7b230700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 142
+T0x7ffb7b230700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7b230700: 0x40135c main this=(nil) => 70
+T0x7ffb7b230700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7b230700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+T0x7ffb7b230700: 0x4020b8 ?? ??:0 this=(nil) => 30
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4200132, 0 ...) [from :0]
+B::m2()
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1-M1 (Success)
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) (4200914 ...) [from ]
+D::m1()
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x7ffb640008c0 (4202187, 0 ...) [from ]
+f1 16
+T0x7ffb7a22e700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 76
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 146
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7a22e700: 0x40135c main this=(nil) => 70
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4200212, 0 ...) [from :0]
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1-M2 (Success)
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T#3!
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb640008c0 (4200833, 0 ...) [from ]
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb7bae509e => 2075021470
+T#3+M3=16 (Device or resource busy)
+T#1!
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4199910, 0 ...) [from ??:0]
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1+M2 (Success)
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) (4200914 ...) [from ]
+D::m1()
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x7ffb640008c0 (4202187, 0 ...) [from ]
+f1 16
+T0x7ffb7a22e700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 76
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 146
+T0x7ffb7a22e700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7a22e700: 0x40135c main this=(nil) => 70
+T0x7ffb7a22e700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7a22e700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7a22e700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb74000c50 (4200003, 0 ...) [from ]
+T0x7ffb7b230700: 0x401462 B::~B() this=0x7ffb7bae4f74 => 2075021172
+T#1+M1 (Success)
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) (4200503 ...) [from ]
+D::m1()
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x7ffb6c0008c0 (4202187, 0 ...) [from ]
+f1 14
+T0x7ffb7aa2f700: 0x40135c main this=(nil) (4199458 ...) [from cppSimpleTraced.cpp:100]
+f2 74
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) (4199327 ...) [from cppSimpleTraced.cpp:99]
+f3 144
+T0x7ffb7aa2f700: 0x4012e6 main this=(nil) => 80
+T0x7ffb7aa2f700: 0x40135c main this=(nil) => 70
+T0x7ffb7aa2f700: 0x4013df B::B(int) this=0x3c => 60
+T0x7ffb7aa2f700: 0x401e96 ?? ??:0 this=(nil) => 21
+T0x7ffb7aa2f700: 0x4020b8 ?? ??:0 this=(nil) => 30
+T#2!
+T#3!
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb640008c0 (4200833, 0 ...) [from ]
+T0x7ffb7a22e700: 0x401462 B::~B() this=0x7ffb7bae509e => 2075021470
+T#3+M3=16 (Device or resource busy)
+T0x7ffb7b230700: 0x4020b8 ?? ??:0 this=(nil) (4200078 ...) [from ]
+D::m1()
+T0x7ffb7b230700: 0x401e96 ?? ??:0 this=(nil) (4202757 ...) [from ]
+B::m2()
+T0x7ffb7b230700: 0x4013df B::B(int) this=0x7ffb74000c50 (4202187, 0 ...) [from ]
+f1 12
+T0x7ffb7b

@@ -8,15 +8,15 @@ extern void enable_interrupt_controllerx ( void );
 
 void kernel_main(void)
 {
+        /*
         unsigned int i = 0;
 	irq_vector_init();
 	i = timer_initx();
 	timer_set_curVal(i);
 
-	//enable_interrupt_controller();  // this works
 	enable_interrupt_controllerx();  // this does not works
 	enable_irq();
-
+        */
 	uart_init();
 	init_printf(0, putc);
 	

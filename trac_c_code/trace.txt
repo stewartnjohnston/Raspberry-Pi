@@ -1,0 +1,29 @@
+stewart@stewart-Satellite-C850:~/Documents/ReverseEngineering/trace C code/exp$ LD_PRELOAD=./libctrace.so ./cppSimpleTraced 
+T0x7f8753deb740: 0x401333 main this=(nil) (1389471792 ...) [from ]
+T0x7f8753deb740: 0x401290 set_signal(int, void (*)(int)) this=(nil) (4199269, 0 ...) [from cppSimpleTraced.cpp:157]
+T0x7f8753deb740: 0x401290 set_signal(int, void (*)(int)) this=(nil) => 0
+T0x7f8753deb740: 0x401290 set_signal(int, void (*)(int)) this=(nil) (4199284, 0 ...) [from cppSimpleTraced.cpp:160]
+T0x7f8753deb740: 0x401290 set_signal(int, void (*)(int)) this=(nil) => 0
+./cppSimpleTraced: main(argc=1)
+T0x7f8753deb740: 0x40158c B::B(int) this=0x25df890 (4199338, 0 ...) [from cppSimpleTraced.cpp:164]
+T0x7f8753deb740: 0x401444 C::C() this=0x25df890 (4199881, 0 ...) [from cppSimpleTraced.cpp:128]
+C::C()
+T0x7f8753deb740: 0x401444 C::C() this=0x25df890 => 39712912
+B::B(this=0x25df890 int=22)
+T0x7f8753deb740: 0x40158c B::B(int) this=0x25df890 => 39712912
+T0x7f8753deb740: 0x4016dc B::bf1(int) this=0x25df890 (4199359, 0 ...) [from cppSimpleTraced.cpp:170]
+D::~df1()
+T0x7f8753deb740: 0x401514 C::cf1(int) this=0x25df890 (4200220, 0 ...) [from cppSimpleTraced.cpp:130]
+C::cf1(this=0x25df898)
+T0x7f8753deb740: 0x401514 C::cf1(int) this=0x15 => 21
+T0x7f8753deb740: 0x4016dc B::bf1(int) this=0x15 => 21
+T0x7f8753deb740: 0x40163e B::~B() this=0x25df890 (4199376, 0 ...) [from cppSimpleTraced.cpp:170]
+B::~B(this=0x25df890)
+T0x7f8753deb740: 0x4014a6 C::~C() this=0x25df890 (4200078, 0 ...) [from cppSimpleTraced.cpp:129]
+C::~C(this=0x25df898)
+T0x7f8753deb740: 0x4014a6 C::~C() this=0x25df890 => 39712912
+T0x7f8753deb740: 0x40163e B::~B() this=0x25df890 => 39712912
+./cppSimpleTraced: done.
+T0x7f8753deb740: 0x401333 main this=(nil) => 0
+\Segmentation fault (core dumped)
+
