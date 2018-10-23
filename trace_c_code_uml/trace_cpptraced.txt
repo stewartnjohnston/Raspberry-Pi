@@ -1,0 +1,2886 @@
+__cyg_profile_func_enter(0x401ac4, 0x7f4bc128f830) in self = 139963357919040
+__cyg_profile_func_enter(0x401ac4, 0x7f4bc128f830) mrc = 0 in self = 139963357919040
+__cyg_profile_func_enter(0x401ac4, 0x7f4bc128f830) out mrc=0 self = 139963357919040
+__cyg_profile_func_enter(0x401a21, 0x401b48) in self = 139963357919040
+__cyg_profile_func_enter(0x401a21, 0x401b48) mrc = 0 in self = 139963357919040
+thread=139963357919040  "Main(0)" -> "(0)": "set_signal(int, void (*)(int))"
+thread=139963357919040  activate "(0)" #3af740
+__cyg_profile_func_enter(0x401a21, 0x401b48) out mrc=0 self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) in self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) mrc = 0 in self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) 1  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) 2  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) 3  self = 139963357919040
+thread=139963357919040  deactivate "(0)" #3af740
+__cyg_profile_func_exit(0x401a21, 0x401b48) 4  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b48) out mrc=0 self = 139963357919040
+__cyg_profile_func_enter(0x401a21, 0x401b57) in self = 139963357919040
+__cyg_profile_func_enter(0x401a21, 0x401b57) mrc = 0 in self = 139963357919040
+thread=139963357919040  "Main(0)" -> "(0)": "set_signal(int, void (*)(int))"
+thread=139963357919040  activate "(0)" #3af740
+__cyg_profile_func_enter(0x401a21, 0x401b57) out mrc=0 self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) in self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) mrc = 0 in self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) 1  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) 2  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) 3  self = 139963357919040
+thread=139963357919040  deactivate "(0)" #3af740
+__cyg_profile_func_exit(0x401a21, 0x401b57) 4  self = 139963357919040
+__cyg_profile_func_exit(0x401a21, 0x401b57) out mrc=0 self = 139963357919040
+./cpptraced: main(argc=1)
+__cyg_profile_func_enter(0x40149c, 0x7f4bc1bd86ba) in self = 139963332327168
+__cyg_profile_func_enter(0x40149c, 0x7f4bc1bd86ba) mrc = 0 in self = 139963332327168
+__cyg_profile_func_enter(0x401840, 0x7f4bc1bd86ba) in self = 139963315541760
+__cyg_profile_func_enter(0x401743, 0x7f4bc1bd86ba) in self = 139963323934464
+__cyg_profile_func_enter(0x40149c, 0x7f4bc1bd86ba) out mrc=0 self = 139963332327168
+__cyg_profile_func_enter(0x401f00, 0x4014fd) in self = 139963332327168
+__cyg_profile_func_enter(0x401f00, 0x4014fd) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "D(b80008c0)": "D(int)"
+thread=139963332327168  activate "D(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401f00, 0x4014fd) out mrc=0 self = 139963332327168
+__cyg_profile_func_enter(0x401c6e, 0x401f32) in self = 139963332327168
+__cyg_profile_func_enter(0x401c6e, 0x401f32) mrc = 0 in self = 139963332327168
+thread=139963332327168  "D(b80008c0)" -> "B(b80008c0)": "B(int)"
+thread=139963332327168  activate "B(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401c6e, 0x401f32) out mrc=0 self = 139963332327168
+B::B(int=1)
+__cyg_profile_func_exit(0x401c6e, 0x401f32) in self = 139963332327168
+__cyg_profile_func_exit(0x401c6e, 0x401f32) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 3  self = 139963332327168
+thread=139963332327168  deactivate "B(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401c6e, 0x401f32) out mrc=0 self = 139963332327168
+D::D(int=1)
+__cyg_profile_func_exit(0x401f00, 0x4014fd) in self = 139963332327168
+__cyg_profile_func_exit(0x401f00, 0x4014fd) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401f00, 0x4014fd) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401f00, 0x4014fd) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401f00, 0x4014fd) 3  self = 139963332327168
+thread=139963332327168  deactivate "D(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401f00, 0x4014fd) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401f00, 0x4014fd) out mrc=0 self = 139963332327168
+Hello World! It's me, thread #1!
+__cyg_profile_func_enter(0x401840, 0x7f4bc1bd86ba) mrc = 0 in self = 139963315541760
+__cyg_profile_func_enter(0x401840, 0x7f4bc1bd86ba) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x401f00, 0x4018a1) in self = 139963315541760
+__cyg_profile_func_enter(0x401f00, 0x4018a1) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "D(int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401f00, 0x4018a1) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x401c6e, 0x401f32) in self = 139963315541760
+__cyg_profile_func_enter(0x401c6e, 0x401f32) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "B(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401c6e, 0x401f32) out mrc=0 self = 139963315541760
+B::B(int=3)
+__cyg_profile_func_exit(0x401c6e, 0x401f32) in self = 139963315541760
+__cyg_profile_func_exit(0x401c6e, 0x401f32) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401c6e, 0x401f32) out mrc=0 self = 139963315541760
+D::D(int=3)
+__cyg_profile_func_exit(0x401f00, 0x4018a1) in self = 139963315541760
+__cyg_profile_func_exit(0x401f00, 0x4018a1) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401f00, 0x4018a1) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401f00, 0x4018a1) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401f00, 0x4018a1) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401f00, 0x4018a1) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401f00, 0x4018a1) out mrc=0 self = 139963315541760
+Hello World! It's me, thread #3!
+__cyg_profile_func_enter(0x401743, 0x7f4bc1bd86ba) mrc = 0 in self = 139963323934464
+__cyg_profile_func_enter(0x401743, 0x7f4bc1bd86ba) out mrc=0 self = 139963323934464
+__cyg_profile_func_enter(0x401f00, 0x401786) in self = 139963323934464
+__cyg_profile_func_enter(0x401f00, 0x401786) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "D(int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x401f00, 0x401786) out mrc=0 self = 139963323934464
+__cyg_profile_func_enter(0x401c6e, 0x401f32) in self = 139963323934464
+__cyg_profile_func_enter(0x401c6e, 0x401f32) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "B(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401c6e, 0x401f32) out mrc=0 self = 139963323934464
+B::B(int=2)
+__cyg_profile_func_exit(0x401c6e, 0x401f32) in self = 139963323934464
+__cyg_profile_func_exit(0x401c6e, 0x401f32) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401c6e, 0x401f32) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401c6e, 0x401f32) out mrc=0 self = 139963323934464
+D::D(int=2)
+__cyg_profile_func_exit(0x401f00, 0x401786) in self = 139963323934464
+__cyg_profile_func_exit(0x401f00, 0x401786) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401f00, 0x401786) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401f00, 0x401786) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401f00, 0x401786) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x401f00, 0x401786) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401f00, 0x401786) out mrc=0 self = 139963323934464
+Hello World! It's me, thread #2!
+T#2!
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401596) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) out mrc=0 self = 139963332327168
+T#1+M2 (Success)
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=0 (Success)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4015f3) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_enter(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "D(b80008c0)": "m1(int, int)"
+thread=139963332327168  activate "D(b80008c0)" #b47700
+__cyg_profile_func_enter(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+thread=139963332327168  "D(b80008c0)" -> "B(b80008c0)": "m2(int)"
+thread=139963332327168  activate "B(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+thread=139963332327168  "B(b80008c0)" -> "(0)": "f1(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+thread=139963332327168  "(0)" -> "(0)": "f2(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f3(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963332327168
+thread=139963332327168  deactivate "B(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 1  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 2  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 3  self = 139963332327168
+thread=139963332327168  deactivate "D(b80008c0)" #b47700
+__cyg_profile_func_exit(0x4020be, 0x40163e) 4  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401674) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401674) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) out mrc=0 self = 139963332327168
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x4016c4) in self = 139963332327168
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4016c4) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+T#1-M2 (Success)
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401596) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) out mrc=0 self = 139963332327168
+T#1+M2 (Success)
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4015f3) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_enter(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "D(b80008c0)": "m1(int, int)"
+thread=139963332327168  activate "D(b80008c0)" #b47700
+__cyg_profile_func_enter(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+thread=139963332327168  "D(b80008c0)" -> "B(b80008c0)": "m2(int)"
+thread=139963332327168  activate "B(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+thread=139963332327168  "B(b80008c0)" -> "(0)": "f1(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f2(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f3(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963332327168
+thread=139963332327168  deactivate "B(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 1  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 2  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 3  self = 139963332327168
+thread=139963332327168  deactivate "D(b80008c0)" #b47700
+__cyg_profile_func_exit(0x4020be, 0x40163e) 4  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401674) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401674) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) out mrc=0 self = 139963332327168
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4016c4) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4016c4) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+T#1-M2 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401596) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) out mrc=0 self = 139963332327168
+T#1+M2 (Success)
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4015f3) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_enter(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "D(b80008c0)": "m1(int, int)"
+thread=139963332327168  activate "D(b80008c0)" #b47700
+__cyg_profile_func_enter(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+thread=139963332327168  "D(b80008c0)" -> "B(b80008c0)": "m2(int)"
+thread=139963332327168  activate "B(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+thread=139963332327168  "B(b80008c0)" -> "(0)": "f1(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f2(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f3(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963332327168
+thread=139963332327168  deactivate "B(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 1  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 2  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 3  self = 139963332327168
+thread=139963332327168  deactivate "D(b80008c0)" #b47700
+__cyg_profile_func_exit(0x4020be, 0x40163e) 4  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401674) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401674) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) out mrc=0 self = 139963332327168
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4016c4) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4016c4) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4016c4) out mrc=0 self = 139963332327168
+T#1-M2 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401596) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401596) out mrc=0 self = 139963332327168
+T#1+M2 (Success)
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x4015f3) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x4015f3) out mrc=0 self = 139963332327168
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "D(b00008c0)": "m1(int, int)"
+thread=139963315541760  activate "D(b00008c0)" #b45700
+__cyg_profile_func_enter(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+thread=139963315541760  "D(b00008c0)" -> "B(b00008c0)": "m2(int)"
+thread=139963315541760  activate "B(b00008c0)" #b45700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+thread=139963315541760  "B(b00008c0)" -> "(0)": "f1(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f2(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+thread=139963315541760  "(0)" -> "(0)": "f3(int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963315541760
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963315541760
+thread=139963315541760  deactivate "B(b00008c0)" #b45700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 1  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 2  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) 3  self = 139963315541760
+thread=139963315541760  deactivate "D(b00008c0)" #b45700
+__cyg_profile_func_exit(0x4020be, 0x401982) 4  self = 139963315541760
+__cyg_profile_func_exit(0x4020be, 0x401982) out mrc=0 self = 139963315541760
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_enter(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "D(b80008c0)": "m1(int, int)"
+thread=139963332327168  activate "D(b80008c0)" #b47700
+__cyg_profile_func_enter(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+thread=139963332327168  "D(b80008c0)" -> "B(b80008c0)": "m2(int)"
+thread=139963332327168  activate "B(b80008c0)" #b47700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+thread=139963332327168  "B(b80008c0)" -> "(0)": "f1(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f2(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+thread=139963332327168  "(0)" -> "(0)": "f3(int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963332327168
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963332327168
+thread=139963332327168  deactivate "B(b80008c0)" #b47700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 1  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 2  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) 3  self = 139963332327168
+thread=139963332327168  deactivate "D(b80008c0)" #b47700
+__cyg_profile_func_exit(0x4020be, 0x40163e) 4  self = 139963332327168
+__cyg_profile_func_exit(0x4020be, 0x40163e) out mrc=0 self = 139963332327168
+T#3!
+__cyg_profile_func_enter(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_enter(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+thread=139963315541760  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963315541760  activate "(0)" #b45700
+__cyg_profile_func_enter(0x401412, 0x401931) out mrc=0 self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) mrc = 0 in self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 1  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 2  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) 3  self = 139963315541760
+thread=139963315541760  deactivate "(0)" #b45700
+__cyg_profile_func_exit(0x401412, 0x401931) 4  self = 139963315541760
+__cyg_profile_func_exit(0x401412, 0x401931) out mrc=0 self = 139963315541760
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_enter(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+thread=139963332327168  "Main(0)" -> "(0)": "wrap_strerror_r(int, char*, int)"
+thread=139963332327168  activate "(0)" #b47700
+__cyg_profile_func_enter(0x401412, 0x401674) out mrc=0 self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) mrc = 0 in self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 1  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 2  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) 3  self = 139963332327168
+thread=139963332327168  deactivate "(0)" #b47700
+__cyg_profile_func_exit(0x401412, 0x401674) 4  self = 139963332327168
+__cyg_profile_func_exit(0x401412, 0x401674) out mrc=0 self = 139963332327168
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_enter(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+thread=139963323934464  "Main(0)" -> "D(b40008c0)": "m1(int, int)"
+thread=139963323934464  activate "D(b40008c0)" #346700
+__cyg_profile_func_enter(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_enter(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+thread=139963323934464  "D(b40008c0)" -> "B(b40008c0)": "m2(int)"
+thread=139963323934464  activate "B(b40008c0)" #346700
+__cyg_profile_func_enter(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_enter(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+thread=139963323934464  "B(b40008c0)" -> "(0)": "f1(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_enter(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f2(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_enter(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+thread=139963323934464  "(0)" -> "(0)": "f3(int)"
+thread=139963323934464  activate "(0)" #346700
+__cyg_profile_func_enter(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401296, 0x40134f) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 1  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 2  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 3  self = 139963323934464
+thread=139963323934464  deactivate "(0)" #346700
+__cyg_profile_func_exit(0x40138f, 0x401ebf) 4  self = 139963323934464
+__cyg_profile_func_exit(0x40138f, 0x401ebf) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 1  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 2  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) 3  self = 139963323934464
+thread=139963323934464  deactivate "B(b40008c0)" #346700
+__cyg_profile_func_exit(0x401e7c, 0x402119) 4  self = 139963323934464
+__cyg_profile_func_exit(0x401e7c, 0x402119) out mrc=0 self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) mrc = 0 in self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 1  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 2  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 3  self = 139963323934464
+thread=139963323934464  deactivate "D(b40008c0)" #346700
+__cyg_profile_func_exit(0x4020be, 0x4017e7) 4  self = 139963323934464
+__cyg_profile_func_exit(0x4020be, 0x4017e7) out mrc=0 self = 139963323934464
+T#2!
+__cyg_profile_func_enter(0x4019e7, 0x7f4bc1be2390) in self = 139963357919040
+__cyg_profile_func_enter(0x4019e7, 0x7f4bc1be2390) mrc = 0 in self = 139963357919040
+thread=139963357919040  "Main(0)" -> "(0)": "sigexit(int)"
+thread=139963357919040  activate "(0)" #3af740
+__cyg_profile_func_enter(0x4019e7, 0x7f4bc1be2390) out mrc=0 self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) in self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) mrc = 0 in self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) 1  self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) 2  self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) 3  self = 139963357919040
+thread=139963357919040  deactivate "(0)" #3af740
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) 4  self = 139963357919040
+__cyg_profile_func_exit(0x4019e7, 0x7f4bc1be2390) out mrc=0 self = 139963357919040
+./cpptraced: done.
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) in self = 139963357919040
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) mrc = 0 in self = 139963357919040
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) 1  self = 139963357919040
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) 2  self = 139963357919040
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) 3  self = 139963357919040
+thread=139963357919040  deactivate "Main(0)" #3af740
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) 4  self = 139963357919040
+__cyg_profile_func_exit(0x401ac4, 0x7f4bc128f830) out mrc=0 self = 139963357919040

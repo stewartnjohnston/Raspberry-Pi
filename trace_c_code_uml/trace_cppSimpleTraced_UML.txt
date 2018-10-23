@@ -1,0 +1,33 @@
+@startuml
+participant "Main(0)"
+
+"Main(0)" -> "Main(0)": "main"
+activate "Main(0)" #d0f740
+"Main(0)" -> "Main(0)": "set_signal(int, void (*)(int))"
+activate "Main(0)" #d0f740
+deactivate "Main(0)" #d0f740
+"Main(0)" -> "Main(0)": "set_signal(int, void (*)(int))"
+activate "Main(0)" #d0f740
+deactivate "Main(0)" #d0f740
+"Main(0)" -> "B(1674620)": "B(int)"
+activate "B(1674620)" #d0f740
+"B(1674620)" -> "C(1674628)": "C()"
+activate "C(1674628)" #d0f740
+deactivate "C(1674628)" #d0f740
+deactivate "B(1674620)" #d0f740
+"Main(0)" -> "B(1674620)": "bf1(int)"
+activate "B(1674620)" #d0f740
+"B(1674620)" -> "C(1674628)": "cf1(int)"
+activate "C(1674628)" #d0f740
+deactivate "C(1674628)" #d0f740
+deactivate "B(1674620)" #d0f740
+"Main(0)" -> "B(1674620)": "~B()"
+activate "B(1674620)" #d0f740
+"B(1674620)" -> "C(1674628)": "~C()"
+activate "C(1674628)" #d0f740
+deactivate "C(1674628)" #d0f740
+deactivate "B(1674620)" #d0f740
+deactivate "Main(0)" #d0f740
+
+@enduml
+

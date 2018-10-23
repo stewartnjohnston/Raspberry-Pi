@@ -14,6 +14,7 @@
 #include <assert.h>
 #include <pthread.h>
 #include "addr2line.h"
+#include <map>
 #include <stack>
 #include <string>
 #include <boost/format.hpp>
@@ -22,7 +23,8 @@
 
 using namespace std;
 
-std::stack<string> functionStack;
+static pthread_mutex_t lockMutex = PTHREAD_MUTEX_INITIALIZER;
+static std::map<int, std::stack<string>* > stackPerThread;
 
 /* 
   http://pdos.csail.mit.edu/6.828/2004/lec/l2.html
@@ -177,10 +179,32 @@ __cyg_profile_func_enter( void *func, void *callsite )
     int nargs = 0;
     int isCPP = 0;
     int thisPointer = 0;
+    int mrc=0;
+    std::stack<string>* currentThreadStack = NULL;
+    
+    self = pthread_self(); 
+    
+    int colour = self & 0xFFFFFF;
+    
+    printf("__cyg_profile_func_enter(%p, %p)1 in pthread_self = %li\n", (int*)func, (int*)callsite, self);
+    mrc = pthread_mutex_lock(&lockMutex);
+    printf("__cyg_profile_func_enter(%p, %p)2 mutex_mrc = %i in pthread_self = %li\n", (int*)func, (int*)callsite, mrc, self);
+
+
+    //  std::map<int, std::stack<string>* > stackPerThread;
+    if(stackPerThread.find(self) == stackPerThread.end())
+    {
+       // No stack for this thread exists, create a stack for this thread
+       currentThreadStack = new std::stack<string>;
+       stackPerThread[self] = currentThreadStack;
+    }
+    else
+    {
+       currentThreadStack = stackPerThread[self];
+    }
     
 
     
-    self = pthread_self(); 
     frame = (int *)__builtin_frame_address(0); /*of the 'func'*/
     thisPointer = *(frame+6);
     
@@ -197,7 +221,19 @@ __cyg_profile_func_enter( void *func, void *callsite )
     nargs = nchr(buf_func, ',') + 1 /*Last arg has no comma after*/; 
     isCPP += is_cpp(buf_func);      /*'this'*/
     
-    string objectName;
+    printf("__cyg_profile_func_enter(%p, %p)3 mutex_mrc = %i in pthread_self = %li   buf_func=%s\n", (int*)func, (int*)callsite, mrc, self, buf_func);
+
+    if (isCPP > 0 )
+    {
+        nargs += isCPP;  
+    }
+    else
+    {
+        thisPointer = 0;
+    }
+
+    
+    string objectName("Main");
     string functionName;
     string functionFullName(buf_func);
     int pos = functionFullName.find("::");
@@ -214,15 +250,27 @@ __cyg_profile_func_enter( void *func, void *callsite )
     
     string objectInstance = str( boost::format("%s(%p)") % objectName % thisPointer );
 
-    if ( !functionStack.empty() )
-    {
-       string lastOjectInstance = functionStack.top();
-
-       string sequenceUML = str( boost::format("\"%s\" -> \"%s\": \"%s\"\n") % lastOjectInstance % objectInstance % functionName );
-       //printf("**************************\n\n");
-       printf("%s", sequenceUML.c_str()); 
-       //printf("\n\n");
+    string lastOjectInstance("Main(0)");
     
+    if ( !currentThreadStack->empty() )
+    {
+       lastOjectInstance = currentThreadStack->top();
+    }
+
+    string sequenceUML 
+         = str( boost::format("thread=%i  \"%s\" -> \"%s\": \"%s\"\n")
+                                %self % lastOjectInstance % objectInstance % functionName );
+    //printf("**************************\n\n");
+    printf("%s", sequenceUML.c_str()); 
+    //printf("\n\n");
+    
+    sequenceUML 
+         = str( boost::format("thread=%i  activate \"%s\" #%p\n")
+                                %self % objectInstance % colour );
+    //printf("**************************\n\n");
+    printf("%s", sequenceUML.c_str()); 
+    //printf("\n\n");
+/*
     }
     else
     {
@@ -231,21 +279,11 @@ __cyg_profile_func_enter( void *func, void *callsite )
        objectInstance = "Main(0)";
        //printf("\n\n");
     }
-
+*/
 
     //printf("functionStack.push() ------>   objectInstance =%s\n", objectInstance.c_str()); 
     //printf("functionStack.size() =%i\n", functionStack.size()); 
-    functionStack.push(objectInstance);
-
-
-    if (isCPP > 0 )
-    {
-        nargs += isCPP;  
-    }
-    else
-    {
-        thisPointer = 0;
-    }
+    currentThreadStack->push(objectInstance);
     
     // Main -> B(1234234) bf1(int)
     // B(1234234) -> C(1324123) cf1(int)
@@ -255,6 +293,11 @@ __cyg_profile_func_enter( void *func, void *callsite )
     
     if (nargs > MAX_ARG_SHOW)
         nargs = MAX_ARG_SHOW;
+        
+    mrc = pthread_mutex_unlock(&lockMutex);
+    //printf("__cyg_profile_func_enter(%p, %p) out mrc=%i self = %li\n", (int*)func, (int*)callsite, mrc, self);
+    printf("__cyg_profile_func_enter(%p, %p)4 out mutex_mrc = %i in pthread_self = %li   buf_func=%s\n", (int*)func, (int*)callsite, mrc, self, buf_func);
+
 
 /*
     printf("T%p: %p %s this=%p %s [from %s]\n", 
@@ -265,33 +308,6 @@ __cyg_profile_func_enter( void *func, void *callsite )
     /*print_stack(); */
 }
 
-// Sample output
-// T0x7fccb071d700: 0x40135c f2(int) (4199458 ...) [from cpptraced.cpp:51]
-
-/*
-T0x7f6c3d635700: 0x400cd9 main (1018140720 ...) [from ]
-T0x7f6c3d635700: 0x400c36 set_signal (4197641 ...) [from cSimpleTraced.c:91]
-T0x7f6c3d635700: 0x400c36 set_signal => 0
-T0x7f6c3d635700: 0x400c36 set_signal (4197656 ...) [from cSimpleTraced.c:93]
-T0x7f6c3d635700: 0x400c36 set_signal => 0
-./cSimpleTraced: main(argc=1)
-T0x7f6c3d635700: 0x400b10 f1 (4197694 ...) [from cSimpleTraced.c:98]
-f1 13
-T0x7f6c3d635700: 0x400aae f2 (4197203 ...) [from cSimpleTraced.c:52]
-f2 73
-T0x7f6c3d635700: 0x400a4f f3 (4197105 ...) [from cSimpleTraced.c:44]
-f3 143
-T0x7f6c3d635700: 0x400a06 f4 (4197007 ...) [from cSimpleTraced.c:36]
-f4 143
-T0x7f6c3d635700: 0x400a06 f4 => 0
-T0x7f6c3d635700: 0x400a4f f3 => 80
-T0x7f6c3d635700: 0x400aae f2 => 70
-T0x7f6c3d635700: 0x400b10 f1 => 60
-./cSimpleTraced: done.
-T0x7f6c3d635700: 0x400cd9 main => 0
-Segmentation fault (core dumped)
-
-*/
 
 EXTERNC void 
 __cyg_profile_func_exit( void *func, void *callsite )
@@ -303,16 +319,39 @@ __cyg_profile_func_exit( void *func, void *callsite )
     int *frame = NULL;
     int thisPointer = 0;
     int isCPP = 0;
+    int mrc = 0;
+    std::stack<string>* currentThreadStack = NULL;
     
-    if ( !functionStack.empty() )
+    self = pthread_self(); 
+    
+    int colour = self & 0xFFFFFF;
+
+
+    printf("__cyg_profile_func_exit(%p, %p) in self = %li\n", (int*)func, (int*)callsite, self);
+    mrc = pthread_mutex_lock(&lockMutex);
+    printf("__cyg_profile_func_exit(%p, %p) mrc = %i in self = %li\n", (int*)func, (int*)callsite, mrc, self);
+    
+    GET_EBX(ret); 
+   
+    currentThreadStack = stackPerThread[self];
+    printf("__cyg_profile_func_exit(%p, %p) 1  self = %li\n", (int*)func, (int*)callsite, self);
+    
+    if ( !currentThreadStack->empty() )
     {
+    printf("__cyg_profile_func_exit(%p, %p) 2  self = %li\n", (int*)func, (int*)callsite, self);
        //printf("-----------------------------\n\n");
-       string lastOjectInstance = functionStack.top();
+       string lastOjectInstance = currentThreadStack->top();
        //printf("functionStack.size() =%i\n", functionStack.size()); 
        //printf("lastOjectInstance =%s\n", lastOjectInstance.c_str()); 
        //printf("functionStack.pop();"); 
        //printf("\n\n");
-       functionStack.pop();
+    printf("__cyg_profile_func_exit(%p, %p) 3  self = %li\n", (int*)func, (int*)callsite, self);
+       string sequenceUML 
+           = str( boost::format("thread=%i  deactivate \"%s\" #%p\n")
+                                %self % lastOjectInstance % colour );
+       printf("%s", sequenceUML.c_str()); 
+
+       currentThreadStack->pop();
     }
     else
     {
@@ -321,10 +360,8 @@ __cyg_profile_func_exit( void *func, void *callsite )
        //printf("\n\n");
     }
     
-
-    
-    GET_EBX(ret); 
-    self = pthread_self(); 
+    printf("__cyg_profile_func_exit(%p, %p) 4  self = %li\n", (int*)func, (int*)callsite, self);
+   
     
     frame = (int *)__builtin_frame_address(0); /*of the 'func'*/
     thisPointer = *(frame+6);
@@ -345,6 +382,12 @@ __cyg_profile_func_exit( void *func, void *callsite )
     {
         thisPointer = 0;
     }
+    
+    mrc = pthread_mutex_unlock(&lockMutex);
+    //printf("__cyg_profile_func_exit(%p, %p) out mrc=%i self = %li\n", (int*)func, (int*)callsite, mrc, self);
+    printf("__cyg_profile_func_exit(%p, %p) out mutex_mrc = %i in pthread_self = %li   buf_func=%s\n", (int*)func, (int*)callsite, mrc, self, buf_func);
+
+
 /*
     printf("T%p: %p %s this=%p => %d\n", 
            self, (int*)func, buf_func, isCPP?thisPointer:0,
