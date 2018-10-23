@@ -1,0 +1,192 @@
+@startuml
+participant "Main(0)"
+
+"Main(0)" -> "Main(cc87740)": "main"
+activate "Main(cc87740)" #c87740
+"Main(cc87740)" -> "Main(cc87740)": "set_signal(int, void (*)(int))"
+activate "Main(cc87740)" #c87740
+deactivate "Main(cc87740)" #c87740
+"Main(cc87740)" -> "Main(cc87740)": "set_signal(int, void (*)(int))"
+activate "Main(cc87740)" #c87740
+deactivate "Main(cc87740)" #c87740
+"Main(0)" -> "Main(b0000FF)": "thread1(void*)"
+activate "Main(b0000FF)" #0000FF
+"Main(0)" -> "Main(a00FF00)": "thread2(void*)"
+activate "Main(a00FF00)" #00FF00
+"Main(a00FF00)" -> "D(fc000b00)": "D(int)"
+activate "D(fc000b00)" #00FF00
+"D(fc000b00)" -> "B(fc000b00)": "B(int)"
+activate "B(fc000b00)" #00FF00
+deactivate "B(fc000b00)" #00FF00
+deactivate "D(fc000b00)" #00FF00
+"Main(0)" -> "Main(aFF0000)": "thread3(void*)"
+activate "Main(aFF0000)" #FF0000
+"Main(aFF0000)" -> "D(b00)": "D(int)"
+activate "D(b00)" #FF0000
+"Main(b0000FF)" -> "D(4000b00)": "D(int)"
+activate "D(4000b00)" #0000FF
+"D(b00)" -> "B(b00)": "B(int)"
+activate "B(b00)" #FF0000
+"D(4000b00)" -> "B(4000b00)": "B(int)"
+activate "B(4000b00)" #0000FF
+deactivate "B(4000b00)" #0000FF
+deactivate "B(b00)" #FF0000
+deactivate "D(b00)" #FF0000
+deactivate "D(4000b00)" #0000FF
+"Main(aFF0000)" -> "Main(aFF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(aFF0000)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+"Main(a00FF00)" -> "D(fc000b00)": "m1(int, int)"
+activate "D(fc000b00)" #00FF00
+"D(fc000b00)" -> "B(fc000b00)": "m2(int)"
+activate "B(fc000b00)" #00FF00
+"B(fc000b00)" -> "Main(a00FF00)": "f1(int)"
+activate "Main(a00FF00)" #00FF00
+"Main(a00FF00)" -> "Main(a00FF00)": "f2(int)"
+activate "Main(a00FF00)" #00FF00
+"Main(a00FF00)" -> "Main(a00FF00)": "f3(int)"
+activate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "B(fc000b00)" #00FF00
+deactivate "D(fc000b00)" #00FF00
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+"Main(aFF0000)" -> "D(b00)": "m1(int, int)"
+activate "D(b00)" #FF0000
+"D(b00)" -> "B(b00)": "m2(int)"
+activate "B(b00)" #FF0000
+"B(b00)" -> "Main(aFF0000)": "f1(int)"
+activate "Main(aFF0000)" #FF0000
+"Main(aFF0000)" -> "Main(aFF0000)": "f2(int)"
+activate "Main(aFF0000)" #FF0000
+"Main(aFF0000)" -> "Main(aFF0000)": "f3(int)"
+activate "Main(aFF0000)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+deactivate "B(b00)" #FF0000
+deactivate "D(b00)" #FF0000
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "D(4000b00)": "m1(int, int)"
+activate "D(4000b00)" #0000FF
+"D(4000b00)" -> "B(4000b00)": "m2(int)"
+activate "B(4000b00)" #0000FF
+"B(4000b00)" -> "Main(b0000FF)": "f1(int)"
+activate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "f2(int)"
+activate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "f3(int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "B(4000b00)" #0000FF
+deactivate "D(4000b00)" #0000FF
+"Main(aFF0000)" -> "Main(aFF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(aFF0000)" #FF0000
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "Main(aFF0000)" #FF0000
+"Main(cc87740)" -> "Main(cc87740)": "sigexit(int)"
+activate "Main(cc87740)" #c87740
+deactivate "Main(cc87740)" #c87740
+"Main(a00FF00)" -> "D(fc000b00)": "m1(int, int)"
+activate "D(fc000b00)" #00FF00
+"D(fc000b00)" -> "B(fc000b00)": "m2(int)"
+activate "B(fc000b00)" #00FF00
+"B(fc000b00)" -> "Main(a00FF00)": "f1(int)"
+activate "Main(a00FF00)" #00FF00
+"Main(a00FF00)" -> "Main(a00FF00)": "f2(int)"
+activate "Main(a00FF00)" #00FF00
+"Main(a00FF00)" -> "Main(a00FF00)": "f3(int)"
+activate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+deactivate "B(fc000b00)" #00FF00
+deactivate "D(fc000b00)" #00FF00
+"Main(a00FF00)" -> "D(fc000b00)": "~D()"
+activate "D(fc000b00)" #00FF00
+"D(fc000b00)" -> "D(fc000b00)": "~D()"
+activate "D(fc000b00)" #00FF00
+"D(fc000b00)" -> "B(fc000b00)": "~B()"
+activate "B(fc000b00)" #00FF00
+deactivate "B(fc000b00)" #00FF00
+deactivate "D(fc000b00)" #00FF00
+deactivate "D(fc000b00)" #00FF00
+deactivate "Main(a00FF00)" #00FF00
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "D(4000b00)": "m1(int, int)"
+activate "D(4000b00)" #0000FF
+"D(4000b00)" -> "B(4000b00)": "m2(int)"
+activate "B(4000b00)" #0000FF
+"B(4000b00)" -> "Main(b0000FF)": "f1(int)"
+activate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "f2(int)"
+activate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "f3(int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+"Main(aFF0000)" -> "D(b00)": "m1(int, int)"
+activate "D(b00)" #FF0000
+"D(b00)" -> "B(b00)": "m2(int)"
+activate "B(b00)" #FF0000
+deactivate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "B(4000b00)" #0000FF
+deactivate "D(4000b00)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+"B(b00)" -> "Main(aFF0000)": "f1(int)"
+activate "Main(aFF0000)" #FF0000
+"Main(aFF0000)" -> "Main(aFF0000)": "f2(int)"
+activate "Main(aFF0000)" #FF0000
+"Main(aFF0000)" -> "Main(aFF0000)": "f3(int)"
+activate "Main(aFF0000)" #FF0000
+deactivate "Main(b0000FF)" #0000FF
+"Main(b0000FF)" -> "Main(b0000FF)": "wrap_strerror_r(int, char*, int)"
+activate "Main(b0000FF)" #0000FF
+deactivate "Main(b0000FF)" #0000FF
+deactivate "Main(aFF0000)" #FF0000
+"Main(b0000FF)" -> "D(4000b00)": "~D()"
+activate "D(4000b00)" #0000FF
+"D(4000b00)" -> "D(4000b00)": "~D()"
+activate "D(4000b00)" #0000FF
+"D(4000b00)" -> "B(4000b00)": "~B()"
+activate "B(4000b00)" #0000FF
+deactivate "B(4000b00)" #0000FF
+deactivate "D(4000b00)" #0000FF
+deactivate "D(4000b00)" #0000FF
+deactivate "Main(aFF0000)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+deactivate "Main(b0000FF)" #0000FF
+deactivate "B(b00)" #FF0000
+deactivate "D(b00)" #FF0000
+"Main(aFF0000)" -> "D(b00)": "~D()"
+activate "D(b00)" #FF0000
+"D(b00)" -> "D(b00)": "~D()"
+activate "D(b00)" #FF0000
+"D(b00)" -> "B(b00)": "~B()"
+activate "B(b00)" #FF0000
+deactivate "B(b00)" #FF0000
+deactivate "D(b00)" #FF0000
+deactivate "D(b00)" #FF0000
+deactivate "Main(aFF0000)" #FF0000
+deactivate "Main(cc87740)" #c87740
+
+@enduml
+

@@ -66,7 +66,11 @@ java -jar plantuml.jar -gui
 
 
 export CTRACE_PROGRAM=./cpptraced
-LD_PRELOAD=./libctrace.so ./cpptraced > trace_cpptraced.txt
-grep 'thread=' trace_cpptraced.txt > trace_cpptraced_filtered.txt
+LD_PRELOAD=./libctrace.so ./cpptraced > trace_cpptraced5.txt
+grep 'thread=' trace_cpptraced5.txt > trace_cpptraced_filtered5.txt
+
+Clean up trace_cpptraced_UML5.txt by removing the "thread=1342412341" and setting the active colour code.
+
+
 
 

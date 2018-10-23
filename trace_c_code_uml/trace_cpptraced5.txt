@@ -1,0 +1,934 @@
+__cyg_profile_func_enter(0x401ad4, 0x7f980bb67830)1 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401ad4, 0x7f980bb67830)2 mutex_mrc = 0 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401ad4, 0x7f980bb67830)3 mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=main
+thread=140291026220864  "Main(0)" -> "Main(cc87740)": "main"
+thread=140291026220864  activate "Main(cc87740)" #c87740
+__cyg_profile_func_enter(0x401ad4, 0x7f980bb67830)4 out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=main
+__cyg_profile_func_enter(0x401a31, 0x401b58)1 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401a31, 0x401b58)2 mutex_mrc = 0 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401a31, 0x401b58)3 mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+thread=140291026220864  "Main(cc87740)" -> "Main(cc87740)": "set_signal(int, void (*)(int))"
+thread=140291026220864  activate "Main(cc87740)" #c87740
+__cyg_profile_func_enter(0x401a31, 0x401b58)4 out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+__cyg_profile_func_exit(0x401a31, 0x401b58) in self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b58) mrc = 0 in self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b58) 1  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b58) 2  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b58) 3  self = 140291026220864
+thread=140291026220864  deactivate "Main(cc87740)" #c87740
+__cyg_profile_func_exit(0x401a31, 0x401b58) 4  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b58) out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+__cyg_profile_func_enter(0x401a31, 0x401b67)1 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401a31, 0x401b67)2 mutex_mrc = 0 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x401a31, 0x401b67)3 mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+thread=140291026220864  "Main(cc87740)" -> "Main(cc87740)": "set_signal(int, void (*)(int))"
+thread=140291026220864  activate "Main(cc87740)" #c87740
+__cyg_profile_func_enter(0x401a31, 0x401b67)4 out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+__cyg_profile_func_exit(0x401a31, 0x401b67) in self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b67) mrc = 0 in self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b67) 1  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b67) 2  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b67) 3  self = 140291026220864
+thread=140291026220864  deactivate "Main(cc87740)" #c87740
+__cyg_profile_func_exit(0x401a31, 0x401b67) 4  self = 140291026220864
+__cyg_profile_func_exit(0x401a31, 0x401b67) out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=set_signal(int, void (*)(int))
+./cpptraced: main(argc=1)
+__cyg_profile_func_enter(0x40149c, 0x7f980c4b06ba)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40149c, 0x7f980c4b06ba)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401732, 0x7f980c4b06ba)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40149c, 0x7f980c4b06ba)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=thread1(void*)
+__cyg_profile_func_enter(0x401843, 0x7f980c4b06ba)1 in pthread_self = 140290983843584
+thread=140291000628992  "Main(0)" -> "Main(b41f700)": "thread1(void*)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x40149c, 0x7f980c4b06ba)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=thread1(void*)
+Hello World! It's me, thread #1!
+__cyg_profile_func_enter(0x401732, 0x7f980c4b06ba)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401f1a, 0x401514)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401732, 0x7f980c4b06ba)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=thread2(void*)
+thread=140290992236288  "Main(0)" -> "Main(ac1e700)": "thread2(void*)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x401732, 0x7f980c4b06ba)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=thread2(void*)
+Hello World! It's me, thread #2!
+__cyg_profile_func_enter(0x401f1a, 0x401789)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401f1a, 0x401789)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401f1a, 0x401789)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::D(int)
+thread=140290992236288  "Main(ac1e700)" -> "D(fc000b00)": "D(int)"
+thread=140290992236288  activate "D(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401f1a, 0x401789)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::D(int)
+__cyg_profile_func_enter(0x401c88, 0x401f4c)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401c88, 0x401f4c)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401c88, 0x401f4c)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::B(int)
+thread=140290992236288  "D(fc000b00)" -> "B(fc000b00)": "B(int)"
+thread=140290992236288  activate "B(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401c88, 0x401f4c)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::B(int)
+B::B(int=2)
+__cyg_profile_func_exit(0x401c88, 0x401f4c) in self = 140290992236288
+__cyg_profile_func_exit(0x401c88, 0x401f4c) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 3  self = 140290992236288
+thread=140290992236288  deactivate "B(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401c88, 0x401f4c) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::B(int)
+D::D(int=2)
+__cyg_profile_func_exit(0x401f1a, 0x401789) in self = 140290992236288
+__cyg_profile_func_exit(0x401f1a, 0x401789) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401f1a, 0x401789) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401f1a, 0x401789) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401f1a, 0x401789) 3  self = 140290992236288
+thread=140290992236288  deactivate "D(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401f1a, 0x401789) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401f1a, 0x401789) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::D(int)
+T#2!
+__cyg_profile_func_enter(0x401843, 0x7f980c4b06ba)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401843, 0x7f980c4b06ba)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=thread3(void*)
+thread=140290983843584  "Main(0)" -> "Main(a41d700)": "thread3(void*)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x401843, 0x7f980c4b06ba)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=thread3(void*)
+Hello World! It's me, thread #3!
+__cyg_profile_func_enter(0x401f1a, 0x4018bb)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401f1a, 0x4018bb)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401f1a, 0x4018bb)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::D(int)
+thread=140290983843584  "Main(a41d700)" -> "D(b00)": "D(int)"
+thread=140290983843584  activate "D(b00)" #41d700
+__cyg_profile_func_enter(0x401f1a, 0x4018bb)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::D(int)
+__cyg_profile_func_enter(0x401c88, 0x401f4c)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401f1a, 0x401514)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401f1a, 0x401514)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::D(int)
+thread=140291000628992  "Main(b41f700)" -> "D(4000b00)": "D(int)"
+thread=140291000628992  activate "D(4000b00)" #41f700
+__cyg_profile_func_enter(0x401f1a, 0x401514)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::D(int)
+__cyg_profile_func_enter(0x401c88, 0x401f4c)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401c88, 0x401f4c)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401c88, 0x401f4c)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::B(int)
+thread=140290983843584  "D(b00)" -> "B(b00)": "B(int)"
+thread=140290983843584  activate "B(b00)" #41d700
+__cyg_profile_func_enter(0x401c88, 0x401f4c)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::B(int)
+B::B(int=3)
+__cyg_profile_func_exit(0x401c88, 0x401f4c) in self = 140290983843584
+__cyg_profile_func_enter(0x401c88, 0x401f4c)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401c88, 0x401f4c)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::B(int)
+thread=140291000628992  "D(4000b00)" -> "B(4000b00)": "B(int)"
+thread=140291000628992  activate "B(4000b00)" #41f700
+__cyg_profile_func_enter(0x401c88, 0x401f4c)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::B(int)
+B::B(int=1)
+__cyg_profile_func_exit(0x401c88, 0x401f4c) in self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 3  self = 140291000628992
+thread=140291000628992  deactivate "B(4000b00)" #41f700
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::B(int)
+D::D(int=1)
+__cyg_profile_func_exit(0x401f1a, 0x401514) in self = 140291000628992
+__cyg_profile_func_exit(0x401c88, 0x401f4c) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 3  self = 140290983843584
+thread=140290983843584  deactivate "B(b00)" #41d700
+__cyg_profile_func_exit(0x401c88, 0x401f4c) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401c88, 0x401f4c) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::B(int)
+D::D(int=3)
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) in self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) 3  self = 140290983843584
+thread=140290983843584  deactivate "D(b00)" #41d700
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x4018bb) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::D(int)
+T#3!
+__cyg_profile_func_exit(0x401f1a, 0x401514) mrc = 0 in self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40192a)1 in pthread_self = 140290983843584
+__cyg_profile_func_exit(0x401f1a, 0x401514) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401f1a, 0x401514) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401f1a, 0x401514) 3  self = 140291000628992
+thread=140291000628992  deactivate "D(4000b00)" #41f700
+__cyg_profile_func_exit(0x401f1a, 0x401514) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401f1a, 0x401514) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::D(int)
+__cyg_profile_func_enter(0x401412, 0x40192a)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401412, 0x40192a)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "wrap_strerror_r(int, char*, int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x401412, 0x40192a)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x40192a) in self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x401412, 0x40192a) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+T#3+M3=0 (Success)
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+thread=140290992236288  "Main(ac1e700)" -> "D(fc000b00)": "m1(int, int)"
+thread=140290992236288  activate "D(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+thread=140290992236288  "D(fc000b00)" -> "B(fc000b00)": "m2(int)"
+thread=140290992236288  activate "B(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+thread=140290992236288  "B(fc000b00)" -> "Main(ac1e700)": "f1(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+thread=140290992236288  "Main(ac1e700)" -> "Main(ac1e700)": "f2(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+thread=140290992236288  "Main(ac1e700)" -> "Main(ac1e700)": "f3(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140290992236288
+thread=140290992236288  deactivate "B(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) in self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 1  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 2  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 3  self = 140290992236288
+thread=140290992236288  deactivate "D(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 4  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+T#2!
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401596)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401596)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x401596)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1+M2 (Success)
+__cyg_profile_func_enter(0x401412, 0x4015e9)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x4015e9)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x4015e9)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_enter(0x4020d8, 0x40197b)1 in pthread_self = 140290983843584
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x4015e9)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x4015e9) in self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40197b)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x4020d8, 0x40197b)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+thread=140290983843584  "Main(a41d700)" -> "D(b00)": "m1(int, int)"
+thread=140290983843584  activate "D(b00)" #41d700
+__cyg_profile_func_enter(0x4020d8, 0x40197b)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+thread=140290983843584  "D(b00)" -> "B(b00)": "m2(int)"
+thread=140290983843584  activate "B(b00)" #41d700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+thread=140290983843584  "B(b00)" -> "Main(a41d700)": "f1(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "f2(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "f3(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140290983843584
+thread=140290983843584  deactivate "B(b00)" #41d700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x40197b) in self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 1  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 2  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 3  self = 140290983843584
+thread=140290983843584  deactivate "D(b00)" #41d700
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 4  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+T#3!
+__cyg_profile_func_enter(0x401412, 0x40192a)1 in pthread_self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x4015e9) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x4015e9) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020d8, 0x40162a)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40162a)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40162a)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+thread=140291000628992  "Main(b41f700)" -> "D(4000b00)": "m1(int, int)"
+thread=140291000628992  activate "D(4000b00)" #41f700
+__cyg_profile_func_enter(0x4020d8, 0x40162a)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+thread=140291000628992  "D(4000b00)" -> "B(4000b00)": "m2(int)"
+thread=140291000628992  activate "B(4000b00)" #41f700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+thread=140291000628992  "B(4000b00)" -> "Main(b41f700)": "f1(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "f2(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "f3(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140291000628992
+thread=140291000628992  deactivate "B(4000b00)" #41f700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x40162a) in self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 1  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 2  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 3  self = 140291000628992
+thread=140291000628992  deactivate "D(4000b00)" #41f700
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 4  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+__cyg_profile_func_enter(0x401412, 0x401656)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40192a)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401412, 0x40192a)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "wrap_strerror_r(int, char*, int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x401412, 0x40192a)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_enter(0x401412, 0x401656)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40192a) in self = 140290983843584
+__cyg_profile_func_enter(0x401412, 0x401656)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x401656)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x401656) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x401656) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x401412, 0x40169c)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40169c)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40169c)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x40169c)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x40169c) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x40169c) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1-M2 (Success)
+__cyg_profile_func_exit(0x401412, 0x40192a) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x401412, 0x40192a) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401412, 0x40192a) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=wrap_strerror_r(int, char*, int)
+T#3+M3=16 (Device or resource busy)
+__cyg_profile_func_enter(0x4019f7, 0x7f980c4ba390)1 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x4019f7, 0x7f980c4ba390)2 mutex_mrc = 0 in pthread_self = 140291026220864
+__cyg_profile_func_enter(0x4019f7, 0x7f980c4ba390)3 mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=sigexit(int)
+thread=140291026220864  "Main(cc87740)" -> "Main(cc87740)": "sigexit(int)"
+thread=140291026220864  activate "Main(cc87740)" #c87740
+__cyg_profile_func_enter(0x4019f7, 0x7f980c4ba390)4 out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=sigexit(int)
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) in self = 140291026220864
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) mrc = 0 in self = 140291026220864
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) 1  self = 140291026220864
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) 2  self = 140291026220864
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) 3  self = 140291026220864
+thread=140291026220864  deactivate "Main(cc87740)" #c87740
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) 4  self = 140291026220864
+__cyg_profile_func_exit(0x4019f7, 0x7f980c4ba390) out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=sigexit(int)
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+thread=140290992236288  "Main(ac1e700)" -> "D(fc000b00)": "m1(int, int)"
+thread=140290992236288  activate "D(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x4020d8, 0x4017d6)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+D::m1() _id=2
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+thread=140290992236288  "D(fc000b00)" -> "B(fc000b00)": "m2(int)"
+thread=140290992236288  activate "B(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+B::m2() _id=2
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+thread=140290992236288  "B(fc000b00)" -> "Main(ac1e700)": "f1(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+f1 14
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+thread=140290992236288  "Main(ac1e700)" -> "Main(ac1e700)": "f2(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+f2 74
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+thread=140290992236288  "Main(ac1e700)" -> "Main(ac1e700)": "f3(int)"
+thread=140290992236288  activate "Main(ac1e700)" #c1e700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+f3 144
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140290992236288
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140290992236288
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=f1(int)
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140290992236288
+thread=140290992236288  deactivate "B(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) in self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 1  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 2  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 3  self = 140290992236288
+thread=140290992236288  deactivate "D(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) 4  self = 140290992236288
+__cyg_profile_func_exit(0x4020d8, 0x4017d6) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::m1(int, int)
+Exiting thread #2!
+__cyg_profile_func_enter(0x402068, 0x40180a)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x402068, 0x40180a)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x402068, 0x40180a)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+thread=140290992236288  "Main(ac1e700)" -> "D(fc000b00)": "~D()"
+thread=140290992236288  activate "D(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x402068, 0x40180a)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+__cyg_profile_func_enter(0x401fba, 0x402092)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401fba, 0x402092)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401fba, 0x402092)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+thread=140290992236288  "D(fc000b00)" -> "D(fc000b00)": "~D()"
+thread=140290992236288  activate "D(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401fba, 0x402092)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+D::~D() _id=2
+__cyg_profile_func_enter(0x401d10, 0x402008)1 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401d10, 0x402008)2 mutex_mrc = 0 in pthread_self = 140290992236288
+__cyg_profile_func_enter(0x401d10, 0x402008)3 mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::~B()
+thread=140290992236288  "D(fc000b00)" -> "B(fc000b00)": "~B()"
+thread=140290992236288  activate "B(fc000b00)" #c1e700
+__cyg_profile_func_enter(0x401d10, 0x402008)4 out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::~B()
+B::~B() _id=2
+__cyg_profile_func_exit(0x401d10, 0x402008) in self = 140290992236288
+__cyg_profile_func_exit(0x401d10, 0x402008) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401d10, 0x402008) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401d10, 0x402008) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401d10, 0x402008) 3  self = 140290992236288
+thread=140290992236288  deactivate "B(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401d10, 0x402008) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401d10, 0x402008) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=B::~B()
+__cyg_profile_func_exit(0x401fba, 0x402092) in self = 140290992236288
+__cyg_profile_func_exit(0x401fba, 0x402092) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401fba, 0x402092) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401fba, 0x402092) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401fba, 0x402092) 3  self = 140290992236288
+thread=140290992236288  deactivate "D(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x401fba, 0x402092) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401fba, 0x402092) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+__cyg_profile_func_exit(0x402068, 0x40180a) in self = 140290992236288
+__cyg_profile_func_exit(0x402068, 0x40180a) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x402068, 0x40180a) 1  self = 140290992236288
+__cyg_profile_func_exit(0x402068, 0x40180a) 2  self = 140290992236288
+__cyg_profile_func_exit(0x402068, 0x40180a) 3  self = 140290992236288
+thread=140290992236288  deactivate "D(fc000b00)" #c1e700
+__cyg_profile_func_exit(0x402068, 0x40180a) 4  self = 140290992236288
+__cyg_profile_func_exit(0x402068, 0x40180a) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=D::~D()
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) in self = 140290992236288
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) mrc = 0 in self = 140290992236288
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) 1  self = 140290992236288
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) 2  self = 140290992236288
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) 3  self = 140290992236288
+thread=140290992236288  deactivate "Main(ac1e700)" #c1e700
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) 4  self = 140290992236288
+__cyg_profile_func_exit(0x401732, 0x7f980c4b06ba) out mutex_mrc = 0 in pthread_self = 140290992236288   buf_func=thread2(void*)
+T#1!
+__cyg_profile_func_enter(0x401412, 0x401596)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401596)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401596)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+__cyg_profile_func_enter(0x4020d8, 0x40197b)1 in pthread_self = 140290983843584
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x401596)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x401596) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x401596) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401596) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1+M2 (Success)
+__cyg_profile_func_enter(0x401412, 0x4015e9)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x4015e9)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x4015e9)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x4015e9)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x4015e9) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x4015e9) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x4015e9) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1+M1 (Success)
+__cyg_profile_func_enter(0x4020d8, 0x40162a)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40162a)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40162a)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+thread=140291000628992  "Main(b41f700)" -> "D(4000b00)": "m1(int, int)"
+thread=140291000628992  activate "D(4000b00)" #41f700
+__cyg_profile_func_enter(0x4020d8, 0x40162a)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+D::m1() _id=1
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+thread=140291000628992  "D(4000b00)" -> "B(4000b00)": "m2(int)"
+thread=140291000628992  activate "B(4000b00)" #41f700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+B::m2() _id=1
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+thread=140291000628992  "B(4000b00)" -> "Main(b41f700)": "f1(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+f1 12
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "f2(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+f2 72
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "f3(int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+f3 142
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140291000628992
+__cyg_profile_func_enter(0x4020d8, 0x40197b)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x4020d8, 0x40197b)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+thread=140290983843584  "Main(a41d700)" -> "D(b00)": "m1(int, int)"
+thread=140290983843584  activate "D(b00)" #41d700
+__cyg_profile_func_enter(0x4020d8, 0x40197b)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+D::m1() _id=3
+__cyg_profile_func_enter(0x401e96, 0x402133)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401e96, 0x402133)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401e96, 0x402133)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+thread=140290983843584  "D(b00)" -> "B(b00)": "m2(int)"
+thread=140290983843584  activate "B(b00)" #41d700
+__cyg_profile_func_enter(0x401e96, 0x402133)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140291000628992
+B::m2() _id=3
+__cyg_profile_func_enter(0x40138f, 0x401ed9)1 in pthread_self = 140290983843584
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140291000628992
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=f1(int)
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140291000628992
+thread=140291000628992  deactivate "B(4000b00)" #41f700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x40162a) in self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 1  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 2  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 3  self = 140291000628992
+thread=140291000628992  deactivate "D(4000b00)" #41f700
+__cyg_profile_func_exit(0x4020d8, 0x40162a) 4  self = 140291000628992
+__cyg_profile_func_exit(0x4020d8, 0x40162a) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::m1(int, int)
+__cyg_profile_func_enter(0x401412, 0x401656)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401656)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x401656)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x401656)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x401656) in self = 140291000628992
+__cyg_profile_func_enter(0x40138f, 0x401ed9)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40138f, 0x401ed9)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+thread=140290983843584  "B(b00)" -> "Main(a41d700)": "f1(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x40138f, 0x401ed9)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+f1 16
+__cyg_profile_func_enter(0x40130c, 0x4013d2)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40130c, 0x4013d2)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x40130c, 0x4013d2)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "f2(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x40130c, 0x4013d2)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+f2 76
+__cyg_profile_func_enter(0x401296, 0x40134f)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401296, 0x40134f)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401296, 0x40134f)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+thread=140290983843584  "Main(a41d700)" -> "Main(a41d700)": "f3(int)"
+thread=140290983843584  activate "Main(a41d700)" #41d700
+__cyg_profile_func_enter(0x401296, 0x40134f)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+__cyg_profile_func_exit(0x401412, 0x401656) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) 3  self = 140291000628992
+f3 146
+__cyg_profile_func_exit(0x401296, 0x40134f) in self = 140290983843584
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x401656) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x401656) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1-M1 (Success)
+__cyg_profile_func_enter(0x401412, 0x40169c)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40169c)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401412, 0x40169c)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+thread=140291000628992  "Main(b41f700)" -> "Main(b41f700)": "wrap_strerror_r(int, char*, int)"
+thread=140291000628992  activate "Main(b41f700)" #41f700
+__cyg_profile_func_enter(0x401412, 0x40169c)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+__cyg_profile_func_exit(0x401412, 0x40169c) in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) 3  self = 140291000628992
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x401412, 0x40169c) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401412, 0x40169c) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=wrap_strerror_r(int, char*, int)
+T#1-M2 (Success)
+Exiting thread #1!
+__cyg_profile_func_enter(0x402068, 0x4016f9)1 in pthread_self = 140291000628992
+__cyg_profile_func_exit(0x401296, 0x40134f) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x401296, 0x40134f) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401296, 0x40134f) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f3(int)
+__cyg_profile_func_exit(0x40130c, 0x4013d2) in self = 140290983843584
+__cyg_profile_func_enter(0x402068, 0x4016f9)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x402068, 0x4016f9)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+thread=140291000628992  "Main(b41f700)" -> "D(4000b00)": "~D()"
+thread=140291000628992  activate "D(4000b00)" #41f700
+__cyg_profile_func_enter(0x402068, 0x4016f9)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+__cyg_profile_func_enter(0x401fba, 0x402092)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401fba, 0x402092)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401fba, 0x402092)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+thread=140291000628992  "D(4000b00)" -> "D(4000b00)": "~D()"
+thread=140291000628992  activate "D(4000b00)" #41f700
+__cyg_profile_func_enter(0x401fba, 0x402092)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+D::~D() _id=1
+__cyg_profile_func_enter(0x401d10, 0x402008)1 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401d10, 0x402008)2 mutex_mrc = 0 in pthread_self = 140291000628992
+__cyg_profile_func_enter(0x401d10, 0x402008)3 mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::~B()
+thread=140291000628992  "D(4000b00)" -> "B(4000b00)": "~B()"
+thread=140291000628992  activate "B(4000b00)" #41f700
+__cyg_profile_func_enter(0x401d10, 0x402008)4 out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::~B()
+B::~B() _id=1
+__cyg_profile_func_exit(0x401d10, 0x402008) in self = 140291000628992
+__cyg_profile_func_exit(0x401d10, 0x402008) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401d10, 0x402008) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401d10, 0x402008) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401d10, 0x402008) 3  self = 140291000628992
+thread=140291000628992  deactivate "B(4000b00)" #41f700
+__cyg_profile_func_exit(0x401d10, 0x402008) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401d10, 0x402008) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=B::~B()
+__cyg_profile_func_exit(0x401fba, 0x402092) in self = 140291000628992
+__cyg_profile_func_exit(0x401fba, 0x402092) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x401fba, 0x402092) 1  self = 140291000628992
+__cyg_profile_func_exit(0x401fba, 0x402092) 2  self = 140291000628992
+__cyg_profile_func_exit(0x401fba, 0x402092) 3  self = 140291000628992
+thread=140291000628992  deactivate "D(4000b00)" #41f700
+__cyg_profile_func_exit(0x401fba, 0x402092) 4  self = 140291000628992
+__cyg_profile_func_exit(0x401fba, 0x402092) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+__cyg_profile_func_exit(0x402068, 0x4016f9) in self = 140291000628992
+__cyg_profile_func_exit(0x402068, 0x4016f9) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x402068, 0x4016f9) 1  self = 140291000628992
+__cyg_profile_func_exit(0x402068, 0x4016f9) 2  self = 140291000628992
+__cyg_profile_func_exit(0x402068, 0x4016f9) 3  self = 140291000628992
+thread=140291000628992  deactivate "D(4000b00)" #41f700
+__cyg_profile_func_exit(0x402068, 0x4016f9) 4  self = 140291000628992
+__cyg_profile_func_exit(0x402068, 0x4016f9) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=D::~D()
+__cyg_profile_func_exit(0x40130c, 0x4013d2) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) in self = 140291000628992
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 1  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 2  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x40130c, 0x4013d2) 4  self = 140290983843584
+__cyg_profile_func_exit(0x40130c, 0x4013d2) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f2(int)
+__cyg_profile_func_exit(0x40138f, 0x401ed9) in self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 1  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 2  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x40138f, 0x401ed9) 4  self = 140290983843584
+__cyg_profile_func_exit(0x40138f, 0x401ed9) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=f1(int)
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) mrc = 0 in self = 140291000628992
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) 1  self = 140291000628992
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) 2  self = 140291000628992
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) 3  self = 140291000628992
+__cyg_profile_func_exit(0x401e96, 0x402133) in self = 140290983843584
+thread=140291000628992  deactivate "Main(b41f700)" #41f700
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) 4  self = 140291000628992
+__cyg_profile_func_exit(0x40149c, 0x7f980c4b06ba) out mutex_mrc = 0 in pthread_self = 140291000628992   buf_func=thread1(void*)
+__cyg_profile_func_exit(0x401e96, 0x402133) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) 3  self = 140290983843584
+thread=140290983843584  deactivate "B(b00)" #41d700
+__cyg_profile_func_exit(0x401e96, 0x402133) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401e96, 0x402133) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::m2(int)
+__cyg_profile_func_exit(0x4020d8, 0x40197b) in self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 1  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 2  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 3  self = 140290983843584
+thread=140290983843584  deactivate "D(b00)" #41d700
+__cyg_profile_func_exit(0x4020d8, 0x40197b) 4  self = 140290983843584
+__cyg_profile_func_exit(0x4020d8, 0x40197b) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::m1(int, int)
+Exiting thread #3!
+__cyg_profile_func_enter(0x402068, 0x4019be)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x402068, 0x4019be)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x402068, 0x4019be)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+thread=140290983843584  "Main(a41d700)" -> "D(b00)": "~D()"
+thread=140290983843584  activate "D(b00)" #41d700
+__cyg_profile_func_enter(0x402068, 0x4019be)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+__cyg_profile_func_enter(0x401fba, 0x402092)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401fba, 0x402092)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401fba, 0x402092)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+thread=140290983843584  "D(b00)" -> "D(b00)": "~D()"
+thread=140290983843584  activate "D(b00)" #41d700
+__cyg_profile_func_enter(0x401fba, 0x402092)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+D::~D() _id=3
+__cyg_profile_func_enter(0x401d10, 0x402008)1 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401d10, 0x402008)2 mutex_mrc = 0 in pthread_self = 140290983843584
+__cyg_profile_func_enter(0x401d10, 0x402008)3 mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::~B()
+thread=140290983843584  "D(b00)" -> "B(b00)": "~B()"
+thread=140290983843584  activate "B(b00)" #41d700
+__cyg_profile_func_enter(0x401d10, 0x402008)4 out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::~B()
+B::~B() _id=3
+__cyg_profile_func_exit(0x401d10, 0x402008) in self = 140290983843584
+__cyg_profile_func_exit(0x401d10, 0x402008) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401d10, 0x402008) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401d10, 0x402008) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401d10, 0x402008) 3  self = 140290983843584
+thread=140290983843584  deactivate "B(b00)" #41d700
+__cyg_profile_func_exit(0x401d10, 0x402008) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401d10, 0x402008) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=B::~B()
+__cyg_profile_func_exit(0x401fba, 0x402092) in self = 140290983843584
+__cyg_profile_func_exit(0x401fba, 0x402092) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401fba, 0x402092) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401fba, 0x402092) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401fba, 0x402092) 3  self = 140290983843584
+thread=140290983843584  deactivate "D(b00)" #41d700
+__cyg_profile_func_exit(0x401fba, 0x402092) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401fba, 0x402092) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+__cyg_profile_func_exit(0x402068, 0x4019be) in self = 140290983843584
+__cyg_profile_func_exit(0x402068, 0x4019be) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x402068, 0x4019be) 1  self = 140290983843584
+__cyg_profile_func_exit(0x402068, 0x4019be) 2  self = 140290983843584
+__cyg_profile_func_exit(0x402068, 0x4019be) 3  self = 140290983843584
+thread=140290983843584  deactivate "D(b00)" #41d700
+__cyg_profile_func_exit(0x402068, 0x4019be) 4  self = 140290983843584
+__cyg_profile_func_exit(0x402068, 0x4019be) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=D::~D()
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) in self = 140290983843584
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) mrc = 0 in self = 140290983843584
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) 1  self = 140290983843584
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) 2  self = 140290983843584
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) 3  self = 140290983843584
+thread=140290983843584  deactivate "Main(a41d700)" #41d700
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) 4  self = 140290983843584
+__cyg_profile_func_exit(0x401843, 0x7f980c4b06ba) out mutex_mrc = 0 in pthread_self = 140290983843584   buf_func=thread3(void*)
+./cpptraced: done.
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) in self = 140291026220864
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) mrc = 0 in self = 140291026220864
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) 1  self = 140291026220864
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) 2  self = 140291026220864
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) 3  self = 140291026220864
+thread=140291026220864  deactivate "Main(cc87740)" #c87740
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) 4  self = 140291026220864
+__cyg_profile_func_exit(0x401ad4, 0x7f980bb67830) out mutex_mrc = 0 in pthread_self = 140291026220864   buf_func=main

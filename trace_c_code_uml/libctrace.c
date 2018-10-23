@@ -229,7 +229,7 @@ __cyg_profile_func_enter( void *func, void *callsite )
     }
     else
     {
-        thisPointer = 0;
+        thisPointer = self;
     }
 
     
