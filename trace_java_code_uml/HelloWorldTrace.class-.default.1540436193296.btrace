@@ -1,0 +1,1108 @@
+### BTrace Log: 24/10/18 10:56 PM
+
+>>>>>> Enter()   stewart.HelloWorld::public static void stewart.HelloWorld#main(java.lang.String[])()  TheadID=Thread[main,5,main]  this = null
+ObjectAndThis =null
+ObjectAndThisLen =4
+ObjectAndThis =null
+pos (@) =-1
+thisPointer =null
+pmn=public static void stewart.HelloWorld#main(java.lang.String[])
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+pos1 (.) =7
+pos pnc.length() =18
+className=HelloWorld
+pos from pmn (#) =27
+pos from pmn (#) =37
+pos1 from pmn (")") =61
+1 functionSignature =main(java.lang.String[])
+entry() create new stack for classNameThisPointer=HelloWorld(null)  with name threadId=main
+entry() pushing classNameThisPointer=HelloWorld(null)  Into stack threadIdmain
+>>>>>> UML(main)  "Main(0)" -> "HelloWorld(null)":    "main(java.lang.String[])"
+>>>>>> UML(main)   activate "HelloWorld(null)"  #mainb617FF
+onMethod()   stewart.HelloWorld::public static void stewart.HelloWorld#main(java.lang.String[])()  TheadID=Thread[main,5,main]  this = null
+onMethod()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+pos (@) =19
+thisPointer =5ccd43c2
+pmn=public void stewart.Bclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+2 functionSignature =Bclass#<init>
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=HelloWorld2(5ccd43c2)  Into stack threadIdmain
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "Bclass#<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+exit() Found stack for threadId=main   size=2
+exit() Found stack for pop=HelloWorld2(5ccd43c2)
+exit() size=1
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+onMethod()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+pos (@) =19
+thisPointer =5ccd43c2
+pmn=public void stewart.Aclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+2 functionSignature =Aclass#<init>
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=HelloWorld2(5ccd43c2)  Into stack threadIdmain
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "Aclass#<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+exit() Found stack for threadId=main   size=2
+exit() Found stack for pop=HelloWorld2(5ccd43c2)
+exit() size=1
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@5ccd43c2
+pos (@) =19
+thisPointer =5ccd43c2
+pmn=public void stewart.HelloWorld2#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =37
+1 functionSignature =<init>
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=HelloWorld2(5ccd43c2)  Into stack threadIdmain
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+exit() Found stack for threadId=main   size=2
+exit() Found stack for pop=HelloWorld2(5ccd43c2)
+exit() size=1
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[main,5,main]  this = stewart.HelloWorld2@5ccd43c2
+onMethod()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-3,5,main]
+>>>>>> Enter()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-3,5,main]
+ObjectAndThis =stewart.MultithreadingDemo@707f7052
+ObjectAndThisLen =35
+ObjectAndThis =stewart.MultithreadingDemo@707f7052
+pos (@) =26
+thisPointer =707f7052
+pmn= void stewart.MultithreadingDemo#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=MultithreadingDemo
+pos from pmn (#) =14
+pos from pmn (#) =32
+pos1 from pmn (")") =38
+1 functionSignature =<init>
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=MultithreadingDemo(707f7052)  Into stack threadIdmain
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(707f7052)":    "<init>"
+>>>>>> UML(main)   activate "MultithreadingDemo(707f7052)"  #mainb617FF
+exit() Found stack for threadId=main   size=2
+exit() Found stack for pop=MultithreadingDemo(707f7052)
+exit() size=1
+>>>>>> UML(main)   deactivate "MultithreadingDemo(707f7052)"  #mainb617FF
+<<<<<< Exit()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-3,5,main]
+onMethod()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-4,5,main]
+>>>>>> Enter()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-4,5,main]
+ObjectAndThis =stewart.MultithreadingDemo@11028347
+ObjectAndThisLen =35
+ObjectAndThis =stewart.MultithreadingDemo@11028347
+pos (@) =26
+thisPointer =11028347
+pmn= void stewart.MultithreadingDemo#<init>
+>>>>>> Enter()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-3,5,main]  this = Thread[Thread-3,5,main]
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+ObjectAndThis =stewart.MultithreadingDemo@707f7052
+pmn=0         1         2         3         4         5         6         7
+ObjectAndThisLen =35
+ObjectAndThis =stewart.MultithreadingDemo@707f7052
+className=MultithreadingDemo
+pos (@) =26
+pos from pmn (#) =14
+thisPointer =707f7052
+pos from pmn (#) =32
+pmn=public void stewart.MultithreadingDemo#run
+pos1 from pmn (")") =38
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+1 functionSignature =<init>
+className=MultithreadingDemo
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=MultithreadingDemo(11028347)  Into stack threadIdmain
+pos from pmn (#) =20
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(11028347)":    "<init>"
+pos from pmn (#) =38
+>>>>>> UML(main)   activate "MultithreadingDemo(11028347)"  #mainb617FF
+pos1 from pmn (")") =41
+exit() Found stack for threadId=main   size=2
+1 functionSignature =run
+exit() Found stack for pop=MultithreadingDemo(11028347)
+exit() size=1
+entry() create new stack for classNameThisPointer=MultithreadingDemo(707f7052)  with name threadId=Thread-3
+>>>>>> UML(main)   deactivate "MultithreadingDemo(11028347)"  #mainb617FF
+entry() pushing classNameThisPointer=MultithreadingDemo(707f7052)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "Main(0)" -> "MultithreadingDemo(707f7052)":    "run"
+<<<<<< Exit()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-4,5,main]
+>>>>>> UML(Thread-3)   activate "MultithreadingDemo(707f7052)"  #Thread-3b617FF
+onMethod()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-3,5,main]  this = Thread[Thread-3,5,main]
+onMethod()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+onMethod()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-5,5,main]
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+>>>>>> Enter()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-5,5,main]
+thisPointer =512b2806
+pmn=public void stewart.Bclass#<init>
+ObjectAndThis =stewart.MultithreadingDemo@14899482
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+ObjectAndThisLen =35
+ObjectAndThis =stewart.MultithreadingDemo@14899482
+className=HelloWorld2
+pos (@) =26
+pos from pmn (#) =-1
+thisPointer =14899482
+pmn= void stewart.MultithreadingDemo#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pos from pmn (.) =19
+pmn=0         1         2         3         4         5         6         7
+pos1 from pmn (")") =32
+className=MultithreadingDemo
+2 functionSignature =Bclass#<init>
+pos from pmn (#) =14
+entry() found stack for threadId=Thread-3
+pos from pmn (#) =32
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "Bclass#<init>"
+pos1 from pmn (")") =38
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+1 functionSignature =<init>
+entry() found stack for threadId=main
+entry() pushing classNameThisPointer=MultithreadingDemo(14899482)  Into stack threadIdmain
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(14899482)":    "<init>"
+>>>>>> UML(main)   activate "MultithreadingDemo(14899482)"  #mainb617FF
+exit() Found stack for threadId=main   size=2
+exit() Found stack for pop=MultithreadingDemo(14899482)
+exit() Found stack for threadId=Thread-3   size=2
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=1
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() size=1
+>>>>>> UML(main)   deactivate "MultithreadingDemo(14899482)"  #mainb617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+<<<<<< Exit()   stewart.MultithreadingDemo:: void stewart.MultithreadingDemo#<init>()  TheadID=Thread[main,5,main]  this = Thread[Thread-5,5,main]
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+thisPointer =512b2806
+>>>>>> Enter()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-4,5,main]  this = Thread[Thread-4,5,main]
+ObjectAndThis =stewart.MultithreadingDemo@11028347
+pmn=public void stewart.Aclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+ObjectAndThisLen =35
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+ObjectAndThis =stewart.MultithreadingDemo@11028347
+pos from pmn (#) =-1
+pos (@) =26
+thisPointer =11028347
+pos from pmn (.) =19
+pmn=public void stewart.MultithreadingDemo#run
+pos1 from pmn (")") =32
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+2 functionSignature =Aclass#<init>
+pmn=0         1         2         3         4         5         6         7
+entry() found stack for threadId=Thread-3
+className=MultithreadingDemo
+pos from pmn (#) =20
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "Aclass#<init>"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+pos from pmn (#) =38
+pos1 from pmn (")") =41
+1 functionSignature =run
+entry() create new stack for classNameThisPointer=MultithreadingDemo(11028347)  with name threadId=Thread-4
+entry() pushing classNameThisPointer=MultithreadingDemo(11028347)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "Main(0)" -> "MultithreadingDemo(11028347)":    "run"
+>>>>>> UML(Thread-4)   activate "MultithreadingDemo(11028347)"  #Thread-4b617FF
+onMethod()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-4,5,main]  this = Thread[Thread-4,5,main]
+onMethod()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Bclass#<init>
+exit() Found stack for threadId=Thread-3   size=2
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+exit() Found stack for pop=HelloWorld2(512b2806)
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+exit() size=1
+pos from pmn (#) =-1
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+2 functionSignature =Bclass#<init>
+entry() found stack for threadId=Thread-4
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "Bclass#<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+thisPointer =512b2806
+pmn=public void stewart.HelloWorld2#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+className=HelloWorld2
+onMethod()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Aclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+pos from pmn (#) =20
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (#) =31
+pos1 from pmn (")") =37
+1 functionSignature =<init>
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+entry() found stack for threadId=Thread-3
+2 functionSignature =Aclass#<init>
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+entry() found stack for threadId=Thread-4
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "<init>"
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "Aclass#<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+exit() Found stack for threadId=Thread-3   size=2
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.HelloWorld2#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =37
+1 functionSignature =<init>
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =512b2806
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pmn=public void stewart.HelloWorld2#printOne(int)
+ObjectAndThisLen =28
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos (@) =19
+thisPointer =3801713a
+pos from pmn (#) =20
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+pos from pmn (#) =31
+className=HelloWorld2
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+pos from pmn (#) =20
+entry() found stack for threadId=Thread-3
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+1 functionSignature =printOne(int)
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-5,5,main]  this = Thread[Thread-5,5,main]
+ObjectAndThis =stewart.MultithreadingDemo@14899482
+ObjectAndThisLen =35
+ObjectAndThis =stewart.MultithreadingDemo@14899482
+pos (@) =26
+thisPointer =14899482
+pmn=public void stewart.MultithreadingDemo#run
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+ObjectAndThis =stewart.HelloWorld2@512b2806
+thisPointer =3801713a
+pmn=public void stewart.Aclass#printOne(int)
+ObjectAndThisLen =28
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pmn=0         1         2         3         4         5         6         7
+pos (@) =19
+className=HelloWorld2
+thisPointer =512b2806
+pmn=public void stewart.Aclass#printOne(int)
+pos from pmn (#) =-1
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+pos from pmn (.) =19
+className=HelloWorld2
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+pos from pmn (#) =-1
+entry() found stack for threadId=Thread-4
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-3
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+pmn=0         1         2         3         4         5         6         7
+className=MultithreadingDemo
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+pos from pmn (#) =20
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos from pmn (#) =38
+pos1 from pmn (")") =41
+pos (@) =19
+1 functionSignature =run
+thisPointer =3801713a
+entry() create new stack for classNameThisPointer=MultithreadingDemo(14899482)  with name threadId=Thread-5
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+entry() pushing classNameThisPointer=MultithreadingDemo(14899482)  Into stack threadIdThread-5
+className=HelloWorld2
+>>>>>> UML(Thread-5)  "Main(0)" -> "MultithreadingDemo(14899482)":    "run"
+>>>>>> UML(Thread-5)   activate "MultithreadingDemo(14899482)"  #Thread-5b617FF
+pos from pmn (#) =-1
+pos from pmn (.) =19
+onMethod()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-5,5,main]  this = Thread[Thread-5,5,main]
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+onMethod()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Bclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+exit() Found stack for threadId=Thread-4   size=4
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=3
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=3
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=2
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+thisPointer =512b2806
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+2 functionSignature =Bclass#<init>
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "Bclass#<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+exit() Found stack for threadId=Thread-5   size=2
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+onMethod()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Aclass#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =32
+2 functionSignature =Aclass#<init>
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "Aclass#<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+exit() Found stack for threadId=Thread-5   size=2
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.HelloWorld2#<init>
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =37
+1 functionSignature =<init>
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+exit() Found stack for threadId=Thread-5   size=2
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#<init>()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-5   size=4
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=3
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-5   size=3
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=2
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-5   size=2
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-3   size=4
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=3
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=3
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=2
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=2
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=1
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=4
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=3
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=3
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=2
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+thisPointer =512b2806
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-5   size=4
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=3
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+exit() Found stack for threadId=Thread-5   size=3
+ObjectAndThis =stewart.HelloWorld2@512b2806
+exit() Found stack for pop=HelloWorld2(4907a26e)
+pos (@) =19
+exit() size=2
+thisPointer =512b2806
+pmn=public void stewart.Aclass#printOne(int)
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+pos from pmn (#) =-1
+pos from pmn (.) =19
+exit() Found stack for threadId=Thread-5   size=2
+pos1 from pmn (")") =39
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+2 functionSignature =Aclass#printOne(int)
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+thisPointer =512b2806
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=4
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=3
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=3
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=2
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=2
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=1
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+ObjectAndThis =stewart.HelloWorld2@3801713a
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@3801713a
+pos (@) =19
+thisPointer =3801713a
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-4
+entry() pushing classNameThisPointer=HelloWorld2(3801713a)  Into stack threadIdThread-4
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=4
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=3
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=3
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=2
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+exit() Found stack for threadId=Thread-4   size=2
+exit() Found stack for pop=HelloWorld2(3801713a)
+exit() size=1
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-4,5,main]  this = stewart.HelloWorld2@3801713a
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =20
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+1 functionSignature =printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+pos (@) =19
+thisPointer =4907a26e
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThisLen =28
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@4907a26e
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+pos (@) =19
+thisPointer =4907a26e
+thisPointer =512b2806
+pmn=public void stewart.HelloWorld2#printOne(int)
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+className=HelloWorld2
+pmn=0         1         2         3         4         5         6         7
+pos from pmn (#) =20
+className=HelloWorld2
+pos from pmn (#) =31
+pos1 from pmn (")") =44
+pos from pmn (#) =-1
+1 functionSignature =printOne(int)
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+entry() found stack for threadId=Thread-3
+2 functionSignature =Bclass#printOne(int)
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+entry() found stack for threadId=Thread-5
+entry() pushing classNameThisPointer=HelloWorld2(4907a26e)  Into stack threadIdThread-5
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+onMethod()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-5   size=4
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=3
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+exit() Found stack for threadId=Thread-5   size=3
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=2
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+>>>>>> Enter()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-5   size=2
+exit() Found stack for pop=HelloWorld2(4907a26e)
+exit() size=1
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+pos (@) =19
+thisPointer =512b2806
+pmn=public void stewart.Aclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-5,5,main]  this = stewart.HelloWorld2@4907a26e
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Aclass#printOne(int)
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+>>>>>> Enter()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+ObjectAndThis =stewart.HelloWorld2@512b2806
+ObjectAndThisLen =28
+ObjectAndThis =stewart.HelloWorld2@512b2806
+pos (@) =19
+thisPointer =512b2806
+pmn=public void stewart.Bclass#printOne(int)
+pmn=01234567890123456789012345678901234567890123456789012345678901234567890
+pmn=0         1         2         3         4         5         6         7
+className=HelloWorld2
+pos from pmn (#) =-1
+pos from pmn (.) =19
+pos1 from pmn (")") =39
+2 functionSignature =Bclass#printOne(int)
+entry() found stack for threadId=Thread-3
+entry() pushing classNameThisPointer=HelloWorld2(512b2806)  Into stack threadIdThread-3
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+onMethod()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=4
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=3
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Bclass::public void stewart.Bclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=3
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=2
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.Aclass::public void stewart.Aclass#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-3   size=2
+exit() Found stack for pop=HelloWorld2(512b2806)
+exit() size=1
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.HelloWorld2::public void stewart.HelloWorld2#printOne(int)()  TheadID=Thread[Thread-3,5,main]  this = stewart.HelloWorld2@512b2806
+exit() Found stack for threadId=Thread-4   size=1
+exit() Found stack for pop=MultithreadingDemo(11028347)
+exit() size=0
+>>>>>> UML(Thread-4)   deactivate "MultithreadingDemo(11028347)"  #Thread-4b617FF
+<<<<<< Exit()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-4,5,main]  this = Thread[Thread-4,5,main]
+exit() Found stack for threadId=Thread-5   size=1
+exit() Found stack for pop=MultithreadingDemo(14899482)
+exit() size=0
+>>>>>> UML(Thread-5)   deactivate "MultithreadingDemo(14899482)"  #Thread-5b617FF
+<<<<<< Exit()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-5,5,main]  this = Thread[Thread-5,5,main]
+exit() Found stack for threadId=Thread-3   size=1
+exit() Found stack for pop=MultithreadingDemo(707f7052)
+exit() size=0
+>>>>>> UML(Thread-3)   deactivate "MultithreadingDemo(707f7052)"  #Thread-3b617FF
+<<<<<< Exit()   stewart.MultithreadingDemo::public void stewart.MultithreadingDemo#run()  TheadID=Thread[Thread-3,5,main]  this = Thread[Thread-3,5,main]
+exit() Found stack for threadId=main   size=1
+exit() Found stack for pop=HelloWorld(null)
+exit() size=0
+>>>>>> UML(main)   deactivate "HelloWorld(null)"  #mainb617FF
+<<<<<< Exit()   stewart.HelloWorld::public static void stewart.HelloWorld#main(java.lang.String[])()  TheadID=Thread[main,5,main]  this = null

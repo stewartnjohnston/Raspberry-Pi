@@ -1,0 +1,151 @@
+/* CallingMethodsInSameClass.java
+ *
+ * illustrates how to call static methods a class
+ * from a method in the same class
+ */
+ 
+// package stewart;
+
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Stack;
+
+
+
+public class HelloWorld
+{
+   public static void main(String[] args)
+   {
+   
+   HelloWorld2 h2 = new HelloWorld2();
+   
+   
+//   HashMap<String, Stack<String>> stackPerThread = new HashMap<String, Stack<String>>();
+   Map<String, Stack<String>> stackPerThread = new Map<String, Stack<String>>();
+   
+   Stack<String> currentThreadStack;
+   
+   int j = 0;
+   
+   while ( j < 3 ) {
+   
+      String count = "count" + j;
+      
+      currentThreadStack = stackPerThread.get(count);
+   
+      if (currentThreadStack == null)
+      {
+         Stack<String> stack = new Stack<String>(); 
+         stack.push("first");
+         stack.push("sec");
+         stack.push("third");
+         stack.push("fourth");
+         
+         currentThreadStack = stack;
+      }
+      
+      stackPerThread.put(count,currentThreadStack);
+      j++;
+   }
+
+   currentThreadStack = stackPerThread.get("count1");
+   
+   System.out.println("Non-Empty before pop : "  + currentThreadStack);
+
+   currentThreadStack.pop();
+ 
+   System.out.println("Non-Empty after pop : "  + currentThreadStack);
+
+   System.out.println("Non-Empty stack: Pop Operation : "  + currentThreadStack.pop());
+   System.out.println("Non-Empty stack : After Pop Operation : "  + currentThreadStack);
+   System.out.println("Non-Empty stack : search(\"third\") Operation : "  + currentThreadStack.search("third"));
+   System.out.println("Non-Empty stack : search(\"sec\") Operation : "  + currentThreadStack.search("sec"));
+   System.out.println("Non-Empty stack : isEmpty()="  + currentThreadStack.isEmpty());
+   
+   try {
+      Thread.sleep(40000);
+   } catch (Exception e) {
+      System.out.println("main interrupted e=" + e);
+   }
+   
+
+   try {	
+	   for(int i=0;i<5;i++) {
+		MultithreadingDemo object = new MultithreadingDemo(); 
+                object.start();
+            }
+	} catch (Exception e) {
+          System.out.println("main interrupted e=" + e);
+        }
+    
+
+   }
+
+	public static void printOne(int i) {
+		System.out.println("Hello World i = " + i);
+	}
+
+	public static void printTwo() {
+		printOne(1);
+		printOne(2);
+	}
+}
+
+class MultithreadingDemo extends Thread 
+{ 
+    public void run() 
+    { 
+        try
+        { 
+           HelloWorld2 h2 = new HelloWorld2();
+
+           // Displaying the thread that is running 
+           System.out.println ("MultithreadingDemo::run() Thread=" + 
+                  Thread.currentThread().getId()); 
+ 
+           for(int i=0;i<100;i++) {
+	      h2.printOne(i+3);
+	      //Pause for 4 seconds
+              Thread.sleep(4000);
+           }
+	 } catch (Exception e) {
+            System.out.println("main interrupted e=" + e);
+         }
+    } 
+} 
+
+class HelloWorld2 extends Aclass
+{
+        @Override
+	public void printOne(int i) {
+	        field = i;
+		Thread t = Thread.currentThread();
+		System.out.println("HelloWorld2::printOne()  ThreadID=" + t.getId() + "threadName=" + t.getName() +"  this = " + this + "   i = " + i);
+                super.printOne(i);
+	}
+}
+
+class Aclass extends Bclass
+{
+        @Override
+	public void printOne(int i) {
+	        field = i;
+		Thread t = Thread.currentThread();
+		System.out.println("Aclass::printOne()  ThreadID=" + t.getId() + "threadName=" + t.getName() +"  this = " + this + "   i = " + i);
+                super.printOne(i);
+
+	}
+}
+
+class Bclass
+{
+   protected int field = 0;
+        
+	public void printOne(int i) {
+	        field = i;
+		Thread t = Thread.currentThread();
+		System.out.println("Bclass::printOne()  ThreadID=" + t.getId() + "threadName=" + t.getName() +"  this = " + this + "   i = " + i);
+
+	}
+}
+

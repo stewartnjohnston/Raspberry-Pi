@@ -1,0 +1,64 @@
+2018/10/01
+
+For some documentation on Btrace see:
+
+https://www2.cs.duke.edu/courses/fall15/compsci290.1/TA_Material/jungkang/BTraceTutorial.md
+https://github.com/btraceio/btrace
+
+git clone https://github.com/btraceio/btrace.git
+
+Btrace was installed and built to:
+/home/stewart/btrace/btrace
+
+Setup environment:
+BTRACE_HOME=/home/stewart/btrace/btrace
+PATH=$(BTRACE_HOME):$PATH
+
+To build the java trace code run:
+
+javac -classpath /home/stewart/btrace/btrace/build/classes/java/main HelloWorldTrace.java
+
+
+To build the java application that will be traced run:
+javac -sourcepath . -d .  HelloWorld.java
+where Sourcepath = ‘.’ and -d (destination path) = ‘.’
+
+Then use btrace to create a trace of running application "HelloWorld.java"
+
+First run the java HelloWorld app in one terminal:
+java -classpath . stewart.HelloWorld
+
+Then in another terminal find the process id of the running java app: stewart.HelloWorld  by using "jps"
+
+The run btrace:
+
+`btrace <PID> <HelloWorldTrace.java>`
+example:
+
+btrace -v -cp . 9100  HelloWorldTrace.java
+
+- where 9100 the process id of the running application stewart.HelloWorld
+
+btrace is dump the trace to std_out via the println() functions in HelloWorldTrace.java
+
+One could run the below script to find the PID and run btrace:
+------------------- rbtrace script ------------------------------
+PID=$(jps | awk '/HelloWorld/ { print $1 }')
+btrace -v -cp .  $PID  HelloWorldTrace.java
+------------------- rbtrace script ------------------------------
+
+Or on launch everything in one command line.
+The advantage of this is that you get to trace the entire execuation of the application.
+
+java -verbose:class -javaagent:/home/stewart/btrace/btrace/build/btrace-agent.jar=script=HelloWorldTrace.class stewart.HelloWorld
+
+The trace output is written to file "HelloWorldTrace.class-.default.1540436193296.btrace"
+
+Cleaning up the trace code to create a UML sequence trace file.
+
+grep ">>>>>> UML" HelloWorldTrace.class-.default.1540436193296.btrace > trace_output2.txt
+
+then remove all of the non UML stuff from trace_output.txt and save it as trace_output_UML2.txt
+
+Then run "java -jar plantuml.jar -gui"  to create the UML *.png files.
+

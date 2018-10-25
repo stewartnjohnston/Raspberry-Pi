@@ -1,0 +1,492 @@
+@startuml
+participant "Main(0)"
+
+"Main(0)" -> "Main(2b3e2740)": "main"
+activate "Main(2b3e2740)" #3e2740
+"Main(2b3e2740)" -> "Main(2b3e2740)": "set_signal(int, void (*)(int))"
+activate "Main(2b3e2740)" #3e2740
+deactivate "Main(2b3e2740)" #3e2740
+"Main(2b3e2740)" -> "Main(2b3e2740)": "set_signal(int, void (*)(int))"
+activate "Main(2b3e2740)" #3e2740
+deactivate "Main(2b3e2740)" #3e2740
+"Main(0)" -> "Main(290000FF)": "thread2(void*)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "D(240008f0)": "D(int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "B(int)"
+activate "B(240008f0)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(0)" -> "Main(2800FF00)": "thread3(void*)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "D(1c0008f0)": "D(int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "B(int)"
+activate "B(1c0008f0)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+"Main(0)" -> "Main(29FF0000)": "thread1(void*)"
+activate "Main(29FF0000)" #FF0000
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "D(200008f0)": "D(int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "B(int)"
+activate "B(200008f0)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(2800FF00)" -> "Main(2800FF00)": "wrap_strerror_r(int, char*, int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(2b3e2740)" -> "Main(2b3e2740)": "sigexit(int)"
+activate "Main(2b3e2740)" #3e2740
+deactivate "Main(2b3e2740)" #3e2740
+"Main(290000FF)" -> "D(240008f0)": "m1(int, int)"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "m2(int)"
+activate "B(240008f0)" #0000FF
+"B(240008f0)" -> "Main(290000FF)": "f1(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f2(int)"
+activate "Main(290000FF)" #0000FF
+"Main(290000FF)" -> "Main(290000FF)": "f3(int)"
+activate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(290000FF)" -> "D(240008f0)": "~D()"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "D(240008f0)": "~D()"
+activate "D(240008f0)" #0000FF
+"D(240008f0)" -> "B(240008f0)": "~B()"
+activate "B(240008f0)" #0000FF
+deactivate "B(240008f0)" #0000FF
+deactivate "D(240008f0)" #0000FF
+"Main(2800FF00)" -> "D(1c0008f0)": "m1(int, int)"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "m2(int)"
+activate "B(1c0008f0)" #00FF00
+"B(1c0008f0)" -> "Main(2800FF00)": "f1(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f2(int)"
+activate "Main(2800FF00)" #00FF00
+"Main(2800FF00)" -> "Main(2800FF00)": "f3(int)"
+activate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+deactivate "D(240008f0)" #0000FF
+deactivate "Main(2800FF00)" #00FF00
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+"Main(2800FF00)" -> "D(1c0008f0)": "~D()"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "D(1c0008f0)": "~D()"
+activate "D(1c0008f0)" #00FF00
+"D(1c0008f0)" -> "B(1c0008f0)": "~B()"
+activate "B(1c0008f0)" #00FF00
+deactivate "Main(290000FF)" #0000FF
+deactivate "B(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+deactivate "D(1c0008f0)" #00FF00
+deactivate "Main(2800FF00)" #00FF00
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "m1(int, int)"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "m2(int)"
+activate "B(200008f0)" #FF0000
+"B(200008f0)" -> "Main(29FF0000)": "f1(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f2(int)"
+activate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "f3(int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "Main(29FF0000)": "wrap_strerror_r(int, char*, int)"
+activate "Main(29FF0000)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+"Main(29FF0000)" -> "D(200008f0)": "~D()"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "D(200008f0)": "~D()"
+activate "D(200008f0)" #FF0000
+"D(200008f0)" -> "B(200008f0)": "~B()"
+activate "B(200008f0)" #FF0000
+deactivate "B(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+deactivate "D(200008f0)" #FF0000
+deactivate "Main(29FF0000)" #FF0000
+deactivate "Main(2b3e2740)" #3e2740
+
+@enduml
+

@@ -1,0 +1,22 @@
+
+java -javaagent:btrace-agent.jar=script=<pre-compiled-btrace-script1>[,<pre-compiled-btrace-script1>]* <MainClass> <AppArguments> 
+
+java -javaagent:=HelloWorldTrace.class stewart.HelloWorld 
+
+java -verbose:class -javaagent:/home/stewart/btrace/btrace/build/btrace-agent.jar=script=HelloWorldTrace.class stewart.HelloWorld
+
+
+
+btrace -v -cp . 14041  HelloWorldTrace.java
+
+
+java -classpath . stewart.HelloWorld
+
+or run scrip "rbtrace"
+
+
+------------------- rbtrace script ------------------------------
+PID=$(jps | awk '/HelloWorld/ { print $1 }')
+btrace -v -cp .  $PID  HelloWorldTrace.java
+------------------- rbtrace script ------------------------------
+

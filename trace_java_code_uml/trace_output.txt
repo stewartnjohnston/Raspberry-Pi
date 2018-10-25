@@ -1,0 +1,138 @@
+>>>>>> UML(main)  "Main(0)" -> "HelloWorld(null)":    "main(java.lang.String[])"
+>>>>>> UML(main)   activate "HelloWorld(null)"  #mainb617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "Bclass#<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "Aclass#<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "HelloWorld2(5ccd43c2)":    "<init>"
+>>>>>> UML(main)   activate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)   deactivate "HelloWorld2(5ccd43c2)"  #mainb617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(707f7052)":    "<init>"
+>>>>>> UML(main)   activate "MultithreadingDemo(707f7052)"  #mainb617FF
+>>>>>> UML(main)   deactivate "MultithreadingDemo(707f7052)"  #mainb617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(11028347)":    "<init>"
+>>>>>> UML(main)   activate "MultithreadingDemo(11028347)"  #mainb617FF
+>>>>>> UML(main)   deactivate "MultithreadingDemo(11028347)"  #mainb617FF
+>>>>>> UML(Thread-3)  "Main(0)" -> "MultithreadingDemo(707f7052)":    "run"
+>>>>>> UML(Thread-3)   activate "MultithreadingDemo(707f7052)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "Bclass#<init>"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(main)  "HelloWorld(null)" -> "MultithreadingDemo(14899482)":    "<init>"
+>>>>>> UML(main)   activate "MultithreadingDemo(14899482)"  #mainb617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(main)   deactivate "MultithreadingDemo(14899482)"  #mainb617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "Aclass#<init>"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "Main(0)" -> "MultithreadingDemo(11028347)":    "run"
+>>>>>> UML(Thread-4)   activate "MultithreadingDemo(11028347)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "Bclass#<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "<init>"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "Aclass#<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "<init>"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-5)  "Main(0)" -> "MultithreadingDemo(14899482)":    "run"
+>>>>>> UML(Thread-5)   activate "MultithreadingDemo(14899482)"  #Thread-5b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "Bclass#<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "Aclass#<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "<init>"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)  "MultithreadingDemo(11028347)" -> "HelloWorld2(3801713a)":    "printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)  "HelloWorld2(3801713a)" -> "HelloWorld2(3801713a)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-4)   activate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-4)   deactivate "HelloWorld2(3801713a)"  #Thread-4b617FF
+>>>>>> UML(Thread-5)  "MultithreadingDemo(14899482)" -> "HelloWorld2(4907a26e)":    "printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)  "MultithreadingDemo(707f7052)" -> "HelloWorld2(512b2806)":    "printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-5)  "HelloWorld2(4907a26e)" -> "HelloWorld2(4907a26e)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-5)   activate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-5)   deactivate "HelloWorld2(4907a26e)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Aclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)  "HelloWorld2(512b2806)" -> "HelloWorld2(512b2806)":    "Bclass#printOne(int)"
+>>>>>> UML(Thread-3)   activate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-3)   deactivate "HelloWorld2(512b2806)"  #Thread-3b617FF
+>>>>>> UML(Thread-4)   deactivate "MultithreadingDemo(11028347)"  #Thread-4b617FF
+>>>>>> UML(Thread-5)   deactivate "MultithreadingDemo(14899482)"  #Thread-5b617FF
+>>>>>> UML(Thread-3)   deactivate "MultithreadingDemo(707f7052)"  #Thread-3b617FF
+>>>>>> UML(main)   deactivate "HelloWorld(null)"  #mainb617FF

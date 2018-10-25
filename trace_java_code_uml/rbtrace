@@ -1,0 +1,2 @@
+PID=$(jps | awk '/HelloWorld/ { print $1 }')
+btrace -v -cp .  $PID  HelloWorldTrace.java
