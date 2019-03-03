@@ -1,0 +1,17 @@
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc-main.c:44
+break toplev::main
+break toplev::main
+break get_ttype_entry
+break build_common_builtin_nodes
+break driver::main
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:7309
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:8064
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:8066
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:8102
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:4943
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:4970
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:6631
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:4943
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:4956
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:4953
+break /home/stewart/Documents/ReverseEngineering/gcc_code/gcc/gcc/gcc.c:6065

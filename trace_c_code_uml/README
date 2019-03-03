@@ -60,7 +60,8 @@ participant "Main(0)"
 @enduml
 
 To create the UML *.png file run plantuml.jar in the directory where file trace_cppSimpleTraced_UML.txt is located.
-Plantuml will create trace_cppSimpleTraced_UML.png from trace_cppSimpleTraced_UML.txt
+Plantuml will create trace_cppSimple
+Traced_UML.png from trace_cppSimpleTraced_UML.txt
 java -jar plantuml.jar -gui
 -------------------------------------------------------------------------------------------------------------
 

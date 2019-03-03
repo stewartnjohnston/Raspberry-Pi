@@ -1,0 +1,938 @@
+
+cppSimpleTraced.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <_Z2f4i>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	89 7d ec             	mov    %edi,-0x14(%rbp)
+   c:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  10:	48 89 c6             	mov    %rax,%rsi
+  13:	bf 00 00 00 00       	mov    $0x0,%edi
+  18:	e8 00 00 00 00       	callq  1d <_Z2f4i+0x1d>
+    printf("%s %d\n", __FUNCTION__, id);
+  1d:	8b 45 ec             	mov    -0x14(%rbp),%eax
+  20:	89 c2                	mov    %eax,%edx
+  22:	be 00 00 00 00       	mov    $0x0,%esi
+  27:	bf 00 00 00 00       	mov    $0x0,%edi
+  2c:	b8 00 00 00 00       	mov    $0x0,%eax
+  31:	e8 00 00 00 00       	callq  36 <_Z2f4i+0x36>
+  36:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  3a:	48 89 c6             	mov    %rax,%rsi
+  3d:	bf 00 00 00 00       	mov    $0x0,%edi
+  42:	e8 00 00 00 00       	callq  47 <_Z2f4i+0x47>
+}
+  47:	eb 1f                	jmp    68 <_Z2f4i+0x68>
+  49:	48 89 c3             	mov    %rax,%rbx
+  4c:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  50:	48 89 c6             	mov    %rax,%rsi
+  53:	bf 00 00 00 00       	mov    $0x0,%edi
+  58:	e8 00 00 00 00       	callq  5d <_Z2f4i+0x5d>
+  5d:	48 89 d8             	mov    %rbx,%rax
+  60:	48 89 c7             	mov    %rax,%rdi
+  63:	e8 00 00 00 00       	callq  68 <_Z2f4i+0x68>
+  68:	48 83 c4 18          	add    $0x18,%rsp
+  6c:	5b                   	pop    %rbx
+  6d:	5d                   	pop    %rbp
+  6e:	c3                   	retq   
+
+000000000000006f <_ZL2f3i>:
+
+static inline int 
+f3(int id)
+{
+  6f:	55                   	push   %rbp
+  70:	48 89 e5             	mov    %rsp,%rbp
+  73:	53                   	push   %rbx
+  74:	48 83 ec 18          	sub    $0x18,%rsp
+  78:	89 7d ec             	mov    %edi,-0x14(%rbp)
+  7b:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  7f:	48 89 c6             	mov    %rax,%rsi
+  82:	bf 00 00 00 00       	mov    $0x0,%edi
+  87:	e8 00 00 00 00       	callq  8c <_ZL2f3i+0x1d>
+    printf("%s %d\n", __FUNCTION__, id);
+  8c:	8b 45 ec             	mov    -0x14(%rbp),%eax
+  8f:	89 c2                	mov    %eax,%edx
+  91:	be 00 00 00 00       	mov    $0x0,%esi
+  96:	bf 00 00 00 00       	mov    $0x0,%edi
+  9b:	b8 00 00 00 00       	mov    $0x0,%eax
+  a0:	e8 00 00 00 00       	callq  a5 <_ZL2f3i+0x36>
+    f4(id);
+  a5:	8b 45 ec             	mov    -0x14(%rbp),%eax
+  a8:	89 c7                	mov    %eax,%edi
+  aa:	e8 00 00 00 00       	callq  af <_ZL2f3i+0x40>
+    return 80;
+  af:	bb 50 00 00 00       	mov    $0x50,%ebx
+  b4:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  b8:	48 89 c6             	mov    %rax,%rsi
+  bb:	bf 00 00 00 00       	mov    $0x0,%edi
+  c0:	e8 00 00 00 00       	callq  c5 <_ZL2f3i+0x56>
+  c5:	89 d8                	mov    %ebx,%eax
+  c7:	eb 1f                	jmp    e8 <_ZL2f3i+0x79>
+  c9:	48 89 c3             	mov    %rax,%rbx
+  cc:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  d0:	48 89 c6             	mov    %rax,%rsi
+  d3:	bf 00 00 00 00       	mov    $0x0,%edi
+  d8:	e8 00 00 00 00       	callq  dd <_ZL2f3i+0x6e>
+  dd:	48 89 d8             	mov    %rbx,%rax
+  e0:	48 89 c7             	mov    %rax,%rdi
+  e3:	e8 00 00 00 00       	callq  e8 <_ZL2f3i+0x79>
+}
+  e8:	48 83 c4 18          	add    $0x18,%rsp
+  ec:	5b                   	pop    %rbx
+  ed:	5d                   	pop    %rbp
+  ee:	c3                   	retq   
+
+00000000000000ef <_Z2f2i>:
+
+int 
+f2(int id)
+{
+  ef:	55                   	push   %rbp
+  f0:	48 89 e5             	mov    %rsp,%rbp
+  f3:	53                   	push   %rbx
+  f4:	48 83 ec 18          	sub    $0x18,%rsp
+  f8:	89 7d ec             	mov    %edi,-0x14(%rbp)
+  fb:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  ff:	48 89 c6             	mov    %rax,%rsi
+ 102:	bf 00 00 00 00       	mov    $0x0,%edi
+ 107:	e8 00 00 00 00       	callq  10c <_Z2f2i+0x1d>
+    printf("%s %d\n", __FUNCTION__, id);
+ 10c:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 10f:	89 c2                	mov    %eax,%edx
+ 111:	be 00 00 00 00       	mov    $0x0,%esi
+ 116:	bf 00 00 00 00       	mov    $0x0,%edi
+ 11b:	b8 00 00 00 00       	mov    $0x0,%eax
+ 120:	e8 00 00 00 00       	callq  125 <_Z2f2i+0x36>
+    f3(70+id);
+ 125:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 128:	83 c0 46             	add    $0x46,%eax
+ 12b:	89 c7                	mov    %eax,%edi
+ 12d:	e8 3d ff ff ff       	callq  6f <_ZL2f3i>
+    return 70;
+ 132:	bb 46 00 00 00       	mov    $0x46,%ebx
+ 137:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 13b:	48 89 c6             	mov    %rax,%rsi
+ 13e:	bf 00 00 00 00       	mov    $0x0,%edi
+ 143:	e8 00 00 00 00       	callq  148 <_Z2f2i+0x59>
+ 148:	89 d8                	mov    %ebx,%eax
+ 14a:	eb 1f                	jmp    16b <_Z2f2i+0x7c>
+ 14c:	48 89 c3             	mov    %rax,%rbx
+ 14f:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 153:	48 89 c6             	mov    %rax,%rsi
+ 156:	bf 00 00 00 00       	mov    $0x0,%edi
+ 15b:	e8 00 00 00 00       	callq  160 <_Z2f2i+0x71>
+ 160:	48 89 d8             	mov    %rbx,%rax
+ 163:	48 89 c7             	mov    %rax,%rdi
+ 166:	e8 00 00 00 00       	callq  16b <_Z2f2i+0x7c>
+}
+ 16b:	48 83 c4 18          	add    $0x18,%rsp
+ 16f:	5b                   	pop    %rbx
+ 170:	5d                   	pop    %rbp
+ 171:	c3                   	retq   
+
+0000000000000172 <_ZL2f1i>:
+
+static int 
+f1(int id)
+{
+ 172:	55                   	push   %rbp
+ 173:	48 89 e5             	mov    %rsp,%rbp
+ 176:	53                   	push   %rbx
+ 177:	48 83 ec 18          	sub    $0x18,%rsp
+ 17b:	89 7d ec             	mov    %edi,-0x14(%rbp)
+ 17e:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 182:	48 89 c6             	mov    %rax,%rsi
+ 185:	bf 00 00 00 00       	mov    $0x0,%edi
+ 18a:	e8 00 00 00 00       	callq  18f <_ZL2f1i+0x1d>
+    printf("%s %d\n", __FUNCTION__, id);
+ 18f:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 192:	89 c2                	mov    %eax,%edx
+ 194:	be 00 00 00 00       	mov    $0x0,%esi
+ 199:	bf 00 00 00 00       	mov    $0x0,%edi
+ 19e:	b8 00 00 00 00       	mov    $0x0,%eax
+ 1a3:	e8 00 00 00 00       	callq  1a8 <_ZL2f1i+0x36>
+    f2(60+id); 
+ 1a8:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 1ab:	83 c0 3c             	add    $0x3c,%eax
+ 1ae:	89 c7                	mov    %eax,%edi
+ 1b0:	e8 00 00 00 00       	callq  1b5 <_ZL2f1i+0x43>
+    return 60;
+ 1b5:	bb 3c 00 00 00       	mov    $0x3c,%ebx
+ 1ba:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 1be:	48 89 c6             	mov    %rax,%rsi
+ 1c1:	bf 00 00 00 00       	mov    $0x0,%edi
+ 1c6:	e8 00 00 00 00       	callq  1cb <_ZL2f1i+0x59>
+ 1cb:	89 d8                	mov    %ebx,%eax
+ 1cd:	eb 1f                	jmp    1ee <_ZL2f1i+0x7c>
+ 1cf:	48 89 c3             	mov    %rax,%rbx
+ 1d2:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 1d6:	48 89 c6             	mov    %rax,%rsi
+ 1d9:	bf 00 00 00 00       	mov    $0x0,%edi
+ 1de:	e8 00 00 00 00       	callq  1e3 <_ZL2f1i+0x71>
+ 1e3:	48 89 d8             	mov    %rbx,%rax
+ 1e6:	48 89 c7             	mov    %rax,%rdi
+ 1e9:	e8 00 00 00 00       	callq  1ee <_ZL2f1i+0x7c>
+}
+ 1ee:	48 83 c4 18          	add    $0x18,%rsp
+ 1f2:	5b                   	pop    %rbx
+ 1f3:	5d                   	pop    %rbp
+ 1f4:	c3                   	retq   
+
+00000000000001f5 <_ZL2f5iiiiiiiiiiii>:
+
+static int 
+f5(int i1,int i2,int i3,int i4,int i5, int i6, int i7, int i8, int i9, int ia, int ib, int ic)
+{
+ 1f5:	55                   	push   %rbp
+ 1f6:	48 89 e5             	mov    %rsp,%rbp
+ 1f9:	53                   	push   %rbx
+ 1fa:	48 83 ec 38          	sub    $0x38,%rsp
+ 1fe:	89 7d dc             	mov    %edi,-0x24(%rbp)
+ 201:	89 75 d8             	mov    %esi,-0x28(%rbp)
+ 204:	89 55 d4             	mov    %edx,-0x2c(%rbp)
+ 207:	89 4d d0             	mov    %ecx,-0x30(%rbp)
+ 20a:	44 89 45 cc          	mov    %r8d,-0x34(%rbp)
+ 20e:	44 89 4d c8          	mov    %r9d,-0x38(%rbp)
+ 212:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 216:	48 89 c6             	mov    %rax,%rsi
+ 219:	bf 00 00 00 00       	mov    $0x0,%edi
+ 21e:	e8 00 00 00 00       	callq  223 <_ZL2f5iiiiiiiiiiii+0x2e>
+    int id = i1 +  i2 + i3 + i4 + i5 + i6 + i7 + i8 + i9 + ia + ib + ic;
+ 223:	8b 55 dc             	mov    -0x24(%rbp),%edx
+ 226:	8b 45 d8             	mov    -0x28(%rbp),%eax
+ 229:	01 c2                	add    %eax,%edx
+ 22b:	8b 45 d4             	mov    -0x2c(%rbp),%eax
+ 22e:	01 c2                	add    %eax,%edx
+ 230:	8b 45 d0             	mov    -0x30(%rbp),%eax
+ 233:	01 c2                	add    %eax,%edx
+ 235:	8b 45 cc             	mov    -0x34(%rbp),%eax
+ 238:	01 c2                	add    %eax,%edx
+ 23a:	8b 45 c8             	mov    -0x38(%rbp),%eax
+ 23d:	01 c2                	add    %eax,%edx
+ 23f:	8b 45 10             	mov    0x10(%rbp),%eax
+ 242:	01 c2                	add    %eax,%edx
+ 244:	8b 45 18             	mov    0x18(%rbp),%eax
+ 247:	01 c2                	add    %eax,%edx
+ 249:	8b 45 20             	mov    0x20(%rbp),%eax
+ 24c:	01 c2                	add    %eax,%edx
+ 24e:	8b 45 28             	mov    0x28(%rbp),%eax
+ 251:	01 c2                	add    %eax,%edx
+ 253:	8b 45 30             	mov    0x30(%rbp),%eax
+ 256:	01 c2                	add    %eax,%edx
+ 258:	8b 45 38             	mov    0x38(%rbp),%eax
+ 25b:	01 d0                	add    %edx,%eax
+ 25d:	89 45 ec             	mov    %eax,-0x14(%rbp)
+    printf("%s %d\n", __FUNCTION__, id);
+ 260:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 263:	89 c2                	mov    %eax,%edx
+ 265:	be 00 00 00 00       	mov    $0x0,%esi
+ 26a:	bf 00 00 00 00       	mov    $0x0,%edi
+ 26f:	b8 00 00 00 00       	mov    $0x0,%eax
+ 274:	e8 00 00 00 00       	callq  279 <_ZL2f5iiiiiiiiiiii+0x84>
+    f2(60+id); 
+ 279:	8b 45 ec             	mov    -0x14(%rbp),%eax
+ 27c:	83 c0 3c             	add    $0x3c,%eax
+ 27f:	89 c7                	mov    %eax,%edi
+ 281:	e8 00 00 00 00       	callq  286 <_ZL2f5iiiiiiiiiiii+0x91>
+    return 60;
+ 286:	bb 3c 00 00 00       	mov    $0x3c,%ebx
+ 28b:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 28f:	48 89 c6             	mov    %rax,%rsi
+ 292:	bf 00 00 00 00       	mov    $0x0,%edi
+ 297:	e8 00 00 00 00       	callq  29c <_ZL2f5iiiiiiiiiiii+0xa7>
+ 29c:	89 d8                	mov    %ebx,%eax
+ 29e:	eb 1f                	jmp    2bf <_ZL2f5iiiiiiiiiiii+0xca>
+ 2a0:	48 89 c3             	mov    %rax,%rbx
+ 2a3:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 2a7:	48 89 c6             	mov    %rax,%rsi
+ 2aa:	bf 00 00 00 00       	mov    $0x0,%edi
+ 2af:	e8 00 00 00 00       	callq  2b4 <_ZL2f5iiiiiiiiiiii+0xbf>
+ 2b4:	48 89 d8             	mov    %rbx,%rax
+ 2b7:	48 89 c7             	mov    %rax,%rdi
+ 2ba:	e8 00 00 00 00       	callq  2bf <_ZL2f5iiiiiiiiiiii+0xca>
+}
+ 2bf:	48 83 c4 38          	add    $0x38,%rsp
+ 2c3:	5b                   	pop    %rbx
+ 2c4:	5d                   	pop    %rbp
+ 2c5:	c3                   	retq   
+
+00000000000002c6 <_ZL15wrap_strerror_riPci>:
+
+
+
+static char *
+wrap_strerror_r(int err, char *buf, int len)
+{
+ 2c6:	55                   	push   %rbp
+ 2c7:	48 89 e5             	mov    %rsp,%rbp
+ 2ca:	53                   	push   %rbx
+ 2cb:	48 83 ec 28          	sub    $0x28,%rsp
+ 2cf:	89 7d dc             	mov    %edi,-0x24(%rbp)
+ 2d2:	48 89 75 d0          	mov    %rsi,-0x30(%rbp)
+ 2d6:	89 55 d8             	mov    %edx,-0x28(%rbp)
+ 2d9:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 2dd:	48 89 c6             	mov    %rax,%rsi
+ 2e0:	bf 00 00 00 00       	mov    $0x0,%edi
+ 2e5:	e8 00 00 00 00       	callq  2ea <_ZL15wrap_strerror_riPci+0x24>
+    char *src = NULL;
+ 2ea:	48 c7 45 e8 00 00 00 	movq   $0x0,-0x18(%rbp)
+ 2f1:	00 
+    
+    memset(buf, 0, len);
+ 2f2:	8b 45 d8             	mov    -0x28(%rbp),%eax
+ 2f5:	48 63 d0             	movslq %eax,%rdx
+ 2f8:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+ 2fc:	be 00 00 00 00       	mov    $0x0,%esi
+ 301:	48 89 c7             	mov    %rax,%rdi
+ 304:	e8 00 00 00 00       	callq  309 <_ZL15wrap_strerror_riPci+0x43>
+    src = strerror_r(err, buf, len); 
+ 309:	8b 45 d8             	mov    -0x28(%rbp),%eax
+ 30c:	48 63 d0             	movslq %eax,%rdx
+ 30f:	48 8b 4d d0          	mov    -0x30(%rbp),%rcx
+ 313:	8b 45 dc             	mov    -0x24(%rbp),%eax
+ 316:	48 89 ce             	mov    %rcx,%rsi
+ 319:	89 c7                	mov    %eax,%edi
+ 31b:	e8 00 00 00 00       	callq  320 <_ZL15wrap_strerror_riPci+0x5a>
+ 320:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+
+    return src ? src : buf; 
+ 324:	48 83 7d e8 00       	cmpq   $0x0,-0x18(%rbp)
+ 329:	74 06                	je     331 <_ZL15wrap_strerror_riPci+0x6b>
+ 32b:	48 8b 5d e8          	mov    -0x18(%rbp),%rbx
+ 32f:	eb 04                	jmp    335 <_ZL15wrap_strerror_riPci+0x6f>
+ 331:	48 8b 5d d0          	mov    -0x30(%rbp),%rbx
+ 335:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 339:	48 89 c6             	mov    %rax,%rsi
+ 33c:	bf 00 00 00 00       	mov    $0x0,%edi
+ 341:	e8 00 00 00 00       	callq  346 <_ZL15wrap_strerror_riPci+0x80>
+ 346:	48 89 d8             	mov    %rbx,%rax
+}
+ 349:	48 83 c4 28          	add    $0x28,%rsp
+ 34d:	5b                   	pop    %rbx
+ 34e:	5d                   	pop    %rbp
+ 34f:	c3                   	retq   
+
+0000000000000350 <_ZL7sigexiti>:
+
+
+
+static void 
+sigexit(int signo)
+{
+ 350:	55                   	push   %rbp
+ 351:	48 89 e5             	mov    %rsp,%rbp
+ 354:	48 83 ec 10          	sub    $0x10,%rsp
+ 358:	89 7d fc             	mov    %edi,-0x4(%rbp)
+ 35b:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 35f:	48 89 c6             	mov    %rax,%rsi
+ 362:	bf 00 00 00 00       	mov    $0x0,%edi
+ 367:	e8 00 00 00 00       	callq  36c <_ZL7sigexiti+0x1c>
+    _do_exit = 1;
+ 36c:	c7 05 00 00 00 00 01 	movl   $0x1,0x0(%rip)        # 376 <_ZL7sigexiti+0x26>
+ 373:	00 00 00 
+ 376:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 37a:	48 89 c6             	mov    %rax,%rsi
+ 37d:	bf 00 00 00 00       	mov    $0x0,%edi
+ 382:	e8 00 00 00 00       	callq  387 <_ZL7sigexiti+0x37>
+}
+ 387:	90                   	nop
+ 388:	c9                   	leaveq 
+ 389:	c3                   	retq   
+
+000000000000038a <_ZL10set_signaliPFviE>:
+
+static void 
+set_signal(int signo, void (*handler)(int))
+{
+ 38a:	55                   	push   %rbp
+ 38b:	48 89 e5             	mov    %rsp,%rbp
+ 38e:	48 81 ec b0 00 00 00 	sub    $0xb0,%rsp
+ 395:	89 bd 5c ff ff ff    	mov    %edi,-0xa4(%rbp)
+ 39b:	48 89 b5 50 ff ff ff 	mov    %rsi,-0xb0(%rbp)
+ 3a2:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+ 3a9:	00 00 
+ 3ab:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+ 3af:	31 c0                	xor    %eax,%eax
+ 3b1:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 3b5:	48 89 c6             	mov    %rax,%rsi
+ 3b8:	bf 00 00 00 00       	mov    $0x0,%edi
+ 3bd:	e8 00 00 00 00       	callq  3c2 <_ZL10set_signaliPFviE+0x38>
+    struct sigaction sa;
+
+    memset(&sa, 0, sizeof(sa));
+ 3c2:	48 8d 85 60 ff ff ff 	lea    -0xa0(%rbp),%rax
+ 3c9:	ba 98 00 00 00       	mov    $0x98,%edx
+ 3ce:	be 00 00 00 00       	mov    $0x0,%esi
+ 3d3:	48 89 c7             	mov    %rax,%rdi
+ 3d6:	e8 00 00 00 00       	callq  3db <_ZL10set_signaliPFviE+0x51>
+    sa.sa_handler = (void (*)(int))handler;
+ 3db:	48 8b 85 50 ff ff ff 	mov    -0xb0(%rbp),%rax
+ 3e2:	48 89 85 60 ff ff ff 	mov    %rax,-0xa0(%rbp)
+    sigaction(signo, &sa, NULL);
+ 3e9:	48 8d 8d 60 ff ff ff 	lea    -0xa0(%rbp),%rcx
+ 3f0:	8b 85 5c ff ff ff    	mov    -0xa4(%rbp),%eax
+ 3f6:	ba 00 00 00 00       	mov    $0x0,%edx
+ 3fb:	48 89 ce             	mov    %rcx,%rsi
+ 3fe:	89 c7                	mov    %eax,%edi
+ 400:	e8 00 00 00 00       	callq  405 <_ZL10set_signaliPFviE+0x7b>
+ 405:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 409:	48 89 c6             	mov    %rax,%rsi
+ 40c:	bf 00 00 00 00       	mov    $0x0,%edi
+ 411:	e8 00 00 00 00       	callq  416 <_ZL10set_signaliPFviE+0x8c>
+}
+ 416:	90                   	nop
+ 417:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+ 41b:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
+ 422:	00 00 
+ 424:	74 05                	je     42b <_ZL10set_signaliPFviE+0xa1>
+ 426:	e8 00 00 00 00       	callq  42b <_ZL10set_signaliPFviE+0xa1>
+ 42b:	c9                   	leaveq 
+ 42c:	c3                   	retq   
+
+000000000000042d <main>:
+    virtual int m1(int i, int j) {printf("D::m1()\n"); m2(j+10); return 30;}
+}; 
+
+int
+main(int argc, char *argv[])
+{
+ 42d:	55                   	push   %rbp
+ 42e:	48 89 e5             	mov    %rsp,%rbp
+ 431:	41 54                	push   %r12
+ 433:	53                   	push   %rbx
+ 434:	48 83 ec 20          	sub    $0x20,%rsp
+ 438:	89 7d dc             	mov    %edi,-0x24(%rbp)
+ 43b:	48 89 75 d0          	mov    %rsi,-0x30(%rbp)
+ 43f:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 443:	48 89 c6             	mov    %rax,%rsi
+ 446:	bf 00 00 00 00       	mov    $0x0,%edi
+ 44b:	e8 00 00 00 00       	callq  450 <main+0x23>
+
+    set_signal(SIGINT,  sigexit);
+ 450:	be 00 00 00 00       	mov    $0x0,%esi
+ 455:	bf 02 00 00 00       	mov    $0x2,%edi
+ 45a:	e8 2b ff ff ff       	callq  38a <_ZL10set_signaliPFviE>
+    set_signal(SIGQUIT, sigexit);
+ 45f:	be 00 00 00 00       	mov    $0x0,%esi
+ 464:	bf 03 00 00 00       	mov    $0x3,%edi
+ 469:	e8 1c ff ff ff       	callq  38a <_ZL10set_signaliPFviE>
+    
+    printf("%s: main(argc=%d)\n", argv[0], argc);
+ 46e:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+ 472:	48 8b 00             	mov    (%rax),%rax
+ 475:	8b 55 dc             	mov    -0x24(%rbp),%edx
+ 478:	48 89 c6             	mov    %rax,%rsi
+ 47b:	bf 00 00 00 00       	mov    $0x0,%edi
+ 480:	b8 00 00 00 00       	mov    $0x0,%eax
+ 485:	e8 00 00 00 00       	callq  48a <main+0x5d>
+    
+//    f5(1,2,3,4,5,6,7,8,9,10,11,12);
+    
+    B *b = new B(22);
+ 48a:	bf 10 00 00 00       	mov    $0x10,%edi
+ 48f:	e8 00 00 00 00       	callq  494 <main+0x67>
+ 494:	48 89 c3             	mov    %rax,%rbx
+ 497:	be 16 00 00 00       	mov    $0x16,%esi
+ 49c:	48 89 df             	mov    %rbx,%rdi
+ 49f:	e8 00 00 00 00       	callq  4a4 <main+0x77>
+ 4a4:	48 89 5d e8          	mov    %rbx,-0x18(%rbp)
+    
+    //b->m1(0,1);
+    //b->m2(0);
+    b->bf1(0);
+ 4a8:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+ 4ac:	be 00 00 00 00       	mov    $0x0,%esi
+ 4b1:	48 89 c7             	mov    %rax,%rdi
+ 4b4:	e8 00 00 00 00       	callq  4b9 <main+0x8c>
+    
+    delete b;
+ 4b9:	48 8b 5d e8          	mov    -0x18(%rbp),%rbx
+ 4bd:	48 85 db             	test   %rbx,%rbx
+ 4c0:	74 10                	je     4d2 <main+0xa5>
+ 4c2:	48 89 df             	mov    %rbx,%rdi
+ 4c5:	e8 00 00 00 00       	callq  4ca <main+0x9d>
+ 4ca:	48 89 df             	mov    %rbx,%rdi
+ 4cd:	e8 00 00 00 00       	callq  4d2 <main+0xa5>
+
+    printf("%s: done.\n", argv[0]);
+ 4d2:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+ 4d6:	48 8b 00             	mov    (%rax),%rax
+ 4d9:	48 89 c6             	mov    %rax,%rsi
+ 4dc:	bf 00 00 00 00       	mov    $0x0,%edi
+ 4e1:	b8 00 00 00 00       	mov    $0x0,%eax
+ 4e6:	e8 00 00 00 00       	callq  4eb <main+0xbe>
+    return EXIT_SUCCESS;
+ 4eb:	bb 00 00 00 00       	mov    $0x0,%ebx
+ 4f0:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 4f4:	48 89 c6             	mov    %rax,%rsi
+ 4f7:	bf 00 00 00 00       	mov    $0x0,%edi
+ 4fc:	e8 00 00 00 00       	callq  501 <main+0xd4>
+ 501:	89 d8                	mov    %ebx,%eax
+ 503:	eb 2f                	jmp    534 <main+0x107>
+ 505:	49 89 c4             	mov    %rax,%r12
+    
+    printf("%s: main(argc=%d)\n", argv[0], argc);
+    
+//    f5(1,2,3,4,5,6,7,8,9,10,11,12);
+    
+    B *b = new B(22);
+ 508:	48 89 df             	mov    %rbx,%rdi
+ 50b:	e8 00 00 00 00       	callq  510 <main+0xe3>
+ 510:	4c 89 e3             	mov    %r12,%rbx
+ 513:	eb 03                	jmp    518 <main+0xeb>
+ 515:	48 89 c3             	mov    %rax,%rbx
+ 518:	48 8b 45 08          	mov    0x8(%rbp),%rax
+ 51c:	48 89 c6             	mov    %rax,%rsi
+ 51f:	bf 00 00 00 00       	mov    $0x0,%edi
+ 524:	e8 00 00 00 00       	callq  529 <main+0xfc>
+ 529:	48 89 d8             	mov    %rbx,%rax
+ 52c:	48 89 c7             	mov    %rax,%rdi
+ 52f:	e8 00 00 00 00       	callq  534 <main+0x107>
+    
+    delete b;
+
+    printf("%s: done.\n", argv[0]);
+    return EXIT_SUCCESS;
+}
+ 534:	48 83 c4 20          	add    $0x20,%rsp
+ 538:	5b                   	pop    %rbx
+ 539:	41 5c                	pop    %r12
+ 53b:	5d                   	pop    %rbp
+ 53c:	c3                   	retq   
+
+Disassembly of section .text._ZN1CC2Ev:
+
+0000000000000000 <_ZN1CC1Ev>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  11:	48 89 c6             	mov    %rax,%rsi
+  14:	bf 00 00 00 00       	mov    $0x0,%edi
+  19:	e8 00 00 00 00       	callq  1e <_ZN1CC1Ev+0x1e>
+    printf("%s %d\n", __FUNCTION__, id);
+  1e:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  22:	48 89 c6             	mov    %rax,%rsi
+  25:	bf 00 00 00 00       	mov    $0x0,%edi
+  2a:	b8 00 00 00 00       	mov    $0x0,%eax
+  2f:	e8 00 00 00 00       	callq  34 <_ZN1CC1Ev+0x34>
+  34:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  38:	48 89 c6             	mov    %rax,%rsi
+  3b:	bf 00 00 00 00       	mov    $0x0,%edi
+  40:	e8 00 00 00 00       	callq  45 <_ZN1CC1Ev+0x45>
+  45:	eb 1f                	jmp    66 <_ZN1CC1Ev+0x66>
+}
+  47:	48 89 c3             	mov    %rax,%rbx
+  4a:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  4e:	48 89 c6             	mov    %rax,%rsi
+  51:	bf 00 00 00 00       	mov    $0x0,%edi
+  56:	e8 00 00 00 00       	callq  5b <_ZN1CC1Ev+0x5b>
+  5b:	48 89 d8             	mov    %rbx,%rax
+  5e:	48 89 c7             	mov    %rax,%rdi
+  61:	e8 00 00 00 00       	callq  66 <_ZN1CC1Ev+0x66>
+  66:	48 83 c4 18          	add    $0x18,%rsp
+  6a:	5b                   	pop    %rbx
+  6b:	5d                   	pop    %rbp
+  6c:	c3                   	retq   
+
+Disassembly of section .text._ZN1CD2Ev:
+
+0000000000000000 <_ZN1CD1Ev>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  11:	48 89 c6             	mov    %rax,%rsi
+  14:	bf 00 00 00 00       	mov    $0x0,%edi
+  19:	e8 00 00 00 00       	callq  1e <_ZN1CD1Ev+0x1e>
+    printf("%s %d\n", __FUNCTION__, id);
+  1e:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  22:	48 89 c6             	mov    %rax,%rsi
+  25:	bf 00 00 00 00       	mov    $0x0,%edi
+  2a:	b8 00 00 00 00       	mov    $0x0,%eax
+  2f:	e8 00 00 00 00       	callq  34 <_ZN1CD1Ev+0x34>
+  34:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  38:	48 89 c6             	mov    %rax,%rsi
+  3b:	bf 00 00 00 00       	mov    $0x0,%edi
+  40:	e8 00 00 00 00       	callq  45 <_ZN1CD1Ev+0x45>
+  45:	eb 1f                	jmp    66 <_ZN1CD1Ev+0x66>
+}
+  47:	48 89 c3             	mov    %rax,%rbx
+  4a:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  4e:	48 89 c6             	mov    %rax,%rsi
+  51:	bf 00 00 00 00       	mov    $0x0,%edi
+  56:	e8 00 00 00 00       	callq  5b <_ZN1CD1Ev+0x5b>
+  5b:	48 89 d8             	mov    %rbx,%rax
+  5e:	48 89 c7             	mov    %rax,%rdi
+  61:	e8 00 00 00 00       	callq  66 <_ZN1CD1Ev+0x66>
+  66:	48 83 c4 18          	add    $0x18,%rsp
+  6a:	5b                   	pop    %rbx
+  6b:	5d                   	pop    %rbp
+  6c:	c3                   	retq   
+
+Disassembly of section .text._ZN1C3cf1Ei:
+
+0000000000000000 <_ZN1C3cf1Ei>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	89 75 e4             	mov    %esi,-0x1c(%rbp)
+  10:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  14:	48 89 c6             	mov    %rax,%rsi
+  17:	bf 00 00 00 00       	mov    $0x0,%edi
+  1c:	e8 00 00 00 00       	callq  21 <_ZN1C3cf1Ei+0x21>
+    printf("%s %d\n", __FUNCTION__, id);
+  21:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  25:	48 89 c6             	mov    %rax,%rsi
+  28:	bf 00 00 00 00       	mov    $0x0,%edi
+  2d:	b8 00 00 00 00       	mov    $0x0,%eax
+  32:	e8 00 00 00 00       	callq  37 <_ZN1C3cf1Ei+0x37>
+  37:	bb 15 00 00 00       	mov    $0x15,%ebx
+  3c:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  40:	48 89 c6             	mov    %rax,%rsi
+  43:	bf 00 00 00 00       	mov    $0x0,%edi
+}
+  48:	e8 00 00 00 00       	callq  4d <_ZN1C3cf1Ei+0x4d>
+  4d:	89 d8                	mov    %ebx,%eax
+  4f:	eb 1f                	jmp    70 <_ZN1C3cf1Ei+0x70>
+  51:	48 89 c3             	mov    %rax,%rbx
+  54:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  58:	48 89 c6             	mov    %rax,%rsi
+  5b:	bf 00 00 00 00       	mov    $0x0,%edi
+  60:	e8 00 00 00 00       	callq  65 <_ZN1C3cf1Ei+0x65>
+  65:	48 89 d8             	mov    %rbx,%rax
+  68:	48 89 c7             	mov    %rax,%rdi
+  6b:	e8 00 00 00 00       	callq  70 <_ZN1C3cf1Ei+0x70>
+
+static inline int 
+f3(int id)
+{
+  70:	48 83 c4 18          	add    $0x18,%rsp
+  74:	5b                   	pop    %rbx
+  75:	5d                   	pop    %rbp
+  76:	c3                   	retq   
+
+Disassembly of section .text._ZN1BC2Ei:
+
+0000000000000000 <_ZN1BC1Ei>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	89 75 e4             	mov    %esi,-0x1c(%rbp)
+  10:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  14:	48 89 c6             	mov    %rax,%rsi
+  17:	bf 00 00 00 00       	mov    $0x0,%edi
+  1c:	e8 00 00 00 00       	callq  21 <_ZN1BC1Ei+0x21>
+    printf("%s %d\n", __FUNCTION__, id);
+  21:	ba 00 00 00 00       	mov    $0x0,%edx
+  26:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  2a:	48 89 10             	mov    %rdx,(%rax)
+  2d:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  31:	48 83 c0 08          	add    $0x8,%rax
+  35:	48 89 c7             	mov    %rax,%rdi
+  38:	e8 00 00 00 00       	callq  3d <_ZN1BC1Ei+0x3d>
+  3d:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  41:	8b 55 e4             	mov    -0x1c(%rbp),%edx
+  44:	89 50 0c             	mov    %edx,0xc(%rax)
+}
+  47:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  4b:	8b 50 0c             	mov    0xc(%rax),%edx
+  4e:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  52:	48 89 c6             	mov    %rax,%rsi
+  55:	bf 00 00 00 00       	mov    $0x0,%edi
+  5a:	b8 00 00 00 00       	mov    $0x0,%eax
+  5f:	e8 00 00 00 00       	callq  64 <_ZN1BC1Ei+0x64>
+  64:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  68:	48 89 c6             	mov    %rax,%rsi
+  6b:	bf 00 00 00 00       	mov    $0x0,%edi
+
+static inline int 
+f3(int id)
+{
+  70:	e8 00 00 00 00       	callq  75 <_ZN1BC1Ei+0x75>
+  75:	eb 34                	jmp    ab <_ZN1BC1Ei+0xab>
+  77:	48 89 c3             	mov    %rax,%rbx
+  7a:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  7e:	48 83 c0 08          	add    $0x8,%rax
+  82:	48 89 c7             	mov    %rax,%rdi
+  85:	e8 00 00 00 00       	callq  8a <_ZN1BC1Ei+0x8a>
+  8a:	eb 03                	jmp    8f <_ZN1BC1Ei+0x8f>
+    printf("%s %d\n", __FUNCTION__, id);
+  8c:	48 89 c3             	mov    %rax,%rbx
+  8f:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  93:	48 89 c6             	mov    %rax,%rsi
+  96:	bf 00 00 00 00       	mov    $0x0,%edi
+  9b:	e8 00 00 00 00       	callq  a0 <_ZN1BC1Ei+0xa0>
+  a0:	48 89 d8             	mov    %rbx,%rax
+  a3:	48 89 c7             	mov    %rax,%rdi
+    f4(id);
+  a6:	e8 00 00 00 00       	callq  ab <_ZN1BC1Ei+0xab>
+  ab:	48 83 c4 18          	add    $0x18,%rsp
+    return 80;
+  af:	5b                   	pop    %rbx
+  b0:	5d                   	pop    %rbp
+  b1:	c3                   	retq   
+
+Disassembly of section .text._ZN1BD2Ev:
+
+0000000000000000 <_ZN1BD1Ev>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  11:	48 89 c6             	mov    %rax,%rsi
+  14:	bf 00 00 00 00       	mov    $0x0,%edi
+  19:	e8 00 00 00 00       	callq  1e <_ZN1BD1Ev+0x1e>
+    printf("%s %d\n", __FUNCTION__, id);
+  1e:	ba 00 00 00 00       	mov    $0x0,%edx
+  23:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  27:	48 89 10             	mov    %rdx,(%rax)
+  2a:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  2e:	48 89 c6             	mov    %rax,%rsi
+  31:	bf 00 00 00 00       	mov    $0x0,%edi
+  36:	b8 00 00 00 00       	mov    $0x0,%eax
+  3b:	e8 00 00 00 00       	callq  40 <_ZN1BD1Ev+0x40>
+  40:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  44:	48 83 c0 08          	add    $0x8,%rax
+}
+  48:	48 89 c7             	mov    %rax,%rdi
+  4b:	e8 00 00 00 00       	callq  50 <_ZN1BD1Ev+0x50>
+  50:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  54:	48 89 c6             	mov    %rax,%rsi
+  57:	bf 00 00 00 00       	mov    $0x0,%edi
+  5c:	e8 00 00 00 00       	callq  61 <_ZN1BD1Ev+0x61>
+  61:	eb 34                	jmp    97 <_ZN1BD1Ev+0x97>
+  63:	48 89 c3             	mov    %rax,%rbx
+  66:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  6a:	48 83 c0 08          	add    $0x8,%rax
+  6e:	48 89 c7             	mov    %rax,%rdi
+
+static inline int 
+f3(int id)
+{
+  71:	e8 00 00 00 00       	callq  76 <_ZN1BD1Ev+0x76>
+  76:	eb 03                	jmp    7b <_ZN1BD1Ev+0x7b>
+  78:	48 89 c3             	mov    %rax,%rbx
+  7b:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  7f:	48 89 c6             	mov    %rax,%rsi
+  82:	bf 00 00 00 00       	mov    $0x0,%edi
+  87:	e8 00 00 00 00       	callq  8c <_ZN1BD1Ev+0x8c>
+    printf("%s %d\n", __FUNCTION__, id);
+  8c:	48 89 d8             	mov    %rbx,%rax
+  8f:	48 89 c7             	mov    %rax,%rdi
+  92:	e8 00 00 00 00       	callq  97 <_ZN1BD1Ev+0x97>
+  97:	48 83 c4 18          	add    $0x18,%rsp
+  9b:	5b                   	pop    %rbx
+  9c:	5d                   	pop    %rbp
+  9d:	c3                   	retq   
+
+Disassembly of section .text._ZN1B3bf1Ei:
+
+0000000000000000 <_ZN1B3bf1Ei>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	89 75 e4             	mov    %esi,-0x1c(%rbp)
+  10:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  14:	48 89 c6             	mov    %rax,%rsi
+  17:	bf 00 00 00 00       	mov    $0x0,%edi
+  1c:	e8 00 00 00 00       	callq  21 <_ZN1B3bf1Ei+0x21>
+    printf("%s %d\n", __FUNCTION__, id);
+  21:	bf 00 00 00 00       	mov    $0x0,%edi
+  26:	e8 00 00 00 00       	callq  2b <_ZN1B3bf1Ei+0x2b>
+  2b:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  2f:	48 8d 50 08          	lea    0x8(%rax),%rdx
+  33:	8b 45 e4             	mov    -0x1c(%rbp),%eax
+  36:	89 c6                	mov    %eax,%esi
+  38:	48 89 d7             	mov    %rdx,%rdi
+  3b:	e8 00 00 00 00       	callq  40 <_ZN1B3bf1Ei+0x40>
+  40:	89 c3                	mov    %eax,%ebx
+  42:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  46:	48 89 c6             	mov    %rax,%rsi
+}
+  49:	bf 00 00 00 00       	mov    $0x0,%edi
+  4e:	e8 00 00 00 00       	callq  53 <_ZN1B3bf1Ei+0x53>
+  53:	89 d8                	mov    %ebx,%eax
+  55:	eb 1f                	jmp    76 <_ZN1B3bf1Ei+0x76>
+  57:	48 89 c3             	mov    %rax,%rbx
+  5a:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  5e:	48 89 c6             	mov    %rax,%rsi
+  61:	bf 00 00 00 00       	mov    $0x0,%edi
+  66:	e8 00 00 00 00       	callq  6b <_ZN1B3bf1Ei+0x6b>
+  6b:	48 89 d8             	mov    %rbx,%rax
+  6e:	48 89 c7             	mov    %rax,%rdi
+
+static inline int 
+f3(int id)
+{
+  71:	e8 00 00 00 00       	callq  76 <_ZN1B3bf1Ei+0x76>
+  76:	48 83 c4 18          	add    $0x18,%rsp
+  7a:	5b                   	pop    %rbx
+  7b:	5d                   	pop    %rbp
+  7c:	c3                   	retq   
+
+Disassembly of section .text._ZN1B2m1Eii:
+
+0000000000000000 <_ZN1B2m1Eii>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	89 75 e4             	mov    %esi,-0x1c(%rbp)
+  10:	89 55 e0             	mov    %edx,-0x20(%rbp)
+  13:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  17:	48 89 c6             	mov    %rax,%rsi
+  1a:	bf 00 00 00 00       	mov    $0x0,%edi
+    printf("%s %d\n", __FUNCTION__, id);
+  1f:	e8 00 00 00 00       	callq  24 <_ZN1B2m1Eii+0x24>
+  24:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  28:	48 89 c6             	mov    %rax,%rsi
+  2b:	bf 00 00 00 00       	mov    $0x0,%edi
+  30:	b8 00 00 00 00       	mov    $0x0,%eax
+  35:	e8 00 00 00 00       	callq  3a <_ZN1B2m1Eii+0x3a>
+  3a:	8b 45 e4             	mov    -0x1c(%rbp),%eax
+  3d:	89 c7                	mov    %eax,%edi
+  3f:	e8 00 00 00 00       	callq  44 <_ZN1B2m1Eii+0x44>
+  44:	bb 14 00 00 00       	mov    $0x14,%ebx
+}
+  49:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  4d:	48 89 c6             	mov    %rax,%rsi
+  50:	bf 00 00 00 00       	mov    $0x0,%edi
+  55:	e8 00 00 00 00       	callq  5a <_ZN1B2m1Eii+0x5a>
+  5a:	89 d8                	mov    %ebx,%eax
+  5c:	eb 1f                	jmp    7d <_ZN1B2m1Eii+0x7d>
+  5e:	48 89 c3             	mov    %rax,%rbx
+  61:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  65:	48 89 c6             	mov    %rax,%rsi
+  68:	bf 00 00 00 00       	mov    $0x0,%edi
+  6d:	e8 00 00 00 00       	callq  72 <_ZN1B2m1Eii+0x72>
+
+static inline int 
+f3(int id)
+{
+  72:	48 89 d8             	mov    %rbx,%rax
+  75:	48 89 c7             	mov    %rax,%rdi
+  78:	e8 00 00 00 00       	callq  7d <_ZN1B2m1Eii+0x7d>
+  7d:	48 83 c4 18          	add    $0x18,%rsp
+  81:	5b                   	pop    %rbx
+  82:	5d                   	pop    %rbp
+  83:	c3                   	retq   
+
+Disassembly of section .text._ZN1B2m2Ei:
+
+0000000000000000 <_ZN1B2m2Ei>:
+
+static int  _do_exit = 0;
+
+void
+f4(int id)
+{
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	48 83 ec 18          	sub    $0x18,%rsp
+   9:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   d:	89 75 e4             	mov    %esi,-0x1c(%rbp)
+  10:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  14:	48 89 c6             	mov    %rax,%rsi
+  17:	bf 00 00 00 00       	mov    $0x0,%edi
+  1c:	e8 00 00 00 00       	callq  21 <_ZN1B2m2Ei+0x21>
+    printf("%s %d\n", __FUNCTION__, id);
+  21:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  25:	48 89 c6             	mov    %rax,%rsi
+  28:	bf 00 00 00 00       	mov    $0x0,%edi
+  2d:	b8 00 00 00 00       	mov    $0x0,%eax
+  32:	e8 00 00 00 00       	callq  37 <_ZN1B2m2Ei+0x37>
+  37:	8b 45 e4             	mov    -0x1c(%rbp),%eax
+  3a:	89 c7                	mov    %eax,%edi
+  3c:	e8 00 00 00 00       	callq  41 <_ZN1B2m2Ei+0x41>
+  41:	bb 15 00 00 00       	mov    $0x15,%ebx
+  46:	48 8b 45 08          	mov    0x8(%rbp),%rax
+}
+  4a:	48 89 c6             	mov    %rax,%rsi
+  4d:	bf 00 00 00 00       	mov    $0x0,%edi
+  52:	e8 00 00 00 00       	callq  57 <_ZN1B2m2Ei+0x57>
+  57:	89 d8                	mov    %ebx,%eax
+  59:	eb 1f                	jmp    7a <_ZN1B2m2Ei+0x7a>
+  5b:	48 89 c3             	mov    %rax,%rbx
+  5e:	48 8b 45 08          	mov    0x8(%rbp),%rax
+  62:	48 89 c6             	mov    %rax,%rsi
+  65:	bf 00 00 00 00       	mov    $0x0,%edi
+  6a:	e8 00 00 00 00       	callq  6f <_ZN1B2m2Ei+0x6f>
+
+static inline int 
+f3(int id)
+{
+  6f:	48 89 d8             	mov    %rbx,%rax
+  72:	48 89 c7             	mov    %rax,%rdi
+  75:	e8 00 00 00 00       	callq  7a <_ZN1B2m2Ei+0x7a>
+  7a:	48 83 c4 18          	add    $0x18,%rsp
+  7e:	5b                   	pop    %rbx
+  7f:	5d                   	pop    %rbp
+  80:	c3                   	retq   

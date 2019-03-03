@@ -1,0 +1,102 @@
+@startuml
+participant "Main(0)"
+
+"Main(0)" -> "Main(64b698c0)": "_GLOBAL__sub_I__ZN4Main18is_project_managerEv"
+activate "Main(64b698c0)" #b698c0
+"Main(64b698c0)" -> "Main(64b698c0)": "__static_initialization_and_destruction_0(int, int)"
+activate "Main(64b698c0)" #b698c0
+"Main(64b698c0)" -> "Color(3f800000)": "Color(float, float, float, float)"
+activate "Color(3f800000)" #b698c0
+deactivate "Color(3f800000)" #b698c0
+"Main(64b698c0)" -> "Color(3f800000)": "Color(float, float, float, float)"
+activate "Color(3f800000)" #b698c0
+deactivate "Color(3f800000)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+"Main(0)" -> "Color(3f800000)": "Color(float, float, float, float)"
+activate "Color(3f800000)" #b698c0
+deactivate "Color(3f800000)" #b698c0
+"Main(0)" -> "Main(400e4d70)": "setup(char const*, int, char**, bool)"
+activate "Main(400e4d70)" #b698c0
+"Main(400e4d70)" -> "_GlobalLock(400e2dcf)": "_GlobalLock()"
+activate "_GlobalLock(400e2dcf)" #b698c0
+deactivate "_GlobalLock(400e2dcf)" #b698c0
+"Main(400e4d70)" -> "_GlobalLock(400e2dcf)": "~_GlobalLock()"
+activate "_GlobalLock(400e2dcf)" #b698c0
+deactivate "_GlobalLock(400e2dcf)" #b698c0
+"Main(400e4d70)" -> "Main(64b698c0)": "Engine* _post_initialize<Engine>(Engine*)"
+activate "Main(64b698c0)" #b698c0
+"Main(64b698c0)" -> "Main(64b698c0)": "postinitialize_handler(void*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(72c28e8)": "operator=(Vector<String> const&)"
+activate "Vector<String>(72c28e8)" #b698c0
+"Vector<String>(72c28e8)" -> "CowData<String>(72c2940)": "_ref(CowData<String> const*)"
+activate "CowData<String>(72c2940)" #b698c0
+"CowData<String>(72c2940)" -> "CowData<String>(72c2940)": "_ref(CowData<String> const&)"
+activate "CowData<String>(72c2940)" #b698c0
+"CowData<String>(72c2940)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "CowData<String>(72c2940)" #b698c0
+deactivate "CowData<String>(72c2940)" #b698c0
+deactivate "Vector<String>(72c28e8)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(74090e8)": "operator=(Vector<String> const&)"
+activate "Vector<String>(74090e8)" #b698c0
+"Vector<String>(74090e8)" -> "CowData<String>(73e1990)": "_ref(CowData<String> const*)"
+activate "CowData<String>(73e1990)" #b698c0
+"CowData<String>(73e1990)" -> "CowData<String>(73e1990)": "_ref(CowData<String> const&)"
+activate "CowData<String>(73e1990)" #b698c0
+"CowData<String>(73e1990)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "CowData<String>(73e1990)" #b698c0
+deactivate "CowData<String>(73e1990)" #b698c0
+deactivate "Vector<String>(74090e8)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(757c168)": "operator=(Vector<String> const&)"
+activate "Vector<String>(757c168)" #b698c0
+"Vector<String>(757c168)" -> "CowData<String>(7431920)": "_ref(CowData<String> const*)"
+activate "CowData<String>(7431920)" #b698c0
+"CowData<String>(7431920)" -> "CowData<String>(7431920)": "_ref(CowData<String> const&)"
+activate "CowData<String>(7431920)" #b698c0
+"CowData<String>(7431920)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "CowData<String>(7431920)" #b698c0
+deactivate "CowData<String>(7431920)" #b698c0
+deactivate "Vector<String>(757c168)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(757bf88)": "operator=(Vector<String> const&)"
+activate "Vector<String>(757bf88)" #b698c0
+"Vector<String>(757bf88)" -> "CowData<String>(7469d20)": "_ref(CowData<String> const*)"
+activate "CowData<String>(7469d20)" #b698c0
+"CowData<String>(7469d20)" -> "CowData<String>(7469d20)": "_ref(CowData<String> const&)"
+activate "CowData<String>(7469d20)" #b698c0
+"CowData<String>(7469d20)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "CowData<String>(7469d20)" #b698c0
+deactivate "CowData<String>(7469d20)" #b698c0
+deactivate "Vector<String>(757bf88)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(757c0e8)": "operator=(Vector<String> const&)"
+activate "Vector<String>(757c0e8)" #b698c0
+"Vector<String>(757c0e8)" -> "CowData<String>(746cd50)": "_ref(CowData<String> const*)"
+activate "CowData<String>(746cd50)" #b698c0
+"CowData<String>(746cd50)" -> "CowData<String>(746cd50)": "_ref(CowData<String> const&)"
+activate "CowData<String>(746cd50)" #b698c0
+"CowData<String>(746cd50)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+deactivate "Main(64b698c0)" #b698c0
+deactivate "CowData<String>(746cd50)" #b698c0
+deactivate "CowData<String>(746cd50)" #b698c0
+deactivate "Vector<String>(757c0e8)" #b698c0
+"Main(400e4d70)" -> "Vector<String>(757c228)": "operator=(Vector<String> const&)"
+activate "Vector<String>(757c228)" #b698c0
+"Vector<String>(757c228)" -> "CowData<String>(74a7370)": "_ref(CowData<String> const*)"
+activate "CowData<String>(74a7370)" #b698c0
+"CowData<String>(74a7370)" -> "CowData<String>(74a7370)": "_ref(CowData<String> const&)"
+activate "CowData<String>(74a7370)" #b698c0
+"CowData<String>(74a7370)" -> "Main(64b698c0)": "unsigned int atomic_conditional_increment<unsigned int>(unsigned int volatile*)"
+activate "Main(64b698c0)" #b698c0
+
+@enduml

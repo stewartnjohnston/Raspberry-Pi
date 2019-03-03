@@ -8,7 +8,7 @@ LD  = ld
 
 #Some of the flags that affect us
 #STRESS_FLAGS = #-O2 #-fomit-frame-pointer #-O3 
-#STRESS_FLAGS = -O0 
+STRESS_FLAGS = -O0 
 
 ZLIB_SOURCE  = /lib/x86_64-linux-gnu
 
@@ -29,7 +29,9 @@ CSIMPLETRACED_FILES    = cSimpleTraced.c
 CSIMPLETRACED_OBJ      = $(CSIMPLETRACED_FILES:%.c=%.o)
 
 
-CTRACED_CFLAGS   = -rdynamic -g -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
+# CTRACED_CFLAGS   = -rdynamic -ggdb -Wall -pthread -save-temps $(STRESS_FLAGS) 
+CTRACED_CFLAGS   = -rdynamic -ggdb -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
+#with -finstrument-functions  CTRACED_CFLAGS   = -rdynamic -ggdb -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
 CTRACED_LDFLAGS  = -rdynamic -L. -lpthread
 
 
@@ -40,13 +42,15 @@ CPPSIMPLETRACED_OBJ     = $(CPPSIMPLETRACED_FILES:%.cpp=%.o)
 CPPTRACED_HEADERS =  
 CPPTRACED_FILES   = cpptraced.cpp 
 CPPTRACED_OBJ     = $(CPPTRACED_FILES:%.cpp=%.o)
-CPPTRACED_CFLAGS  = -rdynamic -g -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
+#CPPTRACED_CFLAGS  = -rdynamic -ggdb -Wall -pthread -save-temps $(STRESS_FLAGS) 
+CPPTRACED_CFLAGS  = -rdynamic -ggdb -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
+#with -finstrument-functions  CPPTRACED_CFLAGS  = -rdynamic -ggdb -finstrument-functions -Wall -pthread -save-temps $(STRESS_FLAGS) 
 CPPTRACED_LDFLAGS = -rdynamic -L. -lpthread
 
 LIBCTRACE_HEADERS =  
 LIBCTRACE_FILES   = libctrace.c addr2line.c 
 LIBCTRACE_OBJ     = $(LIBCTRACE_FILES:%.c=%.o)
-LIBCTRACE_CFLAGS  = -g -Wall -fPIC -I. $(BINUTILS_CFLAGS) -save-temps $(STRESS_FLAGS) 
+LIBCTRACE_CFLAGS  = -ggdb -Wall -fPIC -I. $(BINUTILS_CFLAGS) -save-temps $(STRESS_FLAGS) 
 #LIBCTRACE_LDFLAGS = -shared $(BINUTILS_LDFLAGS) -ldl -lc --version-script=libctrace.exp 
 LIBCTRACE_LDFLAGS = -shared $(BINUTILS_LDFLAGS) -ldl -lc  
 
@@ -55,7 +59,7 @@ LIBCTRACE_LDFLAGS = -shared $(BINUTILS_LDFLAGS) -ldl -lc
 all: cppSimpleTraced cSimpleTraced ctraced cpptraced addr2line libctrace.so 
 
 addr2line: addr2line.c Makefile 
-	$(CC) -DMAIN_FUNC -o $@ $< $(BINUTILS_CFLAGS) $(BINUTILS_LDFLAGS)
+	$(CC) -DMAIN_FUNC -o $@ $< -ggdb $(BINUTILS_CFLAGS) $(BINUTILS_LDFLAGS)
 	#./$@ cpptraced 0x8048fa6 0x8048fa6  
 
 ctraced: $(CTRACED_OBJ)
@@ -87,7 +91,7 @@ cSimpleTraced.o: cSimpleTraced.c $(CTRACED_HEADERS) Makefile
 	$(CC) $(CTRACED_CFLAGS) -c $< -o $@
 
 libctrace.o: libctrace.c $(CTRACED_HEADERS) Makefile
-	$(CXX) -fPIC -g -I/usr/local/boost -c $< -o $@
+	$(CXX) -fPIC -ggdb -I/usr/local/boost -c $< -o $@
 
 libctrace.so: $(LIBCTRACE_OBJ)
 	$(CXX) -o $@ $+ $(LIBCTRACE_LDFLAGS)

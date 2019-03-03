@@ -1,0 +1,34 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00t\x00r\x00a\x00c\x00e\x00_\x00c\x00_\x00c\x00o\x00d\x00e\x00_\x00u\x00m\x00l)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Compiled Binary Launcher (2)
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Debugger Shell=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+Display Demangle Names=true
+Display Static Members=false
+EnvironmentGroup=
+Executable=file:///home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/trace_c_code_uml/cppSimpleTraced
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+GDB Path=file:///usr/bin/gdb
+Project Target=
+Remote GDB Config Script=
+Remote GDB Run Script=
+Remote GDB Shell Script=
+Start With=ApplicationOutput
+Use External Terminal=false
+Working Directory=file:///home/stewart/Documents/RaspberryPI/KernelHacking/Raspberry-Pi/trace_c_code_uml
+isExecutable=true
+
+[Project]
+VersionControlSupport=kdevgit

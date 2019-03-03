@@ -1,0 +1,7 @@
+To Build:
+~/.gradle/wrapper/dists/gradle-3.2.1-all/8lz77g2tsnl6gxlpeowwkfgj1/gradle-3.2.1/bin/gradle clean
+~/.gradle/wrapper/dists/gradle-3.2.1-all/8lz77g2tsnl6gxlpeowwkfgj1/gradle-3.2.1/bin/gradle build
+
+To Run:
+java -jar ./build/libs/GradleTutorial.jar
+

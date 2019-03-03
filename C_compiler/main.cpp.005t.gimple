@@ -1,0 +1,11 @@
+main (int argc, char * * argv)
+{
+  int D.1405;
+
+  D.1405 = 1;
+  return D.1405;
+  D.1405 = 0;
+  return D.1405;
+}
+
+

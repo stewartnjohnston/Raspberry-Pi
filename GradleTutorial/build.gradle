@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+sourceSets {
+   main.java.srcDir "src/main"
+}
+   
+jar {
+   manifest.attributes "Main-Class": "net.stewart.gradleTutorial.Main"
+}

@@ -54,17 +54,6 @@ f1(int id, int id2, int id3, int id4)
 }
 
 
-static char *
-wrap_strerror_r(int err, char *buf, int len)
-{
-    char *src = NULL;
-    
-    memset(buf, 0, len);
-    src = strerror_r(err, buf, len); 
-
-    return src ? src : buf; 
-}
-
 
 
 static void 

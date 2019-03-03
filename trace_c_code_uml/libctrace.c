@@ -82,6 +82,8 @@ static std::map<int, std::stack<string>* > stackPerThread;
 #define PROG_START_ADDR  0x08048000
 #define STACK_START_ADDR 0xBFFFFFFF
 
+    static FILE* trace = NULL;
+
 
 static void
 print_stack( void )
@@ -117,30 +119,22 @@ nchr(const char *str, char ch)
 }
 
 /*A not-very-sophisticated function to print arguments. */
-static char *
-args(char *buf, int len, int nargs, int *frame)
+void parseArgs(int nargs, int *frame)
 {
     int i; 
     int offset;
+    int *loc;
+    loc = frame;
     
-    memset(buf, 0, len); 
-    
-    snprintf(buf, len, "("); 
     offset = 1; 
-/*
-    for (i=0; i< offset<len; i++) {
-        offset += snprintf(buf+offset, len-offset, "%d%s", 
-                         *(frame+ARG_OFFET+i), 
-                         i==nargs-1 ? " ...)" : ", ");
-    }
-  */  
-    for (i=0; i< 10; i++) {
-        offset += snprintf(buf+offset, len-offset, "%p%s", 
-                         *(frame+i), ", ");
-    }
 
-    return buf; 
-}
+    for (i=0; i< (nargs + 20); i++)
+    {
+        printf("arg#=%i  location=%p 0x0Value=%p inValue=%i\n", i, loc, *loc, *loc);
+        
+        loc++;
+    }
+ }
 
 /*Is it a void returning function or not? */
 static int
@@ -175,7 +169,7 @@ __cyg_profile_func_enter( void *func, void *callsite )
     char buf_args[ARG_BUF_LEN + 1] = {0}; 
     pthread_t self = (pthread_t)0;
     int *frame = NULL;
-    int *frame1 = NULL;
+    int *frame0 = NULL;
     int nargs = 0;
     int isCPP = 0;
     int thisPointer = 0;
@@ -190,8 +184,8 @@ __cyg_profile_func_enter( void *func, void *callsite )
     mrc = pthread_mutex_lock(&lockMutex);
     printf("__cyg_profile_func_enter(%p, %p)2 mutex_mrc = %i in pthread_self = %li\n", (int*)func, (int*)callsite, mrc, self);
 
+    printf("__cyg_profile_func_enter x1\n");
 
-    //  std::map<int, std::stack<string>* > stackPerThread;
     if(stackPerThread.find(self) == stackPerThread.end())
     {
        // No stack for this thread exists, create a stack for this thread
@@ -202,25 +196,51 @@ __cyg_profile_func_enter( void *func, void *callsite )
     {
        currentThreadStack = stackPerThread[self];
     }
+    printf("__cyg_profile_func_enter x2\n");
     
 
     
-    frame = (int *)__builtin_frame_address(0); /*of the 'func'*/
-    thisPointer = *(frame+6);
+    frame0 = (int *)__builtin_frame_address(0); /*of the 'func'*/
+        thisPointer = *(frame0+6);
+
+    printf("__cyg_profile_func_enter x3\n");
     
     frame = (int *)__builtin_frame_address(1); /*of the 'func'*/
-    
+
+    printf("__cyg_profile_func_enter tframe0=%p     thisPointer=%p\n", frame0, thisPointer);
+/*    
+    if(frame0 <= frame)
+        thisPointer = *(frame-2);
+
+    thisPointer = *(frame);
+    thisPointer = *(frame-1);
+    thisPointer = *(frame-2);
+    thisPointer = *(frame-3);
+    thisPointer = *(frame-4);
+    thisPointer = *(frame-5);
+    thisPointer = *(frame-6);
+    thisPointer = *(frame-7);
+    thisPointer = *(frame-8);
+    thisPointer = *(frame-9);
+    thisPointer = *(frame-10);
+    thisPointer = *(frame-11);
+*/
+
     assert(frame != NULL); 
+
     
     /* Function Entry Address */
     
     /*Which function*/
     libtrace_resolve (func, buf_func, CTRACE_BUF_LEN, NULL, 0);
+    printf("__cyg_profile_func_enter x7\n");
     /*From where*/
     libtrace_resolve (callsite, NULL, 0, buf_file, CTRACE_BUF_LEN);
+    printf("__cyg_profile_func_enter x8\n");
     nargs = nchr(buf_func, ',') + 1 /*Last arg has no comma after*/; 
     isCPP += is_cpp(buf_func);      /*'this'*/
     
+
     printf("__cyg_profile_func_enter(%p, %p)3 mutex_mrc = %i in pthread_self = %li   buf_func=%s\n", (int*)func, (int*)callsite, mrc, self, buf_func);
 
     if (isCPP > 0 )
@@ -229,8 +249,11 @@ __cyg_profile_func_enter( void *func, void *callsite )
     }
     else
     {
-        thisPointer = self;
+        //thisPointer = self;
+        thisPointer = 0;
     }
+
+    parseArgs(nargs, frame0);
 
     
     string objectName("Main");
@@ -258,17 +281,26 @@ __cyg_profile_func_enter( void *func, void *callsite )
     }
 
     string sequenceUML 
-         = str( boost::format("thread=%i  \"%s\" -> \"%s\": \"%s\"\n")
+         = str( boost::format("thread=%i \"%s\" -> \"%s\": \"%s\"\n")
                                 %self % lastOjectInstance % objectInstance % functionName );
     //printf("**************************\n\n");
     printf("%s", sequenceUML.c_str()); 
-    //printf("\n\n");
+    if(trace != NULL)
+    {
+        fprintf (trace, "%s", sequenceUML.c_str());
+
+    }
     
     sequenceUML 
          = str( boost::format("thread=%i  activate \"%s\" #%p\n")
                                 %self % objectInstance % colour );
     //printf("**************************\n\n");
     printf("%s", sequenceUML.c_str()); 
+    if(trace != NULL)
+    {
+        fprintf (trace, "%s", sequenceUML.c_str());
+
+    }
     //printf("\n\n");
 /*
     }
@@ -322,7 +354,13 @@ __cyg_profile_func_exit( void *func, void *callsite )
     int mrc = 0;
     std::stack<string>* currentThreadStack = NULL;
     
-    self = pthread_self(); 
+//    if(trace != NULL)
+//    {
+//        fprintf (trace, "Hello from __cyg_profile_func_exit()\n");
+//        return;
+//    }
+
+   self = pthread_self(); 
     
     int colour = self & 0xFFFFFF;
 
@@ -350,6 +388,12 @@ __cyg_profile_func_exit( void *func, void *callsite )
            = str( boost::format("thread=%i  deactivate \"%s\" #%p\n")
                                 %self % lastOjectInstance % colour );
        printf("%s", sequenceUML.c_str()); 
+       if(trace != NULL)
+       {
+           fprintf (trace, "%s", sequenceUML.c_str());
+
+       }
+
 
        currentThreadStack->pop();
     }
@@ -399,12 +443,25 @@ __cyg_profile_func_exit( void *func, void *callsite )
 }
 
 
+#define TRACE_FD 3
 
 void _init()  __attribute__((constructor));
 void 
 _init()
 {
     const char *prog = getenv("CTRACE_PROGRAM"); 
+    
+    
+    trace = NULL;
+    
+    trace = fopen("Pogo.txt", "w");
+    if(trace != NULL)
+    {
+        fprintf (trace, "\nHello Pogo Opened file\n\n");
+    }
+    else
+        printf("\nHello Pogo NO Opened file\n\n");
+
     
     if (NULL == prog) {
         fprintf(stderr, 
@@ -424,6 +481,17 @@ void  _fini()  __attribute__((destructor));
 void 
 _fini()
 {
+    if(trace != NULL)
+    {
+        fprintf (trace, "\nHello Pogo Closing file\n\n");
+        fclose(trace);
+        trace = NULL;
+
+    }
+    else
+        printf("\nHello Pogo NOT Closing file\n\n");
+
+
     libtrace_close();
 }
 

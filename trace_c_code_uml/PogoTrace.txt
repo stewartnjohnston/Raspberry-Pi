@@ -1,0 +1,2353 @@
+__cyg_profile_func_enter(0x4017dc, 0x7f35beaea830)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4017dc, 0x7f35beaea830)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b680     thisPointer=0x402abd
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4017dc, 0x7f35beaea830)3 mutex_mrc = 0 in pthread_self = 0   buf_func=main
+arg#=0  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=1  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b688 0x0Value=0x4017ff inValue=4200447
+arg#=3  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=5  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=7  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=8  location=0x7ffd32c8b6a0 0x0Value=(nil) inValue=0
+arg#=9  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b6a8 0x0Value=(nil) inValue=0
+arg#=11  location=0x7ffd32c8b6ac 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b6b0 0x0Value=0x402a70 inValue=4205168
+arg#=13  location=0x7ffd32c8b6b4 0x0Value=(nil) inValue=0
+arg#=14  location=0x7ffd32c8b6b8 0x0Value=0x401200 inValue=4198912
+arg#=15  location=0x7ffd32c8b6bc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b6c0 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b6c4 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b6c8 0x0Value=0x401200 inValue=4198912
+arg#=19  location=0x7ffd32c8b6cc 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b6d0 0x0Value=0x402a70 inValue=4205168
+thread=0 "Main(0)" -> "Main(0)": "main"
+thread=0  activate "Main(0)" #0
+__cyg_profile_func_enter(0x4017dc, 0x7f35beaea830)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=main
+__cyg_profile_func_enter(0x40267c, 0x401814)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40267c, 0x401814)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40267c, 0x401814)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x40269a inValue=4204186
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x5b207000 inValue=1528852480
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401814 inValue=4200468
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=(nil) inValue=0
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bf5220)": "D()"
+thread=0  activate "D(bf5220)" #0
+__cyg_profile_func_enter(0x40267c, 0x401814)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x401f90, 0x4026a6)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401f90, 0x4026a6)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401fae inValue=4202414
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbf5220 inValue=12538400
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026a6 inValue=4204198
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x5b207000 inValue=1528852480
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bf5220)" -> "B(bf5220)": "B()"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401ce6, 0x401fca)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbf5228
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401ce6, 0x401fca)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401d04 inValue=4201732
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbf5228 inValue=12538408
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbf5220 inValue=12538400
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x401fca inValue=4202442
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "B(bf5220)" -> "C(bf5228)": "C()"
+thread=0  activate "C(bf5228)" #0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+C::C() this=0xbf5228 
+__cyg_profile_func_exit(0x401ce6, 0x401fca) in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 1  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 2  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 3  self = 0
+thread=0  deactivate "C(bf5228)" #0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 4  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+B::B() this=0xbf5220 
+__cyg_profile_func_exit(0x401f90, 0x4026a6) in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 1  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 2  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 4  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbf5230
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401e5a inValue=4202074
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbf5230 inValue=12538416
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbf5220 inValue=12538400
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026c2 inValue=4204226
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x5b207000 inValue=1528852480
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bf5220)" -> "E(bf5230)": "E()"
+thread=0  activate "E(bf5230)" #0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+E::E() this=0xbf5230 
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 1  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 2  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 3  self = 0
+thread=0  deactivate "E(bf5230)" #0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 4  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+D::D() this=0xbf5220 
+__cyg_profile_func_exit(0x40267c, 0x401814) in self = 0
+__cyg_profile_func_exit(0x40267c, 0x401814) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40267c, 0x401814) 1  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401814) 2  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401814) 3  self = 0
+thread=0  deactivate "D(bf5220)" #0
+__cyg_profile_func_exit(0x40267c, 0x401814) 4  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401814) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x401362, 0x401822)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401362, 0x401822)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401362, 0x401822)3 mutex_mrc = 0 in pthread_self = 0   buf_func=f4(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x40137f inValue=4199295
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x5b207000 inValue=1528852480
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=0xeeeeeeee inValue=-286331154
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401822 inValue=4200482
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+thread=0 "Main(0)" -> "Main(0)": "f4(int)"
+thread=0  activate "Main(0)" #0
+__cyg_profile_func_enter(0x401362, 0x401822)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=f4(int)
+f4 -286331154
+__cyg_profile_func_exit(0x401362, 0x401822) in self = 0
+__cyg_profile_func_exit(0x401362, 0x401822) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401362, 0x401822) 1  self = 0
+__cyg_profile_func_exit(0x401362, 0x401822) 2  self = 0
+__cyg_profile_func_exit(0x401362, 0x401822) 3  self = 0
+thread=0  deactivate "Main(0)" #0
+__cyg_profile_func_exit(0x401362, 0x401822) 4  self = 0
+__cyg_profile_func_exit(0x401362, 0x401822) out mutex_mrc = 0 in pthread_self = 0   buf_func=f4(int)
+__cyg_profile_func_enter(0x4012f6, 0x401827)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4012f6, 0x401827)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b660     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4012f6, 0x401827)3 mutex_mrc = 0 in pthread_self = 0   buf_func=f0()
+arg#=0  location=0x7ffd32c8b660 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b664 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b668 0x0Value=0x401310 inValue=4199184
+arg#=3  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=5  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b678 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b688 0x0Value=0x401827 inValue=4200487
+arg#=11  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=13  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=15  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=16  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=17  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b6a8 0x0Value=(nil) inValue=0
+arg#=19  location=0x7ffd32c8b6ac 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b6b0 0x0Value=0x402a70 inValue=4205168
+thread=0 "Main(0)" -> "Main(0)": "f0()"
+thread=0  activate "Main(0)" #0
+__cyg_profile_func_enter(0x4012f6, 0x401827)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=f0()
+f0 2
+__cyg_profile_func_exit(0x4012f6, 0x401827) in self = 0
+__cyg_profile_func_exit(0x4012f6, 0x401827) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4012f6, 0x401827) 1  self = 0
+__cyg_profile_func_exit(0x4012f6, 0x401827) 2  self = 0
+__cyg_profile_func_exit(0x4012f6, 0x401827) 3  self = 0
+thread=0  deactivate "Main(0)" #0
+__cyg_profile_func_exit(0x4012f6, 0x401827) 4  self = 0
+__cyg_profile_func_exit(0x4012f6, 0x401827) out mutex_mrc = 0 in pthread_self = 0   buf_func=f0()
+__cyg_profile_func_enter(0x4028ea, 0x401894)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4028ea, 0x401894)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5c0     thisPointer=0xccccc4
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4028ea, 0x401894)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+arg#=0  location=0x7ffd32c8b5c0 0x0Value=0x32c8b610 inValue=852014608
+arg#=1  location=0x7ffd32c8b5c4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5c8 0x0Value=0x402919 inValue=4204825
+arg#=3  location=0x7ffd32c8b5cc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5d0 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b5d4 0x0Value=0xccccc5 inValue=13421765
+arg#=6  location=0x7ffd32c8b5d8 0x0Value=0xccccc4 inValue=13421764
+arg#=7  location=0x7ffd32c8b5dc 0x0Value=0xccccc3 inValue=13421763
+arg#=8  location=0x7ffd32c8b5e0 0x0Value=0xccccc2 inValue=13421762
+arg#=9  location=0x7ffd32c8b5e4 0x0Value=0xccccc inValue=838860
+arg#=10  location=0x7ffd32c8b5e8 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b5f0 0x0Value=(nil) inValue=0
+arg#=13  location=0x7ffd32c8b5f4 0x0Value=(nil) inValue=0
+arg#=14  location=0x7ffd32c8b5f8 0x0Value=(nil) inValue=0
+arg#=15  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b608 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b610 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b614 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b618 0x0Value=0x401894 inValue=4200596
+arg#=23  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=24  location=0x7ffd32c8b620 0x0Value=0xccccc6 inValue=13421766
+arg#=25  location=0x7ffd32c8b624 0x0Value=(nil) inValue=0
+arg#=26  location=0x7ffd32c8b628 0x0Value=0xccccc7 inValue=13421767
+arg#=27  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=28  location=0x7ffd32c8b630 0x0Value=0xccccc8 inValue=13421768
+arg#=29  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=30  location=0x7ffd32c8b638 0x0Value=0xccccc9 inValue=13421769
+arg#=31  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=32  location=0x7ffd32c8b640 0x0Value=0xccccca inValue=13421770
+arg#=33  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=34  location=0x7ffd32c8b648 0x0Value=0xcccccb inValue=13421771
+arg#=35  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=36  location=0x7ffd32c8b650 0x0Value=0xcccccc inValue=13421772
+arg#=37  location=0x7ffd32c8b654 0x0Value=(nil) inValue=0
+arg#=38  location=0x7ffd32c8b658 0x0Value=0xcccccd inValue=13421773
+arg#=39  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(ccccc4)": "fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)"
+thread=0  activate "D(ccccc4)" #0
+__cyg_profile_func_enter(0x4028ea, 0x401894)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+functionName=fi19   this=0xbf5220
+__cyg_profile_func_exit(0x4028ea, 0x401894) in self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401894) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401894) 1  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401894) 2  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401894) 3  self = 0
+thread=0  deactivate "D(ccccc4)" #0
+__cyg_profile_func_exit(0x4028ea, 0x401894) 4  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401894) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+__cyg_profile_func_enter(0x4016df, 0x401983)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4016df, 0x401983)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5d0     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4016df, 0x401983)3 mutex_mrc = 0 in pthread_self = 0   buf_func=fa17(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+arg#=0  location=0x7ffd32c8b5d0 0x0Value=0x32c8b630 inValue=852014640
+arg#=1  location=0x7ffd32c8b5d4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5d8 0x0Value=0x401721 inValue=4200225
+arg#=3  location=0x7ffd32c8b5dc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5e0 0x0Value=0xccccc2 inValue=13421762
+arg#=5  location=0x7ffd32c8b5e4 0x0Value=0xccccc inValue=838860
+arg#=6  location=0x7ffd32c8b5e8 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b5f0 0x0Value=0x47ad9c71 inValue=1202560113
+arg#=9  location=0x7ffd32c8b5f4 0x0Value=0x4797e8e3 inValue=1201137891
+arg#=10  location=0x7ffd32c8b5f8 0x0Value=0x47823555 inValue=1199715669
+arg#=11  location=0x7ffd32c8b5fc 0x0Value=0x4907a239 inValue=1225237049
+arg#=12  location=0x7ffd32c8b600 0x0Value=0x472d9c71 inValue=1194171505
+arg#=13  location=0x7ffd32c8b604 0x0Value=0x48a2c2ab inValue=1218626219
+arg#=14  location=0x7ffd32c8b608 0x0Value=0x4859038e inValue=1213793166
+arg#=15  location=0x7ffd32c8b60c 0x0Value=0x462d9c71 inValue=1177394289
+arg#=16  location=0x7ffd32c8b610 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b614 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b618 0x0Value=0x401894 inValue=4200596
+arg#=19  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b620 0x0Value=0xccccc6 inValue=13421766
+arg#=21  location=0x7ffd32c8b624 0x0Value=(nil) inValue=0
+arg#=22  location=0x7ffd32c8b628 0x0Value=0xbf5220 inValue=12538400
+arg#=23  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=24  location=0x7ffd32c8b630 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=25  location=0x7ffd32c8b634 0x0Value=0x7ffd inValue=32765
+arg#=26  location=0x7ffd32c8b638 0x0Value=0x401983 inValue=4200835
+arg#=27  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=28  location=0x7ffd32c8b640 0x0Value=0x47c34fff inValue=1203982335
+arg#=29  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=30  location=0x7ffd32c8b648 0x0Value=0x47c5490d inValue=1204111629
+arg#=31  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=32  location=0x7ffd32c8b650 0x0Value=0x47d70f0e inValue=1205276430
+arg#=33  location=0x7ffd32c8b654 0x0Value=(nil) inValue=0
+arg#=34  location=0x7ffd32c8b658 0x0Value=0x47ecbe0f inValue=1206697487
+arg#=35  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=36  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+thread=0 "Main(0)" -> "Main(0)": "fa17(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)"
+thread=0  activate "Main(0)" #0
+__cyg_profile_func_enter(0x4016df, 0x401983)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=fa17(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+functionName=fa17   this=(nil)
+__cyg_profile_func_exit(0x4016df, 0x401983) in self = 0
+__cyg_profile_func_exit(0x4016df, 0x401983) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4016df, 0x401983) 1  self = 0
+__cyg_profile_func_exit(0x4016df, 0x401983) 2  self = 0
+__cyg_profile_func_exit(0x4016df, 0x401983) 3  self = 0
+thread=0  deactivate "Main(0)" #0
+__cyg_profile_func_exit(0x4016df, 0x401983) 4  self = 0
+__cyg_profile_func_exit(0x4016df, 0x401983) out mutex_mrc = 0 in pthread_self = 0   buf_func=fa17(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+__cyg_profile_func_enter(0x40214a, 0x401993)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40214a, 0x401993)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40214a, 0x401993)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx0()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402168 inValue=4202856
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x4813f6ca inValue=1209267914
+arg#=9  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401993 inValue=4200851
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bf5220)": "bfx0()"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x40214a, 0x401993)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx0()
+functionName=bfx0   this=0xbf5220
+__cyg_profile_func_exit(0x40214a, 0x401993) in self = 0
+__cyg_profile_func_exit(0x40214a, 0x401993) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40214a, 0x401993) 1  self = 0
+__cyg_profile_func_exit(0x40214a, 0x401993) 2  self = 0
+__cyg_profile_func_exit(0x40214a, 0x401993) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x40214a, 0x401993) 4  self = 0
+__cyg_profile_func_exit(0x40214a, 0x401993) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx0()
+__cyg_profile_func_enter(0x4021c6, 0x4019a4)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4021c6, 0x4019a4)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4021c6, 0x4019a4)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx1(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x4021e7 inValue=4202983
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x1 inValue=1
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x4813f6ca inValue=1209267914
+arg#=9  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x4019a4 inValue=4200868
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bf5220)": "bfx1(int)"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x4021c6, 0x4019a4)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx1(int)
+functionName=bfx1   this=0xbf5220
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) in self = 0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) 1  self = 0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) 2  self = 0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) 4  self = 0
+__cyg_profile_func_exit(0x4021c6, 0x4019a4) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx1(int)
+__cyg_profile_func_enter(0x40267c, 0x4019b9)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40267c, 0x4019b9)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4c0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40267c, 0x4019b9)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x40269a inValue=4204186
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x1 inValue=1
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x4019b9 inValue=4200889
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bfd4c0)": "D()"
+thread=0  activate "D(bfd4c0)" #0
+__cyg_profile_func_enter(0x40267c, 0x4019b9)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x401f90, 0x4026a6)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfd4c0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401f90, 0x4026a6)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401fae inValue=4202414
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4c0 inValue=12571840
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026a6 inValue=4204198
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x1 inValue=1
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bfd4c0)" -> "B(bfd4c0)": "B()"
+thread=0  activate "B(bfd4c0)" #0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401ce6, 0x401fca)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfd4c8
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401ce6, 0x401fca)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401d04 inValue=4201732
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfd4c8 inValue=12571848
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4c0 inValue=12571840
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x401fca inValue=4202442
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4c0 inValue=12571840
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "B(bfd4c0)" -> "C(bfd4c8)": "C()"
+thread=0  activate "C(bfd4c8)" #0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+C::C() this=0xbfd4c8 
+__cyg_profile_func_exit(0x401ce6, 0x401fca) in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 1  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 2  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 3  self = 0
+thread=0  deactivate "C(bfd4c8)" #0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 4  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+B::B() this=0xbfd4c0 
+__cyg_profile_func_exit(0x401f90, 0x4026a6) in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 1  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 2  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 3  self = 0
+thread=0  deactivate "B(bfd4c0)" #0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 4  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfd4d0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401e5a inValue=4202074
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfd4d0 inValue=12571856
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4c0 inValue=12571840
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026c2 inValue=4204226
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x48003c48 inValue=1207974984
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x1 inValue=1
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bfd4c0)" -> "E(bfd4d0)": "E()"
+thread=0  activate "E(bfd4d0)" #0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+E::E() this=0xbfd4d0 
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 1  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 2  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 3  self = 0
+thread=0  deactivate "E(bfd4d0)" #0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 4  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+D::D() this=0xbfd4c0 
+__cyg_profile_func_exit(0x40267c, 0x4019b9) in self = 0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) 1  self = 0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) 2  self = 0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) 3  self = 0
+thread=0  deactivate "D(bfd4c0)" #0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) 4  self = 0
+__cyg_profile_func_exit(0x40267c, 0x4019b9) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x402244, 0x4019d3)1 in pthread_self = 0
+__cyg_profile_func_enter(0x402244, 0x4019d3)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x402244, 0x4019d3)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx2(int, int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402268 inValue=4203112
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x3 inValue=3
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x2 inValue=2
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x4019d3 inValue=4200915
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+arg#=22  location=0x7ffd32c8b6a8 0x0Value=0xbfd4c0 inValue=12571840
+thread=0 "Main(0)" -> "B(bf5220)": "bfx2(int, int)"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x402244, 0x4019d3)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx2(int, int)
+functionName=bfx2   this=0xbf5220
+__cyg_profile_func_exit(0x402244, 0x4019d3) in self = 0
+__cyg_profile_func_exit(0x402244, 0x4019d3) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x402244, 0x4019d3) 1  self = 0
+__cyg_profile_func_exit(0x402244, 0x4019d3) 2  self = 0
+__cyg_profile_func_exit(0x402244, 0x4019d3) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x402244, 0x4019d3) 4  self = 0
+__cyg_profile_func_exit(0x402244, 0x4019d3) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx2(int, int)
+__cyg_profile_func_enter(0x4024fc, 0x4019dd)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4024fc, 0x4019dd)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4024fc, 0x4019dd)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402519 inValue=4203801
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x3 inValue=3
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x2 inValue=2
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=0x7 inValue=7
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x4019dd inValue=4200925
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bf5220)": "FunStatic(int)"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x4024fc, 0x4019dd)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+functionName=FunStatic   this=(nil)
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) 1  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) 2  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) 4  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x4019dd) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+__cyg_profile_func_enter(0x4022c6, 0x4019f8)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4022c6, 0x4019f8)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b640     thisPointer=0x40254c
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4022c6, 0x4019f8)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx3(int, int, int)
+arg#=0  location=0x7ffd32c8b640 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b648 0x0Value=0x4022ed inValue=4203245
+arg#=3  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=5  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b658 0x0Value=0x40254c inValue=4203852
+arg#=7  location=0x7ffd32c8b65c 0x0Value=0x6 inValue=6
+arg#=8  location=0x7ffd32c8b660 0x0Value=0x5 inValue=5
+arg#=9  location=0x7ffd32c8b664 0x0Value=0x4 inValue=4
+arg#=10  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=15  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b688 0x0Value=0x4019f8 inValue=4200952
+arg#=19  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=21  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=23  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+thread=0 "Main(0)" -> "B(40254c)": "bfx3(int, int, int)"
+thread=0  activate "B(40254c)" #0
+__cyg_profile_func_enter(0x4022c6, 0x4019f8)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx3(int, int, int)
+functionName=bfx3   this=0xbf5220
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) in self = 0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) 1  self = 0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) 2  self = 0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) 3  self = 0
+thread=0  deactivate "B(40254c)" #0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) 4  self = 0
+__cyg_profile_func_exit(0x4022c6, 0x4019f8) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx3(int, int, int)
+__cyg_profile_func_enter(0x40234a, 0x401a19)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40234a, 0x401a19)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b640     thisPointer=0xa
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40234a, 0x401a19)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+arg#=0  location=0x7ffd32c8b640 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b648 0x0Value=0x402375 inValue=4203381
+arg#=3  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=5  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b658 0x0Value=0xa inValue=10
+arg#=7  location=0x7ffd32c8b65c 0x0Value=0x9 inValue=9
+arg#=8  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=9  location=0x7ffd32c8b664 0x0Value=0x7 inValue=7
+arg#=10  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=11  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=15  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b688 0x0Value=0x401a19 inValue=4200985
+arg#=19  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=21  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=23  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=24  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+thread=0 "Main(0)" -> "B(a)": "bfx4(int, int, int, int)"
+thread=0  activate "B(a)" #0
+__cyg_profile_func_enter(0x40234a, 0x401a19)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+functionName=bfx4   this=0xbfd4c0
+__cyg_profile_func_exit(0x40234a, 0x401a19) in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a19) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a19) 1  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a19) 2  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a19) 3  self = 0
+thread=0  deactivate "B(a)" #0
+__cyg_profile_func_exit(0x40234a, 0x401a19) 4  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a19) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+__cyg_profile_func_enter(0x40234a, 0x401a3a)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40234a, 0x401a3a)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b640     thisPointer=0xa
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40234a, 0x401a3a)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+arg#=0  location=0x7ffd32c8b640 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b648 0x0Value=0x402375 inValue=4203381
+arg#=3  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=5  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b658 0x0Value=0xa inValue=10
+arg#=7  location=0x7ffd32c8b65c 0x0Value=0x9 inValue=9
+arg#=8  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=9  location=0x7ffd32c8b664 0x0Value=0x7 inValue=7
+arg#=10  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=15  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b688 0x0Value=0x401a3a inValue=4201018
+arg#=19  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=21  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=23  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=24  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+thread=0 "Main(0)" -> "B(a)": "bfx4(int, int, int, int)"
+thread=0  activate "B(a)" #0
+__cyg_profile_func_enter(0x40234a, 0x401a3a)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+functionName=bfx4   this=0xbf5220
+__cyg_profile_func_exit(0x40234a, 0x401a3a) in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) 1  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) 2  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) 3  self = 0
+thread=0  deactivate "B(a)" #0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) 4  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401a3a) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+__cyg_profile_func_enter(0x4023d2, 0x401a7e)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4023d2, 0x401a7e)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b630     thisPointer=0x4023a8
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4023d2, 0x401a7e)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf7(float, float, float, float, float, float, float)
+arg#=0  location=0x7ffd32c8b630 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b634 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b638 0x0Value=0x402413 inValue=4203539
+arg#=3  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b640 0x0Value=0x32c8b680 inValue=852014720
+arg#=5  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b648 0x0Value=0x4023a8 inValue=4203432
+arg#=7  location=0x7ffd32c8b64c 0x0Value=0x41880000 inValue=1099431936
+arg#=8  location=0x7ffd32c8b650 0x0Value=0x41800000 inValue=1098907648
+arg#=9  location=0x7ffd32c8b654 0x0Value=0x41700000 inValue=1097859072
+arg#=10  location=0x7ffd32c8b658 0x0Value=0x41600000 inValue=1096810496
+arg#=11  location=0x7ffd32c8b65c 0x0Value=0x41500000 inValue=1095761920
+arg#=12  location=0x7ffd32c8b660 0x0Value=0x41400000 inValue=1094713344
+arg#=13  location=0x7ffd32c8b664 0x0Value=0x41300000 inValue=1093664768
+arg#=14  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=15  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b678 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b688 0x0Value=0x401a7e inValue=4201086
+arg#=23  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=24  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=25  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=26  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=27  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+thread=0 "Main(0)" -> "B(4023a8)": "bfxf7(float, float, float, float, float, float, float)"
+thread=0  activate "B(4023a8)" #0
+__cyg_profile_func_enter(0x4023d2, 0x401a7e)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf7(float, float, float, float, float, float, float)
+functionName=bfxf7   this=0xbf5220
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) in self = 0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) 1  self = 0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) 2  self = 0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) 3  self = 0
+thread=0  deactivate "B(4023a8)" #0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) 4  self = 0
+__cyg_profile_func_exit(0x4023d2, 0x401a7e) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf7(float, float, float, float, float, float, float)
+__cyg_profile_func_enter(0x402470, 0x401ab7)1 in pthread_self = 0
+__cyg_profile_func_enter(0x402470, 0x401ab7)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b600     thisPointer=0x18
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x402470, 0x401ab7)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf12(int, int, int, int, int, int, int, int, int, int, int, int)
+arg#=0  location=0x7ffd32c8b600 0x0Value=0x32c8b640 inValue=852014656
+arg#=1  location=0x7ffd32c8b604 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b608 0x0Value=0x40249f inValue=4203679
+arg#=3  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b610 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b614 0x0Value=0x19 inValue=25
+arg#=6  location=0x7ffd32c8b618 0x0Value=0x18 inValue=24
+arg#=7  location=0x7ffd32c8b61c 0x0Value=0x17 inValue=23
+arg#=8  location=0x7ffd32c8b620 0x0Value=0x16 inValue=22
+arg#=9  location=0x7ffd32c8b624 0x0Value=0x15 inValue=21
+arg#=10  location=0x7ffd32c8b628 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b630 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b634 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=15  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b640 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b648 0x0Value=0x401ab7 inValue=4201143
+arg#=19  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b650 0x0Value=0x1a inValue=26
+arg#=21  location=0x7ffd32c8b654 0x0Value=(nil) inValue=0
+arg#=22  location=0x7ffd32c8b658 0x0Value=0x1b inValue=27
+arg#=23  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=24  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=25  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=26  location=0x7ffd32c8b668 0x0Value=0x1d inValue=29
+arg#=27  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=28  location=0x7ffd32c8b670 0x0Value=0x1e inValue=30
+arg#=29  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=30  location=0x7ffd32c8b678 0x0Value=0x1f inValue=31
+arg#=31  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=32  location=0x7ffd32c8b680 0x0Value=0x20 inValue=32
+thread=0 "Main(0)" -> "B(18)": "bfxf12(int, int, int, int, int, int, int, int, int, int, int, int)"
+thread=0  activate "B(18)" #0
+__cyg_profile_func_enter(0x402470, 0x401ab7)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf12(int, int, int, int, int, int, int, int, int, int, int, int)
+functionName=bfxf12   this=0xbf5220
+__cyg_profile_func_exit(0x402470, 0x401ab7) in self = 0
+__cyg_profile_func_exit(0x402470, 0x401ab7) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x402470, 0x401ab7) 1  self = 0
+__cyg_profile_func_exit(0x402470, 0x401ab7) 2  self = 0
+__cyg_profile_func_exit(0x402470, 0x401ab7) 3  self = 0
+thread=0  deactivate "B(18)" #0
+__cyg_profile_func_exit(0x402470, 0x401ab7) 4  self = 0
+__cyg_profile_func_exit(0x402470, 0x401ab7) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfxf12(int, int, int, int, int, int, int, int, int, int, int, int)
+__cyg_profile_func_enter(0x40267c, 0x401ad0)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40267c, 0x401ad0)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40267c, 0x401ad0)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x40269a inValue=4204186
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfa3a0 inValue=12559264
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401ad0 inValue=4201168
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bfa3a0)": "D()"
+thread=0  activate "D(bfa3a0)" #0
+__cyg_profile_func_enter(0x40267c, 0x401ad0)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x401f90, 0x4026a6)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401f90, 0x4026a6)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401fae inValue=4202414
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfa3a0 inValue=12559264
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfa3a0 inValue=12559264
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026a6 inValue=4204198
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=17  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bfa3a0)" -> "B(bfa3a0)": "B()"
+thread=0  activate "B(bfa3a0)" #0
+__cyg_profile_func_enter(0x401f90, 0x4026a6)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401ce6, 0x401fca)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfa3a8
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401ce6, 0x401fca)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401d04 inValue=4201732
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfa3a8 inValue=12559272
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfa3a0 inValue=12559264
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfa3a0 inValue=12559264
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x401fca inValue=4202442
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfa3a0 inValue=12559264
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "B(bfa3a0)" -> "C(bfa3a8)": "C()"
+thread=0  activate "C(bfa3a8)" #0
+__cyg_profile_func_enter(0x401ce6, 0x401fca)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+C::C() this=0xbfa3a8 
+__cyg_profile_func_exit(0x401ce6, 0x401fca) in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 1  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 2  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 3  self = 0
+thread=0  deactivate "C(bfa3a8)" #0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) 4  self = 0
+__cyg_profile_func_exit(0x401ce6, 0x401fca) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::C()
+B::B() this=0xbfa3a0 
+__cyg_profile_func_exit(0x401f90, 0x4026a6) in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 1  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 2  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 3  self = 0
+thread=0  deactivate "B(bfa3a0)" #0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) 4  self = 0
+__cyg_profile_func_exit(0x401f90, 0x4026a6) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::B()
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfa3b0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401e5a inValue=4202074
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfa3b0 inValue=12559280
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfa3a0 inValue=12559264
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfa3a0 inValue=12559264
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4026c2 inValue=4204226
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=17  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bfa3a0)" -> "E(bfa3b0)": "E()"
+thread=0  activate "E(bfa3b0)" #0
+__cyg_profile_func_enter(0x401e3c, 0x4026c2)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+E::E() this=0xbfa3b0 
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 1  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 2  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 3  self = 0
+thread=0  deactivate "E(bfa3b0)" #0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) 4  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x4026c2) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+D::D() this=0xbfa3a0 
+__cyg_profile_func_exit(0x40267c, 0x401ad0) in self = 0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) 1  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) 2  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) 3  self = 0
+thread=0  deactivate "D(bfa3a0)" #0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) 4  self = 0
+__cyg_profile_func_exit(0x40267c, 0x401ad0) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::D()
+__cyg_profile_func_enter(0x401e3c, 0x401ae9)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401e3c, 0x401ae9)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4e0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401e3c, 0x401ae9)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x401e5a inValue=4202074
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4e0 inValue=12571872
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401ae9 inValue=4201193
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "E(bfd4e0)": "E()"
+thread=0  activate "E(bfd4e0)" #0
+__cyg_profile_func_enter(0x401e3c, 0x401ae9)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+E::E() this=0xbfd4e0 
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) 1  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) 2  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) 3  self = 0
+thread=0  deactivate "E(bfd4e0)" #0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) 4  self = 0
+__cyg_profile_func_exit(0x401e3c, 0x401ae9) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::E()
+__cyg_profile_func_enter(0x401f18, 0x401afe)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401f18, 0x401afe)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4e0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401f18, 0x401afe)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x401f39 inValue=4202297
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x63 inValue=99
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4e0 inValue=12571872
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401afe inValue=4201214
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "E(bfd4e0)": "ef1(int)"
+thread=0  activate "E(bfd4e0)" #0
+__cyg_profile_func_enter(0x401f18, 0x401afe)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+E::ef1(this=0xbfd4e0)
+__cyg_profile_func_exit(0x401f18, 0x401afe) in self = 0
+__cyg_profile_func_exit(0x401f18, 0x401afe) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401f18, 0x401afe) 1  self = 0
+__cyg_profile_func_exit(0x401f18, 0x401afe) 2  self = 0
+__cyg_profile_func_exit(0x401f18, 0x401afe) 3  self = 0
+thread=0  deactivate "E(bfd4e0)" #0
+__cyg_profile_func_exit(0x401f18, 0x401afe) 4  self = 0
+__cyg_profile_func_exit(0x401f18, 0x401afe) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+__cyg_profile_func_enter(0x401eaa, 0x401b0f)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401eaa, 0x401b0f)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4e0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401eaa, 0x401b0f)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x401ec8 inValue=4202184
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x63 inValue=99
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4e0 inValue=12571872
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b0f inValue=4201231
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "E(bfd4e0)": "~E()"
+thread=0  activate "E(bfd4e0)" #0
+__cyg_profile_func_enter(0x401eaa, 0x401b0f)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+E::~E(this=0xbfd4e0)
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) 1  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) 2  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) 3  self = 0
+thread=0  deactivate "E(bfd4e0)" #0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) 4  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x401b0f) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+__cyg_profile_func_enter(0x4024fc, 0x401b29)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4024fc, 0x401b29)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4e0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4024fc, 0x401b29)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402519 inValue=4203801
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x63 inValue=99
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4e0 inValue=12571872
+arg#=7  location=0x7ffd32c8b66c 0x0Value=0x7 inValue=7
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b29 inValue=4201257
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bfd4e0)": "FunStatic(int)"
+thread=0  activate "B(bfd4e0)" #0
+__cyg_profile_func_enter(0x4024fc, 0x401b29)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+functionName=FunStatic   this=(nil)
+__cyg_profile_func_exit(0x4024fc, 0x401b29) in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) 1  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) 2  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) 3  self = 0
+thread=0  deactivate "B(bfd4e0)" #0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) 4  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b29) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+__cyg_profile_func_enter(0x4020cc, 0x401b3a)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4020cc, 0x401b3a)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4020cc, 0x401b3a)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bf1(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x4020ed inValue=4202733
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x3 inValue=3
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b3a inValue=4201274
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bf5220)": "bf1(int)"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x4020cc, 0x401b3a)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bf1(int)
+D::~df1()
+__cyg_profile_func_enter(0x401dc2, 0x40210c)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401dc2, 0x40210c)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbf5228
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401dc2, 0x40210c)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::cf1(int)
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401de3 inValue=4201955
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=0x3 inValue=3
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbf5228 inValue=12538408
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x40210c inValue=4202764
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x3 inValue=3
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "B(bf5220)" -> "C(bf5228)": "cf1(int)"
+thread=0  activate "C(bf5228)" #0
+__cyg_profile_func_enter(0x401dc2, 0x40210c)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::cf1(int)
+C::cf1(3) this=0xbf5228)
+__cyg_profile_func_exit(0x401dc2, 0x40210c) in self = 0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) 1  self = 0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) 2  self = 0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) 3  self = 0
+thread=0  deactivate "C(bf5228)" #0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) 4  self = 0
+__cyg_profile_func_exit(0x401dc2, 0x40210c) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::cf1(int)
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) in self = 0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) 1  self = 0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) 2  self = 0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) 4  self = 0
+__cyg_profile_func_exit(0x4020cc, 0x401b3a) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bf1(int)
+__cyg_profile_func_enter(0x4024fc, 0x401b44)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4024fc, 0x401b44)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4024fc, 0x401b44)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402519 inValue=4203801
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x1c inValue=28
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x3 inValue=3
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=0x4 inValue=4
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b44 inValue=4201284
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bf5220)": "FunStatic(int)"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x4024fc, 0x401b44)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+functionName=FunStatic   this=(nil)
+__cyg_profile_func_exit(0x4024fc, 0x401b44) in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) 1  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) 2  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) 4  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b44) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+__cyg_profile_func_enter(0x40234a, 0x401b65)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40234a, 0x401b65)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b640     thisPointer=0xa
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40234a, 0x401b65)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+arg#=0  location=0x7ffd32c8b640 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b644 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b648 0x0Value=0x402375 inValue=4203381
+arg#=3  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=5  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=6  location=0x7ffd32c8b658 0x0Value=0xa inValue=10
+arg#=7  location=0x7ffd32c8b65c 0x0Value=0x9 inValue=9
+arg#=8  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=9  location=0x7ffd32c8b664 0x0Value=0x7 inValue=7
+arg#=10  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=11  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=15  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=17  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b688 0x0Value=0x401b65 inValue=4201317
+arg#=19  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=21  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=23  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=24  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+thread=0 "Main(0)" -> "B(a)": "bfx4(int, int, int, int)"
+thread=0  activate "B(a)" #0
+__cyg_profile_func_enter(0x40234a, 0x401b65)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+functionName=bfx4   this=0xbfa3a0
+__cyg_profile_func_exit(0x40234a, 0x401b65) in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401b65) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40234a, 0x401b65) 1  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401b65) 2  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401b65) 3  self = 0
+thread=0  deactivate "B(a)" #0
+__cyg_profile_func_exit(0x40234a, 0x401b65) 4  self = 0
+__cyg_profile_func_exit(0x40234a, 0x401b65) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::bfx4(int, int, int, int)
+__cyg_profile_func_enter(0x4024fc, 0x401b6f)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4024fc, 0x401b6f)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4024fc, 0x401b6f)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402519 inValue=4203801
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x7 inValue=7
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b66c 0x0Value=0x7 inValue=7
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b6f inValue=4201327
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "B(bfa3a0)": "FunStatic(int)"
+thread=0  activate "B(bfa3a0)" #0
+__cyg_profile_func_enter(0x4024fc, 0x401b6f)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+functionName=FunStatic   this=(nil)
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) 1  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) 2  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) 3  self = 0
+thread=0  deactivate "B(bfa3a0)" #0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) 4  self = 0
+__cyg_profile_func_exit(0x4024fc, 0x401b6f) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::FunStatic(int)
+__cyg_profile_func_enter(0x402738, 0x401b80)1 in pthread_self = 0
+__cyg_profile_func_enter(0x402738, 0x401b80)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x402738, 0x401b80)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::df1(int)
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402759 inValue=4204377
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=5  location=0x7ffd32c8b664 0x0Value=0x2c inValue=44
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=9  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401b80 inValue=4201344
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bf5220)": "df1(int)"
+thread=0  activate "D(bf5220)" #0
+__cyg_profile_func_enter(0x402738, 0x401b80)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::df1(int)
+D::~df1()
+__cyg_profile_func_enter(0x401f18, 0x402778)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401f18, 0x402778)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbf5230
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401f18, 0x402778)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x401f39 inValue=4202297
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=0x2c inValue=44
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbf5230 inValue=12538416
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x402778 inValue=4204408
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0x8 inValue=8
+arg#=17  location=0x7ffd32c8b664 0x0Value=0x2c inValue=44
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b674 0x0Value=0x7ffd inValue=32765
+thread=0 "D(bf5220)" -> "E(bf5230)": "ef1(int)"
+thread=0  activate "E(bf5230)" #0
+__cyg_profile_func_enter(0x401f18, 0x402778)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+E::ef1(this=0xbf5230)
+__cyg_profile_func_exit(0x401f18, 0x402778) in self = 0
+__cyg_profile_func_exit(0x401f18, 0x402778) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401f18, 0x402778) 1  self = 0
+__cyg_profile_func_exit(0x401f18, 0x402778) 2  self = 0
+__cyg_profile_func_exit(0x401f18, 0x402778) 3  self = 0
+thread=0  deactivate "E(bf5230)" #0
+__cyg_profile_func_exit(0x401f18, 0x402778) 4  self = 0
+__cyg_profile_func_exit(0x401f18, 0x402778) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::ef1(int)
+__cyg_profile_func_exit(0x402738, 0x401b80) in self = 0
+__cyg_profile_func_exit(0x402738, 0x401b80) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x402738, 0x401b80) 1  self = 0
+__cyg_profile_func_exit(0x402738, 0x401b80) 2  self = 0
+__cyg_profile_func_exit(0x402738, 0x401b80) 3  self = 0
+thread=0  deactivate "D(bf5220)" #0
+__cyg_profile_func_exit(0x402738, 0x401b80) 4  self = 0
+__cyg_profile_func_exit(0x402738, 0x401b80) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::df1(int)
+__cyg_profile_func_enter(0x4028ea, 0x401bed)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4028ea, 0x401bed)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5c0     thisPointer=0xccccc4
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4028ea, 0x401bed)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+arg#=0  location=0x7ffd32c8b5c0 0x0Value=0x32c8b610 inValue=852014608
+arg#=1  location=0x7ffd32c8b5c4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5c8 0x0Value=0x402919 inValue=4204825
+arg#=3  location=0x7ffd32c8b5cc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5d0 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b5d4 0x0Value=0xccccc5 inValue=13421765
+arg#=6  location=0x7ffd32c8b5d8 0x0Value=0xccccc4 inValue=13421764
+arg#=7  location=0x7ffd32c8b5dc 0x0Value=0xccccc3 inValue=13421763
+arg#=8  location=0x7ffd32c8b5e0 0x0Value=0xccccc2 inValue=13421762
+arg#=9  location=0x7ffd32c8b5e4 0x0Value=0xccccc inValue=838860
+arg#=10  location=0x7ffd32c8b5e8 0x0Value=0xbf5220 inValue=12538400
+arg#=11  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b5f0 0x0Value=(nil) inValue=0
+arg#=13  location=0x7ffd32c8b5f4 0x0Value=(nil) inValue=0
+arg#=14  location=0x7ffd32c8b5f8 0x0Value=(nil) inValue=0
+arg#=15  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b608 0x0Value=0xbfd4e0 inValue=12571872
+arg#=19  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b610 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=21  location=0x7ffd32c8b614 0x0Value=0x7ffd inValue=32765
+arg#=22  location=0x7ffd32c8b618 0x0Value=0x401bed inValue=4201453
+arg#=23  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=24  location=0x7ffd32c8b620 0x0Value=0xccccc6 inValue=13421766
+arg#=25  location=0x7ffd32c8b624 0x0Value=(nil) inValue=0
+arg#=26  location=0x7ffd32c8b628 0x0Value=0xccccc7 inValue=13421767
+arg#=27  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=28  location=0x7ffd32c8b630 0x0Value=0xccccc8 inValue=13421768
+arg#=29  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=30  location=0x7ffd32c8b638 0x0Value=0xccccc9 inValue=13421769
+arg#=31  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=32  location=0x7ffd32c8b640 0x0Value=0xccccca inValue=13421770
+arg#=33  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=34  location=0x7ffd32c8b648 0x0Value=0xcccccb inValue=13421771
+arg#=35  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=36  location=0x7ffd32c8b650 0x0Value=0xcccccc inValue=13421772
+arg#=37  location=0x7ffd32c8b654 0x0Value=(nil) inValue=0
+arg#=38  location=0x7ffd32c8b658 0x0Value=0xcccccd inValue=13421773
+arg#=39  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(ccccc4)": "fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)"
+thread=0  activate "D(ccccc4)" #0
+__cyg_profile_func_enter(0x4028ea, 0x401bed)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+functionName=fi19   this=0xbf5220
+__cyg_profile_func_exit(0x4028ea, 0x401bed) in self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) 1  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) 2  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) 3  self = 0
+thread=0  deactivate "D(ccccc4)" #0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) 4  self = 0
+__cyg_profile_func_exit(0x4028ea, 0x401bed) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::fi19(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+__cyg_profile_func_enter(0x40287a, 0x401c0f)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40287a, 0x401c0f)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40287a, 0x401c0f)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402898 inValue=4204696
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=9  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401c0f inValue=4201487
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bfa3a0)": "~D()"
+thread=0  activate "D(bfa3a0)" #0
+__cyg_profile_func_enter(0x40287a, 0x401c0f)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x4027d4 inValue=4204500
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4028a4 inValue=4204708
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=17  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=21  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+thread=0 "D(bfa3a0)" -> "D(bfa3a0)": "~D()"
+thread=0  activate "D(bfa3a0)" #0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+D::~D()
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfa3b0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401ec8 inValue=4202184
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfa3b0 inValue=12559280
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x4027fa inValue=4204538
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bfa3a0)" -> "E(bfa3b0)": "~E()"
+thread=0  activate "E(bfa3b0)" #0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+E::~E(this=0xbfa3b0)
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 1  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 2  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 3  self = 0
+thread=0  deactivate "E(bfa3b0)" #0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 4  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+__cyg_profile_func_enter(0x40202e, 0x402806)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40202e, 0x402806)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfa3a0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40202e, 0x402806)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x40204c inValue=4202572
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfa3a0 inValue=12559264
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x402806 inValue=4204550
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bfa3a0)" -> "B(bfa3a0)": "~B()"
+thread=0  activate "B(bfa3a0)" #0
+__cyg_profile_func_enter(0x40202e, 0x402806)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+B::~B(this=0xbfa3a0)
+__cyg_profile_func_enter(0x401d54, 0x40207e)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401d54, 0x40207e)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5c0     thisPointer=0xbfa3a8
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401d54, 0x40207e)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+arg#=0  location=0x7ffd32c8b5c0 0x0Value=0x32c8b5f0 inValue=852014576
+arg#=1  location=0x7ffd32c8b5c4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5c8 0x0Value=0x401d72 inValue=4201842
+arg#=3  location=0x7ffd32c8b5cc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5d0 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b5d4 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b5d8 0x0Value=0xbfa3a8 inValue=12559272
+arg#=7  location=0x7ffd32c8b5dc 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b5e0 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b5e4 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b5e8 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=13  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b5f8 0x0Value=0x40207e inValue=4202622
+arg#=15  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b608 0x0Value=0xbfa3a0 inValue=12559264
+arg#=19  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+thread=0 "B(bfa3a0)" -> "C(bfa3a8)": "~C()"
+thread=0  activate "C(bfa3a8)" #0
+__cyg_profile_func_enter(0x401d54, 0x40207e)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+C::~C() this=0xbfa3a8
+__cyg_profile_func_exit(0x401d54, 0x40207e) in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 1  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 2  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 3  self = 0
+thread=0  deactivate "C(bfa3a8)" #0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 4  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+__cyg_profile_func_exit(0x40202e, 0x402806) in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 1  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 2  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 3  self = 0
+thread=0  deactivate "B(bfa3a0)" #0
+__cyg_profile_func_exit(0x40202e, 0x402806) 4  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 1  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 2  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 3  self = 0
+thread=0  deactivate "D(bfa3a0)" #0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 4  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_exit(0x40287a, 0x401c0f) in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) 1  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) 2  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) 3  self = 0
+thread=0  deactivate "D(bfa3a0)" #0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) 4  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c0f) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_enter(0x40287a, 0x401c2d)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40287a, 0x401c2d)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbfd4c0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40287a, 0x401c2d)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402898 inValue=4204696
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=9  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401c2d inValue=4201517
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bfd4c0)": "~D()"
+thread=0  activate "D(bfd4c0)" #0
+__cyg_profile_func_enter(0x40287a, 0x401c2d)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbfd4c0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x4027d4 inValue=4204500
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4028a4 inValue=4204708
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=17  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=21  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+thread=0 "D(bfd4c0)" -> "D(bfd4c0)": "~D()"
+thread=0  activate "D(bfd4c0)" #0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+D::~D()
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfd4d0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401ec8 inValue=4202184
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfd4d0 inValue=12571856
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x4027fa inValue=4204538
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bfd4c0)" -> "E(bfd4d0)": "~E()"
+thread=0  activate "E(bfd4d0)" #0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+E::~E(this=0xbfd4d0)
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 1  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 2  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 3  self = 0
+thread=0  deactivate "E(bfd4d0)" #0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 4  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+__cyg_profile_func_enter(0x40202e, 0x402806)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40202e, 0x402806)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbfd4c0
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40202e, 0x402806)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x40204c inValue=4202572
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbfd4c0 inValue=12571840
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x402806 inValue=4204550
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bfd4c0)" -> "B(bfd4c0)": "~B()"
+thread=0  activate "B(bfd4c0)" #0
+__cyg_profile_func_enter(0x40202e, 0x402806)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+B::~B(this=0xbfd4c0)
+__cyg_profile_func_enter(0x401d54, 0x40207e)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401d54, 0x40207e)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5c0     thisPointer=0xbfd4c8
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401d54, 0x40207e)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+arg#=0  location=0x7ffd32c8b5c0 0x0Value=0x32c8b5f0 inValue=852014576
+arg#=1  location=0x7ffd32c8b5c4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5c8 0x0Value=0x401d72 inValue=4201842
+arg#=3  location=0x7ffd32c8b5cc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5d0 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b5d4 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b5d8 0x0Value=0xbfd4c8 inValue=12571848
+arg#=7  location=0x7ffd32c8b5dc 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b5e0 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b5e4 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b5e8 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=13  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b5f8 0x0Value=0x40207e inValue=4202622
+arg#=15  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b608 0x0Value=0xbfd4c0 inValue=12571840
+arg#=19  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+thread=0 "B(bfd4c0)" -> "C(bfd4c8)": "~C()"
+thread=0  activate "C(bfd4c8)" #0
+__cyg_profile_func_enter(0x401d54, 0x40207e)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+C::~C() this=0xbfd4c8
+__cyg_profile_func_exit(0x401d54, 0x40207e) in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 1  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 2  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 3  self = 0
+thread=0  deactivate "C(bfd4c8)" #0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 4  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+__cyg_profile_func_exit(0x40202e, 0x402806) in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 1  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 2  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 3  self = 0
+thread=0  deactivate "B(bfd4c0)" #0
+__cyg_profile_func_exit(0x40202e, 0x402806) 4  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 1  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 2  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 3  self = 0
+thread=0  deactivate "D(bfd4c0)" #0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 4  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_exit(0x40287a, 0x401c2d) in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) 1  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) 2  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) 3  self = 0
+thread=0  deactivate "D(bfd4c0)" #0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) 4  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c2d) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_enter(0x40287a, 0x401c4b)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40287a, 0x401c4b)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b650     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40287a, 0x401c4b)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=1  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b658 0x0Value=0x402898 inValue=4204696
+arg#=3  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=5  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=9  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b678 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b67c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b680 0x0Value=0x32c8b6d0 inValue=852014800
+arg#=13  location=0x7ffd32c8b684 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b688 0x0Value=0x401c4b inValue=4201547
+arg#=15  location=0x7ffd32c8b68c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b690 0x0Value=0x32c8b7b8 inValue=852015032
+arg#=17  location=0x7ffd32c8b694 0x0Value=0x7ffd inValue=32765
+arg#=18  location=0x7ffd32c8b698 0x0Value=0x402abd inValue=4205245
+arg#=19  location=0x7ffd32c8b69c 0x0Value=0x1 inValue=1
+arg#=20  location=0x7ffd32c8b6a0 0x0Value=0xbf5220 inValue=12538400
+arg#=21  location=0x7ffd32c8b6a4 0x0Value=(nil) inValue=0
+thread=0 "Main(0)" -> "D(bf5220)": "~D()"
+thread=0  activate "D(bf5220)" #0
+__cyg_profile_func_enter(0x40287a, 0x401c4b)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)1 in pthread_self = 0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b620     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)3 mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+arg#=0  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=1  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b628 0x0Value=0x4027d4 inValue=4204500
+arg#=3  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b638 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b648 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b64c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b650 0x0Value=0x32c8b680 inValue=852014720
+arg#=13  location=0x7ffd32c8b654 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b658 0x0Value=0x4028a4 inValue=4204708
+arg#=15  location=0x7ffd32c8b65c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b660 0x0Value=0xccccce inValue=13421774
+arg#=17  location=0x7ffd32c8b664 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b668 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b66c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b670 0x0Value=0xccccc10 inValue=214748176
+arg#=21  location=0x7ffd32c8b674 0x0Value=(nil) inValue=0
+thread=0 "D(bf5220)" -> "D(bf5220)": "~D()"
+thread=0  activate "D(bf5220)" #0
+__cyg_profile_func_enter(0x4027b6, 0x4028a4)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+D::~D()
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbf5230
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)3 mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x401ec8 inValue=4202184
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbf5230 inValue=12538416
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x4027fa inValue=4204538
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bf5220)" -> "E(bf5230)": "~E()"
+thread=0  activate "E(bf5230)" #0
+__cyg_profile_func_enter(0x401eaa, 0x4027fa)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+E::~E(this=0xbf5230)
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 1  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 2  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 3  self = 0
+thread=0  deactivate "E(bf5230)" #0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) 4  self = 0
+__cyg_profile_func_exit(0x401eaa, 0x4027fa) out mutex_mrc = 0 in pthread_self = 0   buf_func=E::~E()
+__cyg_profile_func_enter(0x40202e, 0x402806)1 in pthread_self = 0
+__cyg_profile_func_enter(0x40202e, 0x402806)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5f0     thisPointer=0xbf5220
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x40202e, 0x402806)3 mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+arg#=0  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=1  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5f8 0x0Value=0x40204c inValue=4202572
+arg#=3  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b608 0x0Value=0xbf5220 inValue=12538400
+arg#=7  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b618 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b61c 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b620 0x0Value=0x32c8b650 inValue=852014672
+arg#=13  location=0x7ffd32c8b624 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b628 0x0Value=0x402806 inValue=4204550
+arg#=15  location=0x7ffd32c8b62c 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b630 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b634 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b638 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b63c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b640 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b644 0x0Value=(nil) inValue=0
+thread=0 "D(bf5220)" -> "B(bf5220)": "~B()"
+thread=0  activate "B(bf5220)" #0
+__cyg_profile_func_enter(0x40202e, 0x402806)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+B::~B(this=0xbf5220)
+__cyg_profile_func_enter(0x401d54, 0x40207e)1 in pthread_self = 0
+__cyg_profile_func_enter(0x401d54, 0x40207e)2 mutex_mrc = 0 in pthread_self = 0
+__cyg_profile_func_enter x1
+__cyg_profile_func_enter x2
+__cyg_profile_func_enter x3
+__cyg_profile_func_enter tframe0=0x7ffd32c8b5c0     thisPointer=0xbf5228
+__cyg_profile_func_enter x7
+__cyg_profile_func_enter x8
+__cyg_profile_func_enter(0x401d54, 0x40207e)3 mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+arg#=0  location=0x7ffd32c8b5c0 0x0Value=0x32c8b5f0 inValue=852014576
+arg#=1  location=0x7ffd32c8b5c4 0x0Value=0x7ffd inValue=32765
+arg#=2  location=0x7ffd32c8b5c8 0x0Value=0x401d72 inValue=4201842
+arg#=3  location=0x7ffd32c8b5cc 0x0Value=(nil) inValue=0
+arg#=4  location=0x7ffd32c8b5d0 0x0Value=(nil) inValue=0
+arg#=5  location=0x7ffd32c8b5d4 0x0Value=(nil) inValue=0
+arg#=6  location=0x7ffd32c8b5d8 0x0Value=0xbf5228 inValue=12538408
+arg#=7  location=0x7ffd32c8b5dc 0x0Value=(nil) inValue=0
+arg#=8  location=0x7ffd32c8b5e0 0x0Value=0xbfd4e0 inValue=12571872
+arg#=9  location=0x7ffd32c8b5e4 0x0Value=(nil) inValue=0
+arg#=10  location=0x7ffd32c8b5e8 0x0Value=0xbfd4e0 inValue=12571872
+arg#=11  location=0x7ffd32c8b5ec 0x0Value=(nil) inValue=0
+arg#=12  location=0x7ffd32c8b5f0 0x0Value=0x32c8b620 inValue=852014624
+arg#=13  location=0x7ffd32c8b5f4 0x0Value=0x7ffd inValue=32765
+arg#=14  location=0x7ffd32c8b5f8 0x0Value=0x40207e inValue=4202622
+arg#=15  location=0x7ffd32c8b5fc 0x0Value=(nil) inValue=0
+arg#=16  location=0x7ffd32c8b600 0x0Value=(nil) inValue=0
+arg#=17  location=0x7ffd32c8b604 0x0Value=(nil) inValue=0
+arg#=18  location=0x7ffd32c8b608 0x0Value=0xbf5220 inValue=12538400
+arg#=19  location=0x7ffd32c8b60c 0x0Value=(nil) inValue=0
+arg#=20  location=0x7ffd32c8b610 0x0Value=0xbfd4e0 inValue=12571872
+arg#=21  location=0x7ffd32c8b614 0x0Value=(nil) inValue=0
+thread=0 "B(bf5220)" -> "C(bf5228)": "~C()"
+thread=0  activate "C(bf5228)" #0
+__cyg_profile_func_enter(0x401d54, 0x40207e)4 out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+C::~C() this=0xbf5228
+__cyg_profile_func_exit(0x401d54, 0x40207e) in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 1  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 2  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 3  self = 0
+thread=0  deactivate "C(bf5228)" #0
+__cyg_profile_func_exit(0x401d54, 0x40207e) 4  self = 0
+__cyg_profile_func_exit(0x401d54, 0x40207e) out mutex_mrc = 0 in pthread_self = 0   buf_func=C::~C()
+__cyg_profile_func_exit(0x40202e, 0x402806) in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 1  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 2  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) 3  self = 0
+thread=0  deactivate "B(bf5220)" #0
+__cyg_profile_func_exit(0x40202e, 0x402806) 4  self = 0
+__cyg_profile_func_exit(0x40202e, 0x402806) out mutex_mrc = 0 in pthread_self = 0   buf_func=B::~B()
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 1  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 2  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 3  self = 0
+thread=0  deactivate "D(bf5220)" #0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) 4  self = 0
+__cyg_profile_func_exit(0x4027b6, 0x4028a4) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+__cyg_profile_func_exit(0x40287a, 0x401c4b) in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) 1  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) 2  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) 3  self = 0
+thread=0  deactivate "D(bf5220)" #0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) 4  self = 0
+__cyg_profile_func_exit(0x40287a, 0x401c4b) out mutex_mrc = 0 in pthread_self = 0   buf_func=D::~D()
+./cppSimpleTraced: done.
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) in self = 0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) mrc = 0 in self = 0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) 1  self = 0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) 2  self = 0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) 3  self = 0
+thread=0  deactivate "Main(0)" #0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) 4  self = 0
+__cyg_profile_func_exit(0x4017dc, 0x7f35beaea830) out mutex_mrc = 0 in pthread_self = 0   buf_func=main

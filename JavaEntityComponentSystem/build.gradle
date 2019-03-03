@@ -1,0 +1,13 @@
+apply plugin: "java"
+
+dependencies {
+    compile files('/home/stewart/Android/Sdk/platforms/android-25/android.jar')
+}
+
+sourceSets {
+   main.java.srcDir "src/main"
+}
+   
+jar {
+   manifest.attributes "Main-Class": "net.pogo.game.samples.simplegame.Simple"
+}
