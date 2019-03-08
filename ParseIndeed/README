@@ -1,0 +1,13 @@
+
+The parseFile.pl script will parse saved indeed job html pages and create a csv file.
+
+Run the script with the find command:
+
+find . -name '*Indeed*.*html' -exec ./parseFile.pl {} \;  > jobList3.csv
+
+The output fild will have:
+
+print "\"$jobTitle\", \"$companyName\", \"$jobLocation\", \"$fileDate\", \"$filename\"\n";
+
+
+
